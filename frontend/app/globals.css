@@ -1,0 +1,451 @@
+@import "tailwindcss";
+
+/* ══════════════════════════════════════════════════════════════════════════
+   UHEI design tokens — v2
+
+   Obsidian + Scarlet. The warm paper survey aesthetic replaced with a
+   precision-dark data tool: pure zinc grounds, vivid rose-red primary,
+   electric orange for energy, emerald for vegetation, cobalt for water.
+   Glass and blur reserved for the floating dock only.
+   ══════════════════════════════════════════════════════════════════════════ */
+
+:root {
+  /* Surfaces — clean zinc */
+  --background: #fafafa;
+  --background-deep: #f4f4f5;
+  --surface: #ffffff;
+  --surface-elevated: #ffffff;
+  --surface-sunk: #e4e4e7;
+
+  /* Ink */
+  --foreground: #09090b;
+  --foreground-muted: #52525b;
+  --foreground-faint: #a1a1aa;
+
+  /* Structure */
+  --border: #e4e4e7;
+  --border-strong: #d4d4d8;
+  --rule: #dcdce0;
+
+  /* Identity */
+  --primary: #e11d48;          /* scarlet — heat signal */
+  --primary-deep: #be123c;
+  --primary-soft: #ffe4e6;
+  --secondary: #f97316;        /* electric orange — energy load */
+  --secondary-soft: #ffedd5;
+  --accent: #22c55e;           /* emerald — vegetation, cooling */
+  --accent-soft: #dcfce7;
+  --mineral: #3b82f6;          /* cobalt — water, grid */
+  --mineral-soft: #dbeafe;
+
+  /* Semantic */
+  --success: #16a34a;
+  --warning: #d97706;
+  --danger: #dc2626;
+  --muted: #71717a;
+
+  /* Thermal ramp — cold→hot, calibrated to the new palette */
+  --heat-0: #3b82f6;
+  --heat-1: #7aa8d4;
+  --heat-2: #c8b98f;
+  --heat-3: #f59e0b;
+  --heat-4: #f97316;
+  --heat-5: #e11d48;
+  --heat-6: #881337;
+
+  /* Geometry — still tight but one step more modern */
+  --radius-sm: 3px;
+  --radius: 5px;
+  --radius-lg: 8px;
+
+  /* Elevation */
+  --shadow-sm: 0 1px 3px rgba(9, 9, 11, 0.06), 0 1px 2px rgba(9, 9, 11, 0.04);
+  --shadow: 0 4px 12px rgba(9, 9, 11, 0.08), 0 2px 4px rgba(9, 9, 11, 0.04);
+  --shadow-lg: 0 12px 32px rgba(9, 9, 11, 0.12), 0 4px 8px rgba(9, 9, 11, 0.06);
+
+  /* Motion */
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-fast: 120ms;
+  --dur: 220ms;
+  --dur-slow: 460ms;
+
+  /* Layout */
+  --page-max: 1560px;
+  --gutter: 1.25rem;
+}
+
+:root:not([data-theme="light"]) {
+  @media (prefers-color-scheme: dark) {
+    --background: #09090b;
+    --background-deep: #050506;
+    --surface: #111113;
+    --surface-elevated: #18181b;
+    --surface-sunk: #07070a;
+
+    --foreground: #fafafa;
+    --foreground-muted: #a1a1aa;
+    --foreground-faint: #52525b;
+
+    --border: #27272a;
+    --border-strong: #3f3f46;
+    --rule: #222226;
+
+    --primary: #fb7185;
+    --primary-deep: #f43f5e;
+    --primary-soft: #4c0519;
+    --secondary: #fb923c;
+    --secondary-soft: #431407;
+    --accent: #4ade80;
+    --accent-soft: #052e16;
+    --mineral: #60a5fa;
+    --mineral-soft: #0c1a3d;
+
+    --success: #4ade80;
+    --warning: #fbbf24;
+    --danger: #f87171;
+    --muted: #71717a;
+
+    --heat-0: #60a5fa;
+    --heat-1: #93b8d4;
+    --heat-2: #cbbd93;
+    --heat-3: #fbbf24;
+    --heat-4: #fb923c;
+    --heat-5: #fb7185;
+    --heat-6: #9f1239;
+
+    --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.5);
+    --shadow: 0 4px 12px rgba(0, 0, 0, 0.55);
+    --shadow-lg: 0 14px 40px rgba(0, 0, 0, 0.65);
+  }
+}
+
+:root[data-theme="dark"] {
+  --background: #09090b;
+  --background-deep: #050506;
+  --surface: #111113;
+  --surface-elevated: #18181b;
+  --surface-sunk: #07070a;
+
+  --foreground: #fafafa;
+  --foreground-muted: #a1a1aa;
+  --foreground-faint: #52525b;
+
+  --border: #27272a;
+  --border-strong: #3f3f46;
+  --rule: #222226;
+
+  --primary: #fb7185;
+  --primary-deep: #f43f5e;
+  --primary-soft: #4c0519;
+  --secondary: #fb923c;
+  --secondary-soft: #431407;
+  --accent: #4ade80;
+  --accent-soft: #052e16;
+  --mineral: #60a5fa;
+  --mineral-soft: #0c1a3d;
+
+  --success: #4ade80;
+  --warning: #fbbf24;
+  --danger: #f87171;
+  --muted: #71717a;
+
+  --heat-0: #60a5fa;
+  --heat-1: #93b8d4;
+  --heat-2: #cbbd93;
+  --heat-3: #fbbf24;
+  --heat-4: #fb923c;
+  --heat-5: #fb7185;
+  --heat-6: #9f1239;
+
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.5);
+  --shadow: 0 4px 12px rgba(0, 0, 0, 0.55);
+  --shadow-lg: 0 14px 40px rgba(0, 0, 0, 0.65);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-background-deep: var(--background-deep);
+  --color-surface: var(--surface);
+  --color-surface-elevated: var(--surface-elevated);
+  --color-surface-sunk: var(--surface-sunk);
+  --color-foreground: var(--foreground);
+  --color-muted-fg: var(--foreground-muted);
+  --color-faint: var(--foreground-faint);
+  --color-line: var(--border);
+  --color-line-strong: var(--border-strong);
+  --color-rule: var(--rule);
+  --color-primary: var(--primary);
+  --color-primary-deep: var(--primary-deep);
+  --color-primary-soft: var(--primary-soft);
+  --color-secondary: var(--secondary);
+  --color-secondary-soft: var(--secondary-soft);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-mineral: var(--mineral);
+  --color-mineral-soft: var(--mineral-soft);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-danger: var(--danger);
+
+  --font-display: var(--font-archivo), "Archivo", system-ui, sans-serif;
+  --font-sans: var(--font-public-sans), "Public Sans", system-ui, sans-serif;
+  --font-mono: var(--font-plex-mono), "IBM Plex Mono", ui-monospace, monospace;
+
+  --radius-sm: var(--radius-sm);
+  --radius-md: var(--radius);
+  --radius-lg: var(--radius-lg);
+}
+
+/* ── Base ───────────────────────────────────────────────────────────────── */
+* {
+  border-color: var(--border);
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-feature-settings: "cv05" 1, "ss01" 1;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display), system-ui, sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.022em;
+  line-height: 1.06;
+}
+
+::selection {
+  background: var(--primary);
+  color: var(--surface-elevated);
+}
+
+:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+  border-radius: 1px;
+}
+
+/* ── Typographic utilities ──────────────────────────────────────────────── */
+.label {
+  font-family: var(--font-mono), monospace;
+  font-size: 0.6875rem;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--foreground-muted);
+  font-weight: 500;
+}
+
+.label-strong {
+  font-family: var(--font-mono), monospace;
+  font-size: 0.6875rem;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--foreground);
+  font-weight: 600;
+}
+
+.data {
+  font-family: var(--font-mono), monospace;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.02em;
+}
+
+.readout {
+  font-family: var(--font-mono), monospace;
+  font-variant-numeric: tabular-nums;
+  font-weight: 500;
+  letter-spacing: -0.045em;
+  line-height: 0.9;
+}
+
+/* ── Structural motifs ──────────────────────────────────────────────────── */
+
+/* Surveyor's grid — the background texture of the whole product. */
+.survey-grid {
+  background-image:
+    linear-gradient(to right, var(--rule) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--rule) 1px, transparent 1px);
+  background-size: 56px 56px;
+  opacity: 0.35;
+}
+
+/* Hairline rule used to divide modular blocks instead of stacking cards. */
+.rule-t { border-top: 1px solid var(--border); }
+.rule-b { border-bottom: 1px solid var(--border); }
+.rule-l { border-left: 1px solid var(--border); }
+.rule-r { border-right: 1px solid var(--border); }
+
+/* Tick marks along a measurement scale. */
+.ticks {
+  background-image: repeating-linear-gradient(
+    to right,
+    var(--border-strong) 0 1px,
+    transparent 1px 100%
+  );
+}
+
+.hatch {
+  background-image: repeating-linear-gradient(
+    45deg,
+    var(--border) 0 1px,
+    transparent 1px 7px
+  );
+}
+
+/* ── Scrollbars ─────────────────────────────────────────────────────────── */
+.scroll-thin {
+  scrollbar-width: thin;
+  scrollbar-color: var(--border-strong) transparent;
+}
+.scroll-thin::-webkit-scrollbar { width: 8px; height: 8px; }
+.scroll-thin::-webkit-scrollbar-thumb {
+  background: var(--border-strong);
+  border-radius: 99px;
+}
+.scroll-thin::-webkit-scrollbar-track { background: transparent; }
+
+/* ── Range inputs — the simulator's primary control ─────────────────────── */
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 22px;
+  background: transparent;
+  cursor: pointer;
+}
+input[type="range"]::-webkit-slider-runnable-track {
+  height: 3px;
+  background: var(--border-strong);
+  border-radius: 99px;
+}
+input[type="range"]::-moz-range-track {
+  height: 3px;
+  background: var(--border-strong);
+  border-radius: 99px;
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  margin-top: -5.5px;
+  border-radius: 2px;
+  background: var(--surface-elevated);
+  border: 2px solid var(--primary);
+  transition: transform var(--dur-fast) var(--ease), border-color var(--dur-fast);
+}
+input[type="range"]::-moz-range-thumb {
+  width: 14px;
+  height: 14px;
+  border-radius: 2px;
+  background: var(--surface-elevated);
+  border: 2px solid var(--primary);
+}
+input[type="range"]:hover::-webkit-slider-thumb { transform: scale(1.16); }
+input[type="range"]:active::-webkit-slider-thumb { transform: scale(1.04); }
+input[type="range"]:disabled::-webkit-slider-thumb { border-color: var(--border-strong); }
+
+/* ── Recharts overrides — the charts must belong to this system ─────────── */
+.recharts-cartesian-axis-tick text {
+  font-family: var(--font-mono), monospace;
+  font-size: 10px;
+  letter-spacing: 0.02em;
+  fill: var(--foreground-muted);
+}
+.recharts-cartesian-grid line {
+  stroke: var(--rule);
+  stroke-opacity: 0.7;
+}
+.recharts-cartesian-axis-line,
+.recharts-cartesian-axis-tick-line {
+  stroke: var(--border-strong);
+}
+.recharts-legend-item-text {
+  font-family: var(--font-mono), monospace;
+  font-size: 11px;
+  color: var(--foreground-muted) !important;
+}
+.recharts-surface { overflow: visible; }
+
+/* ── MapLibre overrides ─────────────────────────────────────────────────── */
+.maplibregl-ctrl-group {
+  background: var(--surface-elevated) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: var(--radius) !important;
+  box-shadow: var(--shadow-sm) !important;
+}
+.maplibregl-ctrl-group button + button {
+  border-top: 1px solid var(--border) !important;
+}
+.maplibregl-ctrl-group button {
+  width: 30px !important;
+  height: 30px !important;
+}
+.maplibregl-ctrl-group button span {
+  filter: var(--map-ctrl-filter, none);
+}
+:root[data-theme="dark"] .maplibregl-ctrl-group button span,
+:root:not([data-theme="light"]) .maplibregl-ctrl-group button span {
+  filter: invert(0.85);
+}
+:root[data-theme="light"] .maplibregl-ctrl-group button span { filter: none; }
+.maplibregl-ctrl-attrib {
+  background: color-mix(in srgb, var(--surface) 88%, transparent) !important;
+  font-family: var(--font-mono), monospace !important;
+  font-size: 9px !important;
+  border-radius: var(--radius) 0 0 0 !important;
+}
+.maplibregl-ctrl-attrib a { color: var(--foreground-muted) !important; }
+.maplibregl-popup-content {
+  padding: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+.maplibregl-popup-tip { display: none !important; }
+
+/* ── Motion ─────────────────────────────────────────────────────────────── */
+@keyframes uhei-sweep {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(320%); }
+}
+
+.sweep::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  width: 30%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    color-mix(in srgb, var(--primary) 16%, transparent),
+    transparent
+  );
+  animation: uhei-sweep 1.35s var(--ease) infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+  .sweep::after { animation: none; opacity: 0.5; }
+}
+
+/* ── Large displays ─────────────────────────────────────────────────────── */
+@media (min-width: 1920px) {
+  :root { --gutter: 2rem; }
+}
