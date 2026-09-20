@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "uhei"
+version = "1.0.0"
+description = "Urban Heat & Energy Intelligence Engine — ML pipeline and serving layer"
+requires-python = ">=3.11"
+readme = "README.md"
+
+[tool.setuptools]
+package-dir = { "" = "ml/src" }
+
+[tool.setuptools.packages.find]
+where = ["ml/src"]
+
+[tool.pytest.ini_options]
+testpaths = ["ml/tests", "backend/tests"]
+pythonpath = ["ml/src", "backend"]
+filterwarnings = ["ignore::DeprecationWarning", "ignore::FutureWarning"]

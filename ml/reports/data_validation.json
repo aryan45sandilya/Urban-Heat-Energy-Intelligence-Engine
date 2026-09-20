@@ -1,0 +1,533 @@
+{
+  "generated_at": "2026-09-13T07:13:49.388495+00:00",
+  "sections": {
+    "heat": [
+      {
+        "name": "dataset::rows",
+        "passed": true,
+        "severity": "error",
+        "detail": "4158374 rows, 166 sites",
+        "data": {}
+      },
+      {
+        "name": "missing::overview",
+        "passed": true,
+        "severity": "info",
+        "detail": "missing-value fraction per column",
+        "data": {
+          "sky_cover_oktas": 0.39263,
+          "precip_1h_mm": 0.10791,
+          "slp_hpa": 0.01614,
+          "wind_speed_ms": 7e-05
+        }
+      },
+      {
+        "name": "missing::uhi_intensity_c",
+        "passed": true,
+        "severity": "info",
+        "detail": "0.0000% missing",
+        "data": {
+          "fraction": 0.0
+        }
+      },
+      {
+        "name": "missing::t_ref_c",
+        "passed": true,
+        "severity": "info",
+        "detail": "0.0000% missing",
+        "data": {
+          "fraction": 0.0
+        }
+      },
+      {
+        "name": "missing::dewpoint_ref_c",
+        "passed": true,
+        "severity": "info",
+        "detail": "0.0000% missing",
+        "data": {
+          "fraction": 0.0
+        }
+      },
+      {
+        "name": "missing::ts_utc",
+        "passed": true,
+        "severity": "info",
+        "detail": "0.0000% missing",
+        "data": {
+          "fraction": 0.0
+        }
+      },
+      {
+        "name": "duplicates::station_id+ts_utc",
+        "passed": true,
+        "severity": "info",
+        "detail": "0 duplicate rows on ['station_id', 'ts_utc']",
+        "data": {
+          "duplicates": 0
+        }
+      },
+      {
+        "name": "timestamp::timezone_aware",
+        "passed": true,
+        "severity": "error",
+        "detail": "tz=UTC",
+        "data": {}
+      },
+      {
+        "name": "timestamp::hour_aligned",
+        "passed": true,
+        "severity": "error",
+        "detail": "0 timestamps not on an exact hour",
+        "data": {}
+      },
+      {
+        "name": "timestamp::span",
+        "passed": true,
+        "severity": "info",
+        "detail": "2022-01-01 00:00:00+00:00 \u2192 2024-12-31 23:00:00+00:00",
+        "data": {
+          "start": "2022-01-01 00:00:00+00:00",
+          "end": "2024-12-31 23:00:00+00:00",
+          "distinct_hours": 26304
+        }
+      },
+      {
+        "name": "geography::inside_domain",
+        "passed": true,
+        "severity": "info",
+        "detail": "0 rows outside the study bounding box",
+        "data": {
+          "outside": 0
+        }
+      },
+      {
+        "name": "range::t_ref_c",
+        "passed": true,
+        "severity": "info",
+        "detail": "all 4158374 values within [-50, 55]",
+        "data": {
+          "violations": 0,
+          "min": -34.62572479248047,
+          "max": 37.3223991394043
+        }
+      },
+      {
+        "name": "range::t_site_c",
+        "passed": true,
+        "severity": "info",
+        "detail": "all 4158374 values within [-50, 55]",
+        "data": {
+          "violations": 0,
+          "min": -35.0,
+          "max": 40.599998474121094
+        }
+      },
+      {
+        "name": "range::dewpoint_ref_c",
+        "passed": true,
+        "severity": "info",
+        "detail": "all 4158374 values within [-60, 40]",
+        "data": {
+          "violations": 0,
+          "min": -40.0,
+          "max": 27.0
+        }
+      },
+      {
+        "name": "range::wind_speed_ms",
+        "passed": true,
+        "severity": "info",
+        "detail": "all 4158064 values within [0, 75]",
+        "data": {
+          "violations": 0,
+          "min": 0.0,
+          "max": 15.266666412353516
+        }
+      },
+      {
+        "name": "range::sky_cover_oktas",
+        "passed": true,
+        "severity": "info",
+        "detail": "all 2525691 values within [0, 8]",
+        "data": {
+          "violations": 0,
+          "min": 0.0,
+          "max": 8.0
+        }
+      },
+      {
+        "name": "range::slp_hpa",
+        "passed": true,
+        "severity": "info",
+        "detail": "all 4091244 values within [900, 1085]",
+        "data": {
+          "violations": 0,
+          "min": 962.0,
+          "max": 1050.0
+        }
+      },
+      {
+        "name": "range::precip_1h_mm",
+        "passed": true,
+        "severity": "info",
+        "detail": "all 3709641 values within [0, 200]",
+        "data": {
+          "violations": 0,
+          "min": 0.0,
+          "max": 74.19999694824219
+        }
+      },
+      {
+        "name": "range::building_plan_fraction_1km",
+        "passed": true,
+        "severity": "info",
+        "detail": "all 4158374 values within [0, 1]",
+        "data": {
+          "violations": 0,
+          "min": 0.0,
+          "max": 0.2531548757170172
+        }
+      },
+      {
+        "name": "range::green_fraction_1km",
+        "passed": true,
+        "severity": "info",
+        "detail": "all 4158374 values within [0, 1]",
+        "data": {
+          "violations": 0,
+          "min": 0.0,
+          "max": 0.8980242192479286
+        }
+      },
+      {
+        "name": "range::water_fraction_1km",
+        "passed": true,
+        "severity": "info",
+        "detail": "all 4158374 values within [0, 1]",
+        "data": {
+          "violations": 0,
+          "min": 0.0,
+          "max": 0.19043977055449332
+        }
+      },
+      {
+        "name": "range::impervious_fraction_1km",
+        "passed": true,
+        "severity": "info",
+        "detail": "all 4158374 values within [0, 1]",
+        "data": {
+          "violations": 0,
+          "min": 0.0,
+          "max": 0.43006922435420636
+        }
+      },
+      {
+        "name": "outliers::uhi_intensity_c",
+        "passed": true,
+        "severity": "info",
+        "detail": "13774 values beyond 3\u00d7IQR \u2014 retained (real weather is heavy-tailed)",
+        "data": {
+          "mean": 0.3854058086872101,
+          "std": 1.9043753147125244,
+          "min": -7.999100685119629,
+          "max": 11.996932983398438,
+          "p01": -4.658033628463745,
+          "p50": 0.3290000259876251,
+          "p99": 5.721817970275879,
+          "beyond_3iqr": 13774,
+          "skew": 0.17895734310150146
+        }
+      },
+      {
+        "name": "leakage::forbidden_features",
+        "passed": true,
+        "severity": "error",
+        "detail": "no target-derived column is used as a feature",
+        "data": {
+          "overlap": []
+        }
+      },
+      {
+        "name": "leakage::target_not_a_feature",
+        "passed": true,
+        "severity": "error",
+        "detail": "target 'uhi_intensity_c' absent from features",
+        "data": {}
+      },
+      {
+        "name": "leakage::near_perfect_correlation",
+        "passed": true,
+        "severity": "info",
+        "detail": "no feature correlates > 0.98 with the target",
+        "data": {
+          "top_correlations": {
+            "impervious_fraction_1km": 0.1847,
+            "building_plan_fraction_1km": 0.1792,
+            "building_count_km2_3km": 0.1788,
+            "wind_speed_ms": 0.1715,
+            "road_length_km_km2_1km": 0.1704,
+            "building_count_km2_1km": 0.1106,
+            "t_ref_c": 0.1085,
+            "green_count_km2_3km": 0.1006
+          }
+        }
+      },
+      {
+        "name": "split::sizes",
+        "passed": true,
+        "severity": "error",
+        "detail": "train/valid/test = 3023965/572346/562063",
+        "data": {
+          "train": 3023965,
+          "valid": 572346,
+          "test": 562063
+        }
+      },
+      {
+        "name": "split::chronological_and_disjoint",
+        "passed": true,
+        "severity": "error",
+        "detail": "splits are strictly time-ordered with no overlap",
+        "data": {
+          "train_end": "2024-02-29 23:00:00+00:00",
+          "valid_start": "2024-03-01 00:00:00+00:00",
+          "valid_end": "2024-07-31 23:00:00+00:00",
+          "test_start": "2024-08-01 00:00:00+00:00",
+          "test_end": "2024-12-31 23:00:00+00:00"
+        }
+      },
+      {
+        "name": "physical::uhi_bounds",
+        "passed": true,
+        "severity": "error",
+        "detail": "0 \u0394T values outside [-8.0, 12.0] \u00b0C",
+        "data": {}
+      },
+      {
+        "name": "physical::reference_count",
+        "passed": true,
+        "severity": "error",
+        "detail": "0 rows built from fewer than 2 rural references",
+        "data": {}
+      }
+    ],
+    "energy": [
+      {
+        "name": "dataset::rows",
+        "passed": true,
+        "severity": "error",
+        "detail": "289082 rows, 11 zones",
+        "data": {}
+      },
+      {
+        "name": "missing::overview",
+        "passed": true,
+        "severity": "info",
+        "detail": "missing-value fraction per column",
+        "data": {
+          "sky_cover_oktas": 0.31982,
+          "wind_speed_ms": 0.00016
+        }
+      },
+      {
+        "name": "missing::load_mw",
+        "passed": true,
+        "severity": "info",
+        "detail": "0.0000% missing",
+        "data": {
+          "fraction": 0.0
+        }
+      },
+      {
+        "name": "missing::temp_c",
+        "passed": true,
+        "severity": "info",
+        "detail": "0.0000% missing",
+        "data": {
+          "fraction": 0.0
+        }
+      },
+      {
+        "name": "missing::dewpoint_c",
+        "passed": true,
+        "severity": "info",
+        "detail": "0.0000% missing",
+        "data": {
+          "fraction": 0.0
+        }
+      },
+      {
+        "name": "missing::ts_utc",
+        "passed": true,
+        "severity": "info",
+        "detail": "0.0000% missing",
+        "data": {
+          "fraction": 0.0
+        }
+      },
+      {
+        "name": "duplicates::zone+ts_utc",
+        "passed": true,
+        "severity": "info",
+        "detail": "0 duplicate rows on ['zone', 'ts_utc']",
+        "data": {
+          "duplicates": 0
+        }
+      },
+      {
+        "name": "timestamp::timezone_aware",
+        "passed": true,
+        "severity": "error",
+        "detail": "tz=UTC",
+        "data": {}
+      },
+      {
+        "name": "timestamp::hour_aligned",
+        "passed": true,
+        "severity": "error",
+        "detail": "0 timestamps not on an exact hour",
+        "data": {}
+      },
+      {
+        "name": "timestamp::span",
+        "passed": true,
+        "severity": "info",
+        "detail": "2022-01-01 11:00:00+00:00 \u2192 2024-12-31 23:00:00+00:00",
+        "data": {
+          "start": "2022-01-01 11:00:00+00:00",
+          "end": "2024-12-31 23:00:00+00:00",
+          "distinct_hours": 26290
+        }
+      },
+      {
+        "name": "range::wind_speed_ms",
+        "passed": true,
+        "severity": "info",
+        "detail": "all 289037 values within [0, 75]",
+        "data": {
+          "violations": 0,
+          "min": 0.0,
+          "max": 19.549999237060547
+        }
+      },
+      {
+        "name": "range::sky_cover_oktas",
+        "passed": true,
+        "severity": "info",
+        "detail": "all 196628 values within [0, 8]",
+        "data": {
+          "violations": 0,
+          "min": 0.0,
+          "max": 8.0
+        }
+      },
+      {
+        "name": "range::temp_c",
+        "passed": true,
+        "severity": "info",
+        "detail": "all 289082 values within [-50, 55]",
+        "data": {
+          "violations": 0,
+          "min": -28.16666603088379,
+          "max": 36.66666793823242
+        }
+      },
+      {
+        "name": "range::dewpoint_c",
+        "passed": true,
+        "severity": "info",
+        "detail": "all 289082 values within [-60, 40]",
+        "data": {
+          "violations": 0,
+          "min": -34.9666633605957,
+          "max": 24.899999618530273
+        }
+      },
+      {
+        "name": "range::load_mw",
+        "passed": true,
+        "severity": "info",
+        "detail": "all 289082 values within [1, 40000]",
+        "data": {
+          "violations": 0,
+          "min": 168.64178333333334,
+          "max": 10824.943
+        }
+      },
+      {
+        "name": "outliers::load_mw",
+        "passed": true,
+        "severity": "info",
+        "detail": "19680 values beyond 3\u00d7IQR \u2014 retained (real weather is heavy-tailed)",
+        "data": {
+          "mean": 1557.3567566835877,
+          "std": 1455.5649037394924,
+          "min": 168.64178333333334,
+          "max": 10824.943,
+          "p01": 236.05322741666666,
+          "p50": 1120.5415041666665,
+          "p99": 7049.610269762823,
+          "beyond_3iqr": 19680,
+          "skew": 2.4053666641084623
+        }
+      },
+      {
+        "name": "leakage::forbidden_features",
+        "passed": true,
+        "severity": "error",
+        "detail": "no target-derived column is used as a feature",
+        "data": {
+          "overlap": []
+        }
+      },
+      {
+        "name": "leakage::target_not_a_feature",
+        "passed": true,
+        "severity": "error",
+        "detail": "target 'load_mw' absent from features",
+        "data": {}
+      },
+      {
+        "name": "leakage::near_perfect_correlation",
+        "passed": true,
+        "severity": "info",
+        "detail": "no feature correlates > 0.98 with the target",
+        "data": {
+          "top_correlations": {
+            "sky_cover_oktas": 0.1345,
+            "temp_c": 0.1294,
+            "temp_24h_mean_c": 0.1186,
+            "wind_speed_ms": 0.1156,
+            "temp_24h_max_c": 0.079
+          }
+        }
+      },
+      {
+        "name": "split::sizes",
+        "passed": true,
+        "severity": "error",
+        "detail": "train/valid/test = 208381/40386/40315",
+        "data": {
+          "train": 208381,
+          "valid": 40386,
+          "test": 40315
+        }
+      },
+      {
+        "name": "split::chronological_and_disjoint",
+        "passed": true,
+        "severity": "error",
+        "detail": "splits are strictly time-ordered with no overlap",
+        "data": {
+          "train_end": "2024-02-29 23:00:00+00:00",
+          "valid_start": "2024-03-01 00:00:00+00:00",
+          "valid_end": "2024-07-31 23:00:00+00:00",
+          "test_start": "2024-08-01 00:00:00+00:00",
+          "test_end": "2024-12-31 23:00:00+00:00"
+        }
+      }
+    ]
+  },
+  "passed": true,
+  "failures": []
+}

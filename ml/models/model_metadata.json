@@ -1,0 +1,157 @@
+{
+  "project": "Urban Heat & Energy Intelligence Engine",
+  "version": "1.0.0",
+  "trained_at": "2026-09-19T17:03:35.976429+00:00",
+  "environment": {
+    "python": "3.13.1",
+    "scikit_learn": "1.9.1",
+    "numpy": "2.5.3",
+    "pandas": "2.3.3",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "study_period_years": [
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "split_strategy": {
+    "type": "chronological",
+    "train_end": "2024-06-30",
+    "valid_end": "2024-12-31",
+    "cross_validation": "TimeSeriesSplit(n_splits=3)",
+    "rationale": "The data are a time series observed on a fixed station network. A random split would let the model see a July 2024 afternoon while predicting the hour beside it, which no deployed system could do."
+  },
+  "data_sources": [
+    {
+      "key": "noaa_isd_lite",
+      "name": "NOAA NCEI Integrated Surface Database (ISD-Lite)",
+      "url": "https://www.ncei.noaa.gov/pub/data/noaa/isd-lite/",
+      "license": "U.S. Government work \u2014 public domain (NOAA open data)",
+      "description": "Quality-controlled hourly surface weather observations from physical stations: air temperature, dew point, sea-level pressure, wind, sky cover and precipitation."
+    },
+    {
+      "key": "noaa_isd_history",
+      "name": "NOAA NCEI ISD Station History",
+      "url": "https://www.ncei.noaa.gov/pub/data/noaa/isd-history.csv",
+      "license": "U.S. Government work \u2014 public domain (NOAA open data)",
+      "description": "Station inventory: identifiers, coordinates, elevation, period of record."
+    },
+    {
+      "key": "openstreetmap",
+      "name": "OpenStreetMap via Overpass API",
+      "url": "https://overpass-api.de/",
+      "license": "ODbL 1.0 \u2014 \u00a9 OpenStreetMap contributors",
+      "description": "Building footprints, road network, green space and water bodies used to derive urban-morphology features around each station."
+    },
+    {
+      "key": "nyiso_load",
+      "name": "NYISO Real-Time Actual Load (Palisades archive)",
+      "url": "http://mis.nyiso.com/public/",
+      "license": "NYISO public market information \u2014 free public use",
+      "description": "Real-time metered electricity load for the 11 NYISO load zones."
+    },
+    {
+      "key": "open_meteo_elevation",
+      "name": "Open-Meteo Elevation API (Copernicus DEM GLO-90)",
+      "url": "https://open-meteo.com/en/docs/elevation-api",
+      "license": "CC-BY 4.0 (Open-Meteo) / Copernicus DEM",
+      "description": "Digital-elevation lookup used to sanity-check station elevations."
+    }
+  ],
+  "network": {
+    "stations": 167,
+    "by_class": {
+      "suburban": 99,
+      "rural": 42,
+      "urban": 26
+    },
+    "states": [
+      "CT",
+      "DE",
+      "MA",
+      "MD",
+      "NH",
+      "NJ",
+      "NY",
+      "PA",
+      "RI",
+      "VT"
+    ]
+  },
+  "tasks": {
+    "heat": {
+      "target": {
+        "name": "uhi_intensity_c",
+        "unit": "\u00b0C",
+        "mean": 0.3754449188709259,
+        "std": 1.8905211687088013,
+        "min": -7.999100685119629,
+        "max": 11.996932983398438
+      },
+      "rows": 4653532,
+      "split": {
+        "strategy": "chronological (no shuffling, no random split)",
+        "train_window": [
+          "2022-01-01 00:00:00+00:00",
+          "2024-06-30 23:00:00+00:00"
+        ],
+        "valid_window": [
+          "2024-07-01 00:00:00+00:00",
+          "2024-12-31 23:00:00+00:00"
+        ],
+        "test_window": [
+          "2025-01-01 00:00:00+00:00",
+          "2025-08-27 04:00:00+00:00"
+        ],
+        "train_rows_available": 3195606,
+        "train_rows_used": 59178,
+        "train_stride": 54,
+        "valid_rows_available": 628143,
+        "valid_rows": 125629,
+        "valid_stride": 5,
+        "test_rows_available": 829783,
+        "test_rows": 138298,
+        "test_stride": 6,
+        "thinning": "Windows larger than their cap are thinned by a regular stride through time; every model is scored on identical rows."
+      },
+      "selected_model": "Random Forest (tuned)",
+      "hyperparameters": {
+        "n_estimators": 300,
+        "min_samples_split": 20,
+        "min_samples_leaf": 8,
+        "max_features": 0.5,
+        "max_depth": null,
+        "bootstrap": false
+      },
+      "metrics": {
+        "train": {
+          "mae": 0.7172811946890425,
+          "mse": 1.0066578726099544,
+          "rmse": 1.003323413765449,
+          "r2": 0.7193459545634164
+        },
+        "validation": {
+          "mae": 1.1256647913579296,
+          "mse": 2.298412038820918,
+          "rmse": 1.5160514631175677,
+          "r2": 0.39567577376404195
+        },
+        "test": {
+          "mae": 1.1520820962249116,
+          "mse": 2.4587962832563353,
+          "rmse": 1.5680549363004905,
+          "r2": 0.2965365750981477
+        },
+        "fit_seconds": 262.21,
+        "n_trees": 300,
+        "estimated_size_mb": 178.2,
+        "mean_tree_depth": 32.0,
+        "mean_leaves": 4866.0,
+        "artifact_mb": 65.4
+      },
+      "n_features": 35
+    }
+  }
+}

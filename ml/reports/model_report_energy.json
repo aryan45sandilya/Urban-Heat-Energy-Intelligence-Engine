@@ -1,0 +1,935 @@
+{
+  "task": "energy",
+  "target": {
+    "name": "load_mw",
+    "unit": "MW",
+    "mean": 1557.3567566835877,
+    "std": 1455.5649037394924,
+    "min": 168.64178333333334,
+    "max": 10824.943
+  },
+  "dataset_rows": 289082,
+  "split": {
+    "strategy": "chronological (no shuffling, no random split)",
+    "train_window": [
+      "2022-01-01 11:00:00+00:00",
+      "2024-02-29 23:00:00+00:00"
+    ],
+    "valid_window": [
+      "2024-03-01 00:00:00+00:00",
+      "2024-07-31 23:00:00+00:00"
+    ],
+    "test_window": [
+      "2024-08-01 00:00:00+00:00",
+      "2024-12-31 23:00:00+00:00"
+    ],
+    "train_rows_available": 208381,
+    "train_rows_used": 104191,
+    "train_stride": 2,
+    "valid_rows_available": 40386,
+    "valid_rows": 40386,
+    "valid_stride": 1,
+    "test_rows_available": 40315,
+    "test_rows": 40315,
+    "test_stride": 1,
+    "thinning": "Windows larger than their cap are thinned by a regular stride through time; every model is scored on identical rows."
+  },
+  "comparison": [
+    {
+      "key": "baseline_mean",
+      "name": "Mean baseline",
+      "family": "baseline",
+      "rationale": "Predicts the training mean. Any model that cannot beat this is worthless.",
+      "train": {
+        "mae": 929.3001055342825,
+        "mse": 2079395.265396168,
+        "rmse": 1442.0108409426637,
+        "r2": 0.0
+      },
+      "validation": {
+        "mae": 975.7876207135781,
+        "mse": 2354499.674346224,
+        "rmse": 1534.4379017562828,
+        "r2": -3.177455802072515e-05
+      },
+      "test": {
+        "mae": 933.1519836328498,
+        "mse": 2057559.9535072355,
+        "rmse": 1434.4197271047396,
+        "r2": -0.00016153497069604228
+      },
+      "cv": {
+        "folds": 4,
+        "scheme": "TimeSeriesSplit on the training window",
+        "rmse_mean": 1467.8162760050557,
+        "rmse_std": 152.1902540362409,
+        "rows": 52096
+      },
+      "fit_seconds": 3.366,
+      "cv_seconds": 116.093,
+      "fit_rows": 104191,
+      "subsampled": false
+    },
+    {
+      "key": "linear",
+      "name": "Linear Regression",
+      "family": "linear",
+      "rationale": "Ordinary least squares \u2014 the simplest additive model; a reference point for how much non-linearity matters.",
+      "train": {
+        "mae": 933.1446563347938,
+        "mse": 1760332.1004709583,
+        "rmse": 1326.7750753126766,
+        "r2": 0.15344036328005273
+      },
+      "validation": {
+        "mae": 977.0358851043118,
+        "mse": 1993848.1875799506,
+        "rmse": 1412.0368931369856,
+        "r2": 0.1531485168803337
+      },
+      "test": {
+        "mae": 932.4884453070289,
+        "mse": 1738469.531730671,
+        "rmse": 1318.5103457048303,
+        "r2": 0.1549454719937906
+      },
+      "cv": {
+        "folds": 4,
+        "scheme": "TimeSeriesSplit on the training window",
+        "rmse_mean": 1368.5887959069737,
+        "rmse_std": 120.82765441749117,
+        "rows": 52096
+      },
+      "fit_seconds": 4.0,
+      "cv_seconds": 2.113,
+      "fit_rows": 104191,
+      "subsampled": false
+    },
+    {
+      "key": "ridge",
+      "name": "Ridge Regression",
+      "family": "linear",
+      "rationale": "L2-penalised least squares; stabilises coefficients when engineered interactions are collinear.",
+      "train": {
+        "mae": 933.1320767412643,
+        "mse": 1760332.7365746803,
+        "rmse": 1326.7753150306498,
+        "r2": 0.1534400573720166
+      },
+      "validation": {
+        "mae": 976.9563756458334,
+        "mse": 1993713.24154361,
+        "rmse": 1411.9891081533208,
+        "r2": 0.15320583280424793
+      },
+      "test": {
+        "mae": 932.4816538554887,
+        "mse": 1738477.1664788392,
+        "rmse": 1318.5132409190433,
+        "r2": 0.15494176081082645
+      },
+      "cv": {
+        "folds": 4,
+        "scheme": "TimeSeriesSplit on the training window",
+        "rmse_mean": 1365.583733426909,
+        "rmse_std": 116.69859621192866,
+        "rows": 52096
+      },
+      "fit_seconds": 2.838,
+      "cv_seconds": 3.151,
+      "fit_rows": 104191,
+      "subsampled": false
+    },
+    {
+      "key": "lasso",
+      "name": "Lasso Regression",
+      "family": "linear",
+      "rationale": "L1 penalty; drives redundant features to exactly zero and shows which inputs survive sparsity.",
+      "train": {
+        "mae": 933.1384990989429,
+        "mse": 1760339.5241230824,
+        "rmse": 1326.7778729399593,
+        "r2": 0.15343679317856818
+      },
+      "validation": {
+        "mae": 976.7901262771423,
+        "mse": 1993373.499775469,
+        "rmse": 1411.868796940944,
+        "r2": 0.1533501320653552
+      },
+      "test": {
+        "mae": 932.5029343776818,
+        "mse": 1738495.3723096063,
+        "rmse": 1318.5201448251014,
+        "r2": 0.15493291111893082
+      },
+      "cv": {
+        "folds": 4,
+        "scheme": "TimeSeriesSplit on the training window",
+        "rmse_mean": 1365.6923490382828,
+        "rmse_std": 116.80604775667037,
+        "rows": 52096
+      },
+      "fit_seconds": 76.279,
+      "cv_seconds": 16.667,
+      "fit_rows": 104191,
+      "subsampled": false
+    },
+    {
+      "key": "elasticnet",
+      "name": "ElasticNet",
+      "family": "linear",
+      "rationale": "Blends L1 and L2; handles correlated morphology features better than pure Lasso.",
+      "train": {
+        "mae": 928.5470843342962,
+        "mse": 1764002.4373782326,
+        "rmse": 1328.1575348497754,
+        "r2": 0.1516752650477189
+      },
+      "validation": {
+        "mae": 971.4917746563796,
+        "mse": 1996557.4774696373,
+        "rmse": 1412.9959226656097,
+        "r2": 0.15199779428491522
+      },
+      "test": {
+        "mae": 927.5953626764677,
+        "mse": 1742504.0585010967,
+        "rmse": 1320.039415510422,
+        "r2": 0.15298432452845856
+      },
+      "cv": {
+        "folds": 4,
+        "scheme": "TimeSeriesSplit on the training window",
+        "rmse_mean": 1365.2269847474695,
+        "rmse_std": 121.1101257739947,
+        "rows": 52096
+      },
+      "fit_seconds": 9.193,
+      "cv_seconds": 3.15,
+      "fit_rows": 104191,
+      "subsampled": false
+    },
+    {
+      "key": "polynomial",
+      "name": "Polynomial Ridge (deg 2)",
+      "family": "linear",
+      "rationale": "Degree-2 expansion with ridge shrinkage \u2014 tests whether smooth curvature alone explains the signal.",
+      "train": {
+        "mae": 813.4678845228897,
+        "mse": 1389591.0639958,
+        "rmse": 1178.8091720018979,
+        "r2": 0.3361020004145441
+      },
+      "validation": {
+        "mae": 907.3662361228999,
+        "mse": 1710227.2894523593,
+        "rmse": 1307.7565864687356,
+        "r2": 0.27361143864099624
+      },
+      "test": {
+        "mae": 809.8769314213948,
+        "mse": 1407899.582565138,
+        "rmse": 1186.549443792857,
+        "r2": 0.31563257479680584
+      },
+      "cv": {
+        "folds": 4,
+        "scheme": "TimeSeriesSplit on the training window",
+        "rmse_mean": 1814.6637584451064,
+        "rmse_std": 1024.301566450793,
+        "rows": 34731
+      },
+      "fit_seconds": 5.899,
+      "cv_seconds": 1.656,
+      "fit_rows": 52096,
+      "subsampled": true
+    },
+    {
+      "key": "svr",
+      "name": "Support Vector Regression (RBF)",
+      "family": "kernel",
+      "rationale": "RBF kernel regression. Training is O(n\u00b2), so it is fitted on a fixed subsample \u2014 reported as such.",
+      "train": {
+        "mae": 1021.7893139145656,
+        "mse": 3675924.9612588133,
+        "rmse": 1917.2701847310966,
+        "r2": -0.15689692144293055
+      },
+      "validation": {
+        "mae": 937.6360526363584,
+        "mse": 2900647.6503926525,
+        "rmse": 1703.1287826798807,
+        "r2": -0.231998393881778
+      },
+      "test": {
+        "mae": 827.7914609069303,
+        "mse": 2115357.5049010566,
+        "rmse": 1454.4268647481235,
+        "r2": -0.028256409008780015
+      },
+      "cv": {
+        "folds": 4,
+        "scheme": "TimeSeriesSplit on the training window",
+        "rmse_mean": 1849.5914952142014,
+        "rmse_std": 293.43927261750935,
+        "rows": 9472
+      },
+      "fit_seconds": 16.35,
+      "cv_seconds": 38.343,
+      "fit_rows": 9472,
+      "subsampled": true
+    },
+    {
+      "key": "decision_tree",
+      "name": "Decision Tree",
+      "family": "tree",
+      "rationale": "A single CART tree \u2014 the building block of the forest, shown alone to expose its variance.",
+      "train": {
+        "mae": 54.031625265360546,
+        "mse": 8102.19825792067,
+        "rmse": 90.01221171552596,
+        "r2": 0.9961035795393248
+      },
+      "validation": {
+        "mae": 88.12176100965613,
+        "mse": 21759.15611541189,
+        "rmse": 147.50985090973379,
+        "r2": 0.9907581862337601
+      },
+      "test": {
+        "mae": 79.44580317560256,
+        "mse": 16043.650287757668,
+        "rmse": 126.66353179884756,
+        "r2": 0.9922013247434248
+      },
+      "cv": {
+        "folds": 4,
+        "scheme": "TimeSeriesSplit on the training window",
+        "rmse_mean": 225.95364059309455,
+        "rmse_std": 129.5417206403726,
+        "rows": 52096
+      },
+      "fit_seconds": 6.086,
+      "cv_seconds": 38.867,
+      "fit_rows": 104191,
+      "subsampled": false
+    },
+    {
+      "key": "random_forest",
+      "name": "Random Forest (default)",
+      "family": "ensemble",
+      "rationale": "Bagged decision trees with feature subsampling, untuned \u2014 the starting point for optimisation.",
+      "train": {
+        "mae": 14.577828453753913,
+        "mse": 607.6653658056659,
+        "rmse": 24.650869473624372,
+        "r2": 0.9997077682266965
+      },
+      "validation": {
+        "mae": 68.8015534493044,
+        "mse": 12648.388955334038,
+        "rmse": 112.46505659685606,
+        "r2": 0.9946278222120312
+      },
+      "test": {
+        "mae": 62.47653895533245,
+        "mse": 9515.81885322427,
+        "rmse": 97.54905869983713,
+        "r2": 0.9953744453596499
+      },
+      "cv": {
+        "folds": 4,
+        "scheme": "TimeSeriesSplit on the training window",
+        "rmse_mean": 167.46486821361992,
+        "rmse_std": 100.0332827103745,
+        "rows": 52096
+      },
+      "fit_seconds": 475.013,
+      "cv_seconds": 263.754,
+      "fit_rows": 104191,
+      "subsampled": false
+    },
+    {
+      "key": "gradient_boosting",
+      "name": "Histogram Gradient Boosting",
+      "family": "ensemble",
+      "rationale": "Sequential boosting on binned features \u2014 the strongest common alternative to a forest on tabular data.",
+      "train": {
+        "mae": 40.20790252388925,
+        "mse": 3308.93203706954,
+        "rmse": 57.52331733366514,
+        "r2": 0.9984087046401737
+      },
+      "validation": {
+        "mae": 66.96503889991287,
+        "mse": 10896.748738414572,
+        "rmse": 104.38749320878709,
+        "r2": 0.9953718001762666
+      },
+      "test": {
+        "mae": 60.44491974384463,
+        "mse": 7787.65083953195,
+        "rmse": 88.24766761525173,
+        "r2": 0.9962144924116523
+      },
+      "cv": {
+        "folds": 4,
+        "scheme": "TimeSeriesSplit on the training window",
+        "rmse_mean": 149.924113149853,
+        "rmse_std": 94.98487709911859,
+        "rows": 52096
+      },
+      "fit_seconds": 83.231,
+      "cv_seconds": 45.894,
+      "fit_rows": 104191,
+      "subsampled": false
+    }
+  ],
+  "tuning": {
+    "search": "RandomizedSearchCV",
+    "n_iter": 14,
+    "cv": "TimeSeriesSplit(n_splits=3) on the training window",
+    "search_rows": 52096,
+    "seconds": 1770.1,
+    "best_params": {
+      "n_estimators": 300,
+      "min_samples_split": 20,
+      "min_samples_leaf": 4,
+      "max_features": 0.7,
+      "max_depth": null,
+      "bootstrap": true
+    },
+    "best_cv_rmse": 143.37861718752984,
+    "space": {
+      "n_estimators": [
+        200,
+        300,
+        400
+      ],
+      "max_depth": [
+        null,
+        14,
+        20,
+        28,
+        36
+      ],
+      "min_samples_split": [
+        2,
+        5,
+        10,
+        20
+      ],
+      "min_samples_leaf": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "max_features": [
+        0.3,
+        0.5,
+        0.7,
+        "sqrt",
+        1.0
+      ],
+      "bootstrap": [
+        true,
+        false
+      ]
+    },
+    "top_trials": [
+      {
+        "params": {
+          "n_estimators": 300,
+          "min_samples_split": 20,
+          "min_samples_leaf": 4,
+          "max_features": 0.7,
+          "max_depth": null,
+          "bootstrap": true
+        },
+        "cv_rmse": 143.37861718752984,
+        "cv_rmse_std": 41.599513916987384
+      },
+      {
+        "params": {
+          "n_estimators": 300,
+          "min_samples_split": 2,
+          "min_samples_leaf": 1,
+          "max_features": 0.5,
+          "max_depth": 28,
+          "bootstrap": true
+        },
+        "cv_rmse": 143.58450677994196,
+        "cv_rmse_std": 48.00378018929309
+      },
+      {
+        "params": {
+          "n_estimators": 200,
+          "min_samples_split": 5,
+          "min_samples_leaf": 8,
+          "max_features": 0.7,
+          "max_depth": 36,
+          "bootstrap": true
+        },
+        "cv_rmse": 145.26431689339753,
+        "cv_rmse_std": 43.00867762059323
+      },
+      {
+        "params": {
+          "n_estimators": 400,
+          "min_samples_split": 10,
+          "min_samples_leaf": 8,
+          "max_features": 0.7,
+          "max_depth": 28,
+          "bootstrap": true
+        },
+        "cv_rmse": 145.46233149291933,
+        "cv_rmse_std": 43.00158657567783
+      },
+      {
+        "params": {
+          "n_estimators": 300,
+          "min_samples_split": 20,
+          "min_samples_leaf": 4,
+          "max_features": 1.0,
+          "max_depth": 14,
+          "bootstrap": true
+        },
+        "cv_rmse": 147.4110344914564,
+        "cv_rmse_std": 40.92593944848893
+      },
+      {
+        "params": {
+          "n_estimators": 300,
+          "min_samples_split": 20,
+          "min_samples_leaf": 8,
+          "max_features": 0.5,
+          "max_depth": null,
+          "bootstrap": false
+        },
+        "cv_rmse": 158.7505540197309,
+        "cv_rmse_std": 57.372960313240064
+      },
+      {
+        "params": {
+          "n_estimators": 400,
+          "min_samples_split": 20,
+          "min_samples_leaf": 2,
+          "max_features": 1.0,
+          "max_depth": 28,
+          "bootstrap": false
+        },
+        "cv_rmse": 169.09788355468126,
+        "cv_rmse_std": 45.389418047276436
+      },
+      {
+        "params": {
+          "n_estimators": 200,
+          "min_samples_split": 10,
+          "min_samples_leaf": 1,
+          "max_features": 1.0,
+          "max_depth": 14,
+          "bootstrap": false
+        },
+        "cv_rmse": 169.74947288792143,
+        "cv_rmse_std": 40.57121141287034
+      },
+      {
+        "params": {
+          "n_estimators": 200,
+          "min_samples_split": 10,
+          "min_samples_leaf": 8,
+          "max_features": 0.5,
+          "max_depth": 14,
+          "bootstrap": true
+        },
+        "cv_rmse": 172.07730233716586,
+        "cv_rmse_std": 63.98587272743634
+      },
+      {
+        "params": {
+          "n_estimators": 400,
+          "min_samples_split": 5,
+          "min_samples_leaf": 1,
+          "max_features": 0.3,
+          "max_depth": 20,
+          "bootstrap": false
+        },
+        "cv_rmse": 262.54313964615466,
+        "cv_rmse_std": 86.88255412576358
+      }
+    ]
+  },
+  "selected": {
+    "key": "random_forest_tuned-constrained",
+    "name": "Random Forest (tuned-constrained)",
+    "metrics": {
+      "train": {
+        "mae": 43.8962367847845,
+        "mse": 5460.864741142057,
+        "rmse": 73.8976639762182,
+        "r2": 0.9973738207295083
+      },
+      "validation": {
+        "mae": 73.60776955144605,
+        "mse": 14635.296771026335,
+        "rmse": 120.97643064261044,
+        "r2": 0.9937839185281787
+      },
+      "test": {
+        "mae": 66.47068185593567,
+        "mse": 10932.892816419919,
+        "rmse": 104.56047444622618,
+        "r2": 0.99468561834988
+      },
+      "fit_seconds": 137.17,
+      "n_trees": 300,
+      "estimated_size_mb": 116.6,
+      "mean_tree_depth": 25.2,
+      "mean_leaves": 3183.0,
+      "artifact_mb": 46.5
+    },
+    "hyperparameters": {
+      "n_estimators": 300,
+      "min_samples_split": 20,
+      "min_samples_leaf": 16,
+      "max_features": 0.7,
+      "max_depth": null,
+      "bootstrap": true
+    },
+    "selection": {
+      "rule": "Hyperparameters were searched by TimeSeriesSplit cross-validation inside the training window. Candidate configurations were then costed: a forest whose predicted artifact exceeds 200 MB is not deployable and is reported rather than fitted. The remainder were refitted on the full training window and scored on the validation window, and among those within 1% of the best validation RMSE the smallest artifact was shipped. The test window took no part in the decision and was scored once, afterwards.",
+      "tolerance": 0.01,
+      "artifact_budget_mb": 200.0,
+      "chosen": "tuned-constrained",
+      "best_validation_rmse": 120.97643,
+      "candidates": [
+        {
+          "key": "tuned-constrained",
+          "note": "search-optimal with its leaf floor raised from 4 to 16 to fit the artifact budget",
+          "fitted": true,
+          "validation_rmse": 120.97643,
+          "validation_r2": 0.99378,
+          "test_r2": 0.99469,
+          "estimated_size_mb": 116.6,
+          "fit_seconds": 327.89,
+          "within_tolerance": true,
+          "hyperparameters": {
+            "n_estimators": 300,
+            "min_samples_split": 20,
+            "min_samples_leaf": 16,
+            "max_features": 0.7,
+            "max_depth": null,
+            "bootstrap": true
+          }
+        },
+        {
+          "key": "compact",
+          "note": "leaf floor 48, depth 26",
+          "fitted": true,
+          "validation_rmse": 148.98831,
+          "validation_r2": 0.99057,
+          "test_r2": 0.99285,
+          "estimated_size_mb": 77.3,
+          "fit_seconds": 92.71,
+          "within_tolerance": false,
+          "hyperparameters": {
+            "n_estimators": 300,
+            "max_depth": 28,
+            "min_samples_split": 20,
+            "min_samples_leaf": 24,
+            "max_features": 0.5,
+            "bootstrap": true
+          }
+        },
+        {
+          "key": "lean",
+          "note": "leaf floor 128, depth 22",
+          "fitted": true,
+          "validation_rmse": 137.33045,
+          "validation_r2": 0.99199,
+          "test_r2": 0.9937,
+          "estimated_size_mb": 77.7,
+          "fit_seconds": 62.89,
+          "within_tolerance": false,
+          "hyperparameters": {
+            "n_estimators": 200,
+            "max_depth": 26,
+            "min_samples_split": 12,
+            "min_samples_leaf": 16,
+            "max_features": 0.5,
+            "bootstrap": true
+          }
+        },
+        {
+          "key": "tuned",
+          "note": "search-optimal, as selected by cross-validation",
+          "hyperparameters": {
+            "n_estimators": 300,
+            "min_samples_split": 20,
+            "min_samples_leaf": 4,
+            "max_features": 0.7,
+            "max_depth": null,
+            "bootstrap": true
+          },
+          "predicted_size_mb": 476.9,
+          "fitted": false,
+          "reason": "predicted artifact exceeds the deployability budget"
+        }
+      ]
+    }
+  },
+  "feature_importance": [
+    {
+      "feature": "zone_code",
+      "importance": 0.8986991262101656,
+      "std": 0.03014048040077923
+    },
+    {
+      "feature": "heat_index_c",
+      "importance": 0.021606968405265704,
+      "std": 0.014064148818336206
+    },
+    {
+      "feature": "temp_24h_mean_c",
+      "importance": 0.01618190181251813,
+      "std": 0.021687711337602188
+    },
+    {
+      "feature": "temp_24h_cdd",
+      "importance": 0.01514719446872533,
+      "std": 0.02232039246702995
+    },
+    {
+      "feature": "hour_local",
+      "importance": 0.011186849902409462,
+      "std": 0.003943970785594603
+    },
+    {
+      "feature": "temp_c",
+      "importance": 0.006486891454476831,
+      "std": 0.008819487253618736
+    },
+    {
+      "feature": "sky_cover_oktas",
+      "importance": 0.005517263475692164,
+      "std": 0.013064945271572788
+    },
+    {
+      "feature": "cooling_degrees",
+      "importance": 0.00413777403763993,
+      "std": 0.0065003539646611656
+    },
+    {
+      "feature": "hour_sin",
+      "importance": 0.0032879240837595672,
+      "std": 0.0017220737599049371
+    },
+    {
+      "feature": "temp_24h_max_c",
+      "importance": 0.002911389881480682,
+      "std": 0.0025565271556485954
+    },
+    {
+      "feature": "rh_pct",
+      "importance": 0.002901076120745781,
+      "std": 0.006434601532189525
+    },
+    {
+      "feature": "wind_speed_ms",
+      "importance": 0.0026872567573832124,
+      "std": 0.0048455594139476315
+    },
+    {
+      "feature": "solar_elevation_deg",
+      "importance": 0.0020288158629435016,
+      "std": 0.002118914537456634
+    },
+    {
+      "feature": "day_of_week",
+      "importance": 0.0015705785040441682,
+      "std": 0.0008069134182286589
+    },
+    {
+      "feature": "is_weekend",
+      "importance": 0.0014542437011077596,
+      "std": 0.000798805604460518
+    },
+    {
+      "feature": "hour_cos",
+      "importance": 0.0008970053332718754,
+      "std": 0.0008110182459120106
+    },
+    {
+      "feature": "heating_degrees",
+      "importance": 0.0007466489548081343,
+      "std": 0.001356331525806198
+    },
+    {
+      "feature": "doy_cos",
+      "importance": 0.0007224219531310926,
+      "std": 0.00091214914467523
+    },
+    {
+      "feature": "doy_sin",
+      "importance": 0.0006782097615495016,
+      "std": 0.00043368542888899377
+    },
+    {
+      "feature": "clear_sky_index",
+      "importance": 0.000576384882557366,
+      "std": 0.0008630700690338916
+    },
+    {
+      "feature": "season",
+      "importance": 0.00040962883549528373,
+      "std": 0.0005273181101927134
+    },
+    {
+      "feature": "month",
+      "importance": 0.00011768531294894442,
+      "std": 0.00010690932513344178
+    },
+    {
+      "feature": "is_holiday",
+      "importance": 4.676028788002123e-05,
+      "std": 3.4033218002635574e-05
+    }
+  ],
+  "notes": [
+    "All splits are chronological; nothing is shuffled.",
+    "Hyperparameters were selected by TimeSeriesSplit cross-validation on the training window; the test window was scored once, after selection.",
+    "Imputation and scaling are fitted inside each pipeline, on training folds only."
+  ],
+  "zone_codes": {
+    "CAPITL": 0,
+    "CENTRL": 1,
+    "DUNWOD": 2,
+    "GENESE": 3,
+    "HUD VL": 4,
+    "LONGIL": 5,
+    "MHK VL": 6,
+    "MILLWD": 7,
+    "N.Y.C.": 8,
+    "NORTH": 9,
+    "WEST": 10
+  },
+  "segment_metrics": {
+    "column": "zone_name",
+    "unit": "MW",
+    "note": "Scores computed separately within each segment of the held-out test window. A high overall R\u00b2 can simply reflect large differences *between* segments; these figures show how much the model knows *within* one.",
+    "segments": [
+      {
+        "segment": "Capital",
+        "rows": 3672,
+        "mean_target": 1305.0142789689417,
+        "std_target": 214.72152897445994,
+        "mae": 69.98825915976364,
+        "mse": 8363.56797393278,
+        "rmse": 91.45254492868298,
+        "r2": 0.8185492795232403
+      },
+      {
+        "segment": "Central",
+        "rows": 3672,
+        "mean_target": 1637.8458961117317,
+        "std_target": 258.2813173160913,
+        "mae": 90.73564197872471,
+        "mse": 15680.811557531219,
+        "rmse": 125.22304722985788,
+        "r2": 0.7648739011425149
+      },
+      {
+        "segment": "Dunwoodie",
+        "rows": 3672,
+        "mean_target": 647.2162555666355,
+        "std_target": 126.06174418687718,
+        "mae": 28.64551073259916,
+        "mse": 1318.5937783044847,
+        "rmse": 36.3124466031206,
+        "r2": 0.9170029441752485
+      },
+      {
+        "segment": "Long Island",
+        "rows": 3672,
+        "mean_target": 2232.60249812246,
+        "std_target": 568.5663597717208,
+        "mae": 94.4404703021522,
+        "mse": 16345.409470596467,
+        "rmse": 127.8491668748626,
+        "r2": 0.9494231506239209
+      },
+      {
+        "segment": "Millwood",
+        "rows": 3672,
+        "mean_target": 302.5143109195403,
+        "std_target": 70.17402245465168,
+        "mae": 18.313275707599253,
+        "mse": 547.6948570020497,
+        "rmse": 23.402881382471897,
+        "r2": 0.8887489271369542
+      },
+      {
+        "segment": "North",
+        "rows": 3672,
+        "mean_target": 622.6083388770038,
+        "std_target": 47.595532113924996,
+        "mae": 33.181591764302254,
+        "mse": 2277.428075719817,
+        "rmse": 47.722406432616296,
+        "r2": -0.005612319542632305
+      },
+      {
+        "segment": "West",
+        "rows": 3672,
+        "mean_target": 1737.734805335582,
+        "std_target": 198.9286517244291,
+        "mae": 78.14882060956512,
+        "mse": 8928.97815005289,
+        "rmse": 94.49327039558368,
+        "r2": 0.774303216413246
+      },
+      {
+        "segment": "Genesee",
+        "rows": 3666,
+        "mean_target": 1060.9679962010046,
+        "std_target": 169.35956866080255,
+        "mae": 43.77077677497316,
+        "mse": 3577.8714589594542,
+        "rmse": 59.81531124185056,
+        "r2": 0.87522610352411
+      },
+      {
+        "segment": "Hudson Valley",
+        "rows": 3652,
+        "mean_target": 1032.1344353131751,
+        "std_target": 220.45869578703034,
+        "mae": 54.131588951577626,
+        "mse": 5234.890235854899,
+        "rmse": 72.35254132271305,
+        "r2": 0.8922612213102377
+      },
+      {
+        "segment": "Mohawk Valley",
+        "rows": 3648,
+        "mean_target": 816.6637021237486,
+        "std_target": 157.5454670450528,
+        "mae": 58.316242188782006,
+        "mse": 5506.216307861899,
+        "rmse": 74.20388337453707,
+        "r2": 0.7780983606652748
+      },
+      {
+        "segment": "New York City",
+        "rows": 3645,
+        "mean_target": 5573.915569708097,
+        "std_target": 1040.457383410219,
+        "mae": 162.0505204482508,
+        "mse": 52709.01512964398,
+        "rmse": 229.58444008609115,
+        "r2": 0.9512970269913277
+      }
+    ]
+  }
+}

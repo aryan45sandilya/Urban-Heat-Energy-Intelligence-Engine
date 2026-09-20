@@ -1,0 +1,2672 @@
+[
+  {
+    "station_id": "IN-VIZ",
+    "name": "Visakhapatnam",
+    "state": "Andhra Pradesh",
+    "country": "IN",
+    "lat": 17.6868,
+    "lon": 83.2185,
+    "elevation_m": 45.0,
+    "urban_class": "rural",
+    "tier": "large_city",
+    "morphology_source": "osm",
+    "morphology": {
+      "building_plan_fraction_1km": 0.0035691523263224985,
+      "building_count_km2_1km": 7.321127382227186,
+      "building_count_km2_3km": 98.35775483079132,
+      "road_length_km_km2_1km": 15.665765969291948,
+      "green_fraction_1km": 0.0,
+      "water_fraction_1km": 0.0,
+      "impervious_fraction_1km": 0.11322951411136614,
+      "green_count_km2_3km": 0.35367765131532297,
+      "water_count_km2_3km": 0.3890454164468553
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 0.3327860636456851,
+      "temp_c": 30.332786063645685,
+      "heat_index_c": 33.718395117323126,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-VJW",
+    "name": "Vijayawada",
+    "state": "Andhra Pradesh",
+    "country": "IN",
+    "lat": 16.5062,
+    "lon": 80.648,
+    "elevation_m": 26.0,
+    "urban_class": "urban",
+    "tier": "large_city",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.28,
+      "building_count_km2_1km": 1600.0,
+      "building_count_km2_3km": 900.0,
+      "road_length_km_km2_1km": 20.0,
+      "green_fraction_1km": 0.1,
+      "water_fraction_1km": 0.02,
+      "impervious_fraction_1km": 0.42000000000000004,
+      "green_count_km2_3km": 18.0,
+      "water_count_km2_3km": 3.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 2.552371462605871,
+      "temp_c": 32.55237146260587,
+      "heat_index_c": 36.47876878436242,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-TPT",
+    "name": "Tirupati",
+    "state": "Andhra Pradesh",
+    "country": "IN",
+    "lat": 13.6288,
+    "lon": 79.4192,
+    "elevation_m": 174.0,
+    "urban_class": "suburban",
+    "tier": "medium_city",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.2,
+      "building_count_km2_1km": 1000.0,
+      "building_count_km2_3km": 600.0,
+      "road_length_km_km2_1km": 14.0,
+      "green_fraction_1km": 0.15,
+      "water_fraction_1km": 0.02,
+      "impervious_fraction_1km": 0.29800000000000004,
+      "green_count_km2_3km": 25.0,
+      "water_count_km2_3km": 4.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 1.5585665685286296,
+      "temp_c": 31.55856656852863,
+      "heat_index_c": 35.24807293931081,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-GNT",
+    "name": "Guntur",
+    "state": "Andhra Pradesh",
+    "country": "IN",
+    "lat": 16.3008,
+    "lon": 80.4428,
+    "elevation_m": 30.0,
+    "urban_class": "suburban",
+    "tier": "medium_city",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.2,
+      "building_count_km2_1km": 1000.0,
+      "building_count_km2_3km": 600.0,
+      "road_length_km_km2_1km": 14.0,
+      "green_fraction_1km": 0.15,
+      "water_fraction_1km": 0.02,
+      "impervious_fraction_1km": 0.29800000000000004,
+      "green_count_km2_3km": 25.0,
+      "water_count_km2_3km": 4.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 1.7695380392008437,
+      "temp_c": 31.769538039200842,
+      "heat_index_c": 35.509557627613965,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-ING",
+    "name": "Itanagar",
+    "state": "Arunachal Pradesh",
+    "country": "IN",
+    "lat": 27.0844,
+    "lon": 93.6053,
+    "elevation_m": 320.0,
+    "urban_class": "suburban",
+    "tier": "small_city",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.14,
+      "building_count_km2_1km": 600.0,
+      "building_count_km2_3km": 350.0,
+      "road_length_km_km2_1km": 10.0,
+      "green_fraction_1km": 0.2,
+      "water_fraction_1km": 0.03,
+      "impervious_fraction_1km": 0.21000000000000002,
+      "green_count_km2_3km": 35.0,
+      "water_count_km2_3km": 5.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 0.6359989361750781,
+      "temp_c": 30.635998936175078,
+      "heat_index_c": 34.09922435095029,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-GUW",
+    "name": "Guwahati",
+    "state": "Assam",
+    "country": "IN",
+    "lat": 26.1445,
+    "lon": 91.7362,
+    "elevation_m": 55.0,
+    "urban_class": "rural",
+    "tier": "large_city",
+    "morphology_source": "osm",
+    "morphology": {
+      "building_plan_fraction_1km": 0.00650095602294455,
+      "building_count_km2_1km": 14.960564650638162,
+      "building_count_km2_3km": 21.892646616418492,
+      "road_length_km_km2_1km": 17.084738462101424,
+      "green_fraction_1km": 0.008922880815806247,
+      "water_fraction_1km": 0.0031867431485022306,
+      "impervious_fraction_1km": 0.1260941252576545,
+      "green_count_km2_3km": 0.6012520072360491,
+      "water_count_km2_3km": 0.7427230677621782
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 0.5901778862140283,
+      "temp_c": 30.59017788621403,
+      "heat_index_c": 34.04180894929115,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-SLR",
+    "name": "Silchar",
+    "state": "Assam",
+    "country": "IN",
+    "lat": 24.8333,
+    "lon": 92.7789,
+    "elevation_m": 20.0,
+    "urban_class": "suburban",
+    "tier": "small_city",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.14,
+      "building_count_km2_1km": 600.0,
+      "building_count_km2_3km": 350.0,
+      "road_length_km_km2_1km": 10.0,
+      "green_fraction_1km": 0.2,
+      "water_fraction_1km": 0.03,
+      "impervious_fraction_1km": 0.21000000000000002,
+      "green_count_km2_3km": 35.0,
+      "water_count_km2_3km": 5.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 0.7443790292610912,
+      "temp_c": 30.74437902926109,
+      "heat_index_c": 34.2348579889057,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-PAT",
+    "name": "Patna",
+    "state": "Bihar",
+    "country": "IN",
+    "lat": 25.5941,
+    "lon": 85.1376,
+    "elevation_m": 53.0,
+    "urban_class": "rural",
+    "tier": "large_city",
+    "morphology_source": "osm",
+    "morphology": {
+      "building_plan_fraction_1km": 0.033906947100063735,
+      "building_count_km2_1km": 11.777465788800255,
+      "building_count_km2_3km": 40.31925224994682,
+      "road_length_km_km2_1km": 23.393310434770843,
+      "green_fraction_1km": 0.0066284257488846395,
+      "water_fraction_1km": 0.004588910133843212,
+      "impervious_fraction_1km": 0.19766012014345966,
+      "green_count_km2_3km": 4.067292990126214,
+      "water_count_km2_3km": 0.7780908328937106
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 0.8560197615826491,
+      "temp_c": 30.856019761582647,
+      "heat_index_c": 34.3743403627578,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-GAY",
+    "name": "Gaya",
+    "state": "Bihar",
+    "country": "IN",
+    "lat": 24.7955,
+    "lon": 84.9994,
+    "elevation_m": 115.0,
+    "urban_class": "suburban",
+    "tier": "medium_city",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.2,
+      "building_count_km2_1km": 1000.0,
+      "building_count_km2_3km": 600.0,
+      "road_length_km_km2_1km": 14.0,
+      "green_fraction_1km": 0.15,
+      "water_fraction_1km": 0.02,
+      "impervious_fraction_1km": 0.29800000000000004,
+      "green_count_km2_3km": 25.0,
+      "water_count_km2_3km": 4.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 1.6159426577973053,
+      "temp_c": 31.615942657797305,
+      "heat_index_c": 35.31921323935839,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-MUZ",
+    "name": "Muzaffarpur",
+    "state": "Bihar",
+    "country": "IN",
+    "lat": 26.1209,
+    "lon": 85.3647,
+    "elevation_m": 57.0,
+    "urban_class": "suburban",
+    "tier": "medium_city",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.2,
+      "building_count_km2_1km": 1000.0,
+      "building_count_km2_3km": 600.0,
+      "road_length_km_km2_1km": 14.0,
+      "green_fraction_1km": 0.15,
+      "water_fraction_1km": 0.02,
+      "impervious_fraction_1km": 0.29800000000000004,
+      "green_count_km2_3km": 25.0,
+      "water_count_km2_3km": 4.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 1.7470985868957905,
+      "temp_c": 31.747098586895792,
+      "heat_index_c": 35.48175714473642,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-RPR",
+    "name": "Raipur",
+    "state": "Chhattisgarh",
+    "country": "IN",
+    "lat": 21.2514,
+    "lon": 81.6296,
+    "elevation_m": 298.0,
+    "urban_class": "urban",
+    "tier": "large_city",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.28,
+      "building_count_km2_1km": 1600.0,
+      "building_count_km2_3km": 900.0,
+      "road_length_km_km2_1km": 20.0,
+      "green_fraction_1km": 0.1,
+      "water_fraction_1km": 0.02,
+      "impervious_fraction_1km": 0.42000000000000004,
+      "green_count_km2_3km": 18.0,
+      "water_count_km2_3km": 3.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 2.40909288495098,
+      "temp_c": 32.40909288495098,
+      "heat_index_c": 36.30137723420846,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-BLG",
+    "name": "Bilaspur",
+    "state": "Chhattisgarh",
+    "country": "IN",
+    "lat": 22.0796,
+    "lon": 82.1391,
+    "elevation_m": 264.0,
+    "urban_class": "suburban",
+    "tier": "medium_city",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.2,
+      "building_count_km2_1km": 1000.0,
+      "building_count_km2_3km": 600.0,
+      "road_length_km_km2_1km": 14.0,
+      "green_fraction_1km": 0.15,
+      "water_fraction_1km": 0.02,
+      "impervious_fraction_1km": 0.29800000000000004,
+      "green_count_km2_3km": 25.0,
+      "water_count_km2_3km": 4.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 1.5881653968637477,
+      "temp_c": 31.588165396863747,
+      "heat_index_c": 35.284775136881954,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-PNJ",
+    "name": "Panaji",
+    "state": "Goa",
+    "country": "IN",
+    "lat": 15.4909,
+    "lon": 73.8278,
+    "elevation_m": 7.0,
+    "urban_class": "suburban",
+    "tier": "small_city",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.14,
+      "building_count_km2_1km": 600.0,
+      "building_count_km2_3km": 350.0,
+      "road_length_km_km2_1km": 10.0,
+      "green_fraction_1km": 0.2,
+      "water_fraction_1km": 0.03,
+      "impervious_fraction_1km": 0.21000000000000002,
+      "green_count_km2_3km": 35.0,
+      "water_count_km2_3km": 5.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 0.7413641360539188,
+      "temp_c": 30.741364136053917,
+      "heat_index_c": 34.23108806372667,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-VSG",
+    "name": "Vasco da Gama",
+    "state": "Goa",
+    "country": "IN",
+    "lat": 15.3982,
+    "lon": 73.8114,
+    "elevation_m": 12.0,
+    "urban_class": "suburban",
+    "tier": "small_city",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.14,
+      "building_count_km2_1km": 600.0,
+      "building_count_km2_3km": 350.0,
+      "road_length_km_km2_1km": 10.0,
+      "green_fraction_1km": 0.2,
+      "water_fraction_1km": 0.03,
+      "impervious_fraction_1km": 0.21000000000000002,
+      "green_count_km2_3km": 35.0,
+      "water_count_km2_3km": 5.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 0.7338443277491514,
+      "temp_c": 30.73384432774915,
+      "heat_index_c": 34.22168428804648,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-AMD",
+    "name": "Ahmedabad",
+    "state": "Gujarat",
+    "country": "IN",
+    "lat": 23.0225,
+    "lon": 72.5714,
+    "elevation_m": 53.0,
+    "urban_class": "suburban",
+    "tier": "mega_metro",
+    "morphology_source": "osm",
+    "morphology": {
+      "building_plan_fraction_1km": 0.10184831102613129,
+      "building_count_km2_1km": 229.1831180523293,
+      "building_count_km2_3km": 235.16027035955824,
+      "road_length_km_km2_1km": 18.593652918976524,
+      "green_fraction_1km": 0.060293180369662205,
+      "water_fraction_1km": 0.1598470363288719,
+      "impervious_fraction_1km": 0.23200388145896694,
+      "green_count_km2_3km": 1.768388256576615,
+      "water_count_km2_3km": 0.0707355302630646
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 0.7012881120782093,
+      "temp_c": 30.70128811207821,
+      "heat_index_c": 34.18095910304147,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-SUR",
+    "name": "Surat",
+    "state": "Gujarat",
+    "country": "IN",
+    "lat": 21.1702,
+    "lon": 72.8311,
+    "elevation_m": 13.0,
+    "urban_class": "rural",
+    "tier": "major_metro",
+    "morphology_source": "osm",
+    "morphology": {
+      "building_plan_fraction_1km": 0.01669853409815169,
+      "building_count_km2_1km": 31.194368846011486,
+      "building_count_km2_3km": 146.8469608261221,
+      "road_length_km_km2_1km": 26.098343141839372,
+      "green_fraction_1km": 0.01312938177182919,
+      "water_fraction_1km": 0.0030592734225621415,
+      "impervious_fraction_1km": 0.1993869360910273,
+      "green_count_km2_3km": 2.6525823848649224,
+      "water_count_km2_3km": 0.0707355302630646
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 0.8342344021866317,
+      "temp_c": 30.83423440218663,
+      "heat_index_c": 34.3471394276602,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-VAD",
+    "name": "Vadodara",
+    "state": "Gujarat",
+    "country": "IN",
+    "lat": 22.3072,
+    "lon": 73.1812,
+    "elevation_m": 39.0,
+    "urban_class": "rural",
+    "tier": "major_metro",
+    "morphology_source": "osm",
+    "morphology": {
+      "building_plan_fraction_1km": 0.10732950924155513,
+      "building_count_km2_1km": 273.74650211806,
+      "building_count_km2_3km": 191.26887383132666,
+      "road_length_km_km2_1km": 19.469060013088367,
+      "green_fraction_1km": 0.0030592734225621415,
+      "water_fraction_1km": 0.0,
+      "impervious_fraction_1km": 0.2436129293331737,
+      "green_count_km2_3km": 5.729577951308232,
+      "water_count_km2_3km": 0.2829421210522584
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 0.4329996151432052,
+      "temp_c": 30.432999615143206,
+      "heat_index_c": 33.84450392172994,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-RJT",
+    "name": "Rajkot",
+    "state": "Gujarat",
+    "country": "IN",
+    "lat": 22.3039,
+    "lon": 70.8022,
+    "elevation_m": 138.0,
+    "urban_class": "urban",
+    "tier": "large_city",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.28,
+      "building_count_km2_1km": 1600.0,
+      "building_count_km2_3km": 900.0,
+      "road_length_km_km2_1km": 20.0,
+      "green_fraction_1km": 0.1,
+      "water_fraction_1km": 0.02,
+      "impervious_fraction_1km": 0.42000000000000004,
+      "green_count_km2_3km": 18.0,
+      "water_count_km2_3km": 3.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 2.4068074194125653,
+      "temp_c": 32.406807419412566,
+      "heat_index_c": 36.29854793723226,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-BVN",
+    "name": "Bhavnagar",
+    "state": "Gujarat",
+    "country": "IN",
+    "lat": 21.7645,
+    "lon": 72.1519,
+    "elevation_m": 18.0,
+    "urban_class": "suburban",
+    "tier": "medium_city",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.2,
+      "building_count_km2_1km": 1000.0,
+      "building_count_km2_3km": 600.0,
+      "road_length_km_km2_1km": 14.0,
+      "green_fraction_1km": 0.15,
+      "water_fraction_1km": 0.02,
+      "impervious_fraction_1km": 0.29800000000000004,
+      "green_count_km2_3km": 25.0,
+      "water_count_km2_3km": 4.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 1.7768211090481858,
+      "temp_c": 31.776821109048186,
+      "heat_index_c": 35.518580194470786,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-GGN",
+    "name": "Gurugram",
+    "state": "Haryana",
+    "country": "IN",
+    "lat": 28.4595,
+    "lon": 77.0266,
+    "elevation_m": 217.0,
+    "urban_class": "urban",
+    "tier": "major_metro",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.35,
+      "building_count_km2_1km": 2200.0,
+      "building_count_km2_3km": 1400.0,
+      "road_length_km_km2_1km": 26.0,
+      "green_fraction_1km": 0.07,
+      "water_fraction_1km": 0.01,
+      "impervious_fraction_1km": 0.532,
+      "green_count_km2_3km": 12.0,
+      "water_count_km2_3km": 2.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 2.1979198720660063,
+      "temp_c": 32.19791987206601,
+      "heat_index_c": 36.0399749915172,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-FBD",
+    "name": "Faridabad",
+    "state": "Haryana",
+    "country": "IN",
+    "lat": 28.4089,
+    "lon": 77.3178,
+    "elevation_m": 198.0,
+    "urban_class": "urban",
+    "tier": "major_metro",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.35,
+      "building_count_km2_1km": 2200.0,
+      "building_count_km2_3km": 1400.0,
+      "road_length_km_km2_1km": 26.0,
+      "green_fraction_1km": 0.07,
+      "water_fraction_1km": 0.01,
+      "impervious_fraction_1km": 0.532,
+      "green_count_km2_3km": 12.0,
+      "water_count_km2_3km": 2.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 2.1979198720660063,
+      "temp_c": 32.19791987206601,
+      "heat_index_c": 36.0399749915172,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-HIS",
+    "name": "Hisar",
+    "state": "Haryana",
+    "country": "IN",
+    "lat": 29.1492,
+    "lon": 75.7217,
+    "elevation_m": 215.0,
+    "urban_class": "suburban",
+    "tier": "medium_city",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.2,
+      "building_count_km2_1km": 1000.0,
+      "building_count_km2_3km": 600.0,
+      "road_length_km_km2_1km": 14.0,
+      "green_fraction_1km": 0.15,
+      "water_fraction_1km": 0.02,
+      "impervious_fraction_1km": 0.29800000000000004,
+      "green_count_km2_3km": 25.0,
+      "water_count_km2_3km": 4.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 1.570112560819942,
+      "temp_c": 31.570112560819943,
+      "heat_index_c": 35.26239055529933,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-SHM",
+    "name": "Shimla",
+    "state": "Himachal Pradesh",
+    "country": "IN",
+    "lat": 31.1048,
+    "lon": 77.1734,
+    "elevation_m": 2206.0,
+    "urban_class": "rural",
+    "tier": "hill_city",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.1,
+      "building_count_km2_1km": 400.0,
+      "building_count_km2_3km": 200.0,
+      "road_length_km_km2_1km": 7.0,
+      "green_fraction_1km": 0.38,
+      "water_fraction_1km": 0.05,
+      "impervious_fraction_1km": 0.14900000000000002,
+      "green_count_km2_3km": 55.0,
+      "water_count_km2_3km": 8.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 0.5293846195262727,
+      "temp_c": 30.529384619526272,
+      "heat_index_c": 33.96556260088586,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-DGS",
+    "name": "Dharamsala",
+    "state": "Himachal Pradesh",
+    "country": "IN",
+    "lat": 32.219,
+    "lon": 76.3234,
+    "elevation_m": 1457.0,
+    "urban_class": "rural",
+    "tier": "hill_city",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.1,
+      "building_count_km2_1km": 400.0,
+      "building_count_km2_3km": 200.0,
+      "road_length_km_km2_1km": 7.0,
+      "green_fraction_1km": 0.38,
+      "water_fraction_1km": 0.05,
+      "impervious_fraction_1km": 0.14900000000000002,
+      "green_count_km2_3km": 55.0,
+      "water_count_km2_3km": 8.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 0.5293846195262727,
+      "temp_c": 30.529384619526272,
+      "heat_index_c": 33.96556260088586,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-SXR",
+    "name": "Srinagar",
+    "state": "Jammu & Kashmir",
+    "country": "IN",
+    "lat": 34.0837,
+    "lon": 74.7973,
+    "elevation_m": 1587.0,
+    "urban_class": "rural",
+    "tier": "hill_city",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.1,
+      "building_count_km2_1km": 400.0,
+      "building_count_km2_3km": 200.0,
+      "road_length_km_km2_1km": 7.0,
+      "green_fraction_1km": 0.38,
+      "water_fraction_1km": 0.05,
+      "impervious_fraction_1km": 0.14900000000000002,
+      "green_count_km2_3km": 55.0,
+      "water_count_km2_3km": 8.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 0.5384027701765922,
+      "temp_c": 30.538402770176592,
+      "heat_index_c": 33.9768782777796,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-JAM",
+    "name": "Jammu",
+    "state": "Jammu & Kashmir",
+    "country": "IN",
+    "lat": 32.7266,
+    "lon": 74.857,
+    "elevation_m": 327.0,
+    "urban_class": "suburban",
+    "tier": "medium_city",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.2,
+      "building_count_km2_1km": 1000.0,
+      "building_count_km2_3km": 600.0,
+      "road_length_km_km2_1km": 14.0,
+      "green_fraction_1km": 0.15,
+      "water_fraction_1km": 0.02,
+      "impervious_fraction_1km": 0.29800000000000004,
+      "green_count_km2_3km": 25.0,
+      "water_count_km2_3km": 4.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 1.587038843923584,
+      "temp_c": 31.587038843923583,
+      "heat_index_c": 35.28337833453717,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-RNC",
+    "name": "Ranchi",
+    "state": "Jharkhand",
+    "country": "IN",
+    "lat": 23.3441,
+    "lon": 85.3096,
+    "elevation_m": 651.0,
+    "urban_class": "urban",
+    "tier": "large_city",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.28,
+      "building_count_km2_1km": 1600.0,
+      "building_count_km2_3km": 900.0,
+      "road_length_km_km2_1km": 20.0,
+      "green_fraction_1km": 0.1,
+      "water_fraction_1km": 0.02,
+      "impervious_fraction_1km": 0.42000000000000004,
+      "green_count_km2_3km": 18.0,
+      "water_count_km2_3km": 3.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 2.40909288495098,
+      "temp_c": 32.40909288495098,
+      "heat_index_c": 36.30137723420846,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-JSR",
+    "name": "Jamshedpur",
+    "state": "Jharkhand",
+    "country": "IN",
+    "lat": 22.8046,
+    "lon": 86.2029,
+    "elevation_m": 130.0,
+    "urban_class": "urban",
+    "tier": "large_city",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.28,
+      "building_count_km2_1km": 1600.0,
+      "building_count_km2_3km": 900.0,
+      "road_length_km_km2_1km": 20.0,
+      "green_fraction_1km": 0.1,
+      "water_fraction_1km": 0.02,
+      "impervious_fraction_1km": 0.42000000000000004,
+      "green_count_km2_3km": 18.0,
+      "water_count_km2_3km": 3.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 2.4068074194125653,
+      "temp_c": 32.406807419412566,
+      "heat_index_c": 36.29854793723226,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-BLR",
+    "name": "Bengaluru",
+    "state": "Karnataka",
+    "country": "IN",
+    "lat": 12.9716,
+    "lon": 77.5946,
+    "elevation_m": 920.0,
+    "urban_class": "urban",
+    "tier": "mega_metro",
+    "morphology_source": "osm",
+    "morphology": {
+      "building_plan_fraction_1km": 0.20152963671128107,
+      "building_count_km2_1km": 740.0704853773134,
+      "building_count_km2_3km": 1231.0811686983761,
+      "road_length_km_km2_1km": 23.91424342270722,
+      "green_fraction_1km": 0.2796685787125558,
+      "water_fraction_1km": 0.004588910133843212,
+      "impervious_fraction_1km": 0.36892934067023164,
+      "green_count_km2_3km": 18.815651049975184,
+      "water_count_km2_3km": 1.6976527263135504
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 2.459508411376964,
+      "temp_c": 32.459508411376966,
+      "heat_index_c": 36.36379140392786,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-MYS",
+    "name": "Mysuru",
+    "state": "Karnataka",
+    "country": "IN",
+    "lat": 12.2958,
+    "lon": 76.6394,
+    "elevation_m": 763.0,
+    "urban_class": "urban",
+    "tier": "large_city",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.28,
+      "building_count_km2_1km": 1600.0,
+      "building_count_km2_3km": 900.0,
+      "road_length_km_km2_1km": 20.0,
+      "green_fraction_1km": 0.1,
+      "water_fraction_1km": 0.02,
+      "impervious_fraction_1km": 0.42000000000000004,
+      "green_count_km2_3km": 18.0,
+      "water_count_km2_3km": 3.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 2.4021766036062555,
+      "temp_c": 32.40217660360626,
+      "heat_index_c": 36.2928152324092,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-HBL",
+    "name": "Hubballi",
+    "state": "Karnataka",
+    "country": "IN",
+    "lat": 15.3647,
+    "lon": 75.124,
+    "elevation_m": 666.0,
+    "urban_class": "suburban",
+    "tier": "medium_city",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.2,
+      "building_count_km2_1km": 1000.0,
+      "building_count_km2_3km": 600.0,
+      "road_length_km_km2_1km": 14.0,
+      "green_fraction_1km": 0.15,
+      "water_fraction_1km": 0.02,
+      "impervious_fraction_1km": 0.29800000000000004,
+      "green_count_km2_3km": 25.0,
+      "water_count_km2_3km": 4.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 1.5692082556742253,
+      "temp_c": 31.569208255674226,
+      "heat_index_c": 35.26126920475562,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-MNG",
+    "name": "Mangaluru",
+    "state": "Karnataka",
+    "country": "IN",
+    "lat": 12.9141,
+    "lon": 74.856,
+    "elevation_m": 22.0,
+    "urban_class": "suburban",
+    "tier": "medium_city",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.2,
+      "building_count_km2_1km": 1000.0,
+      "building_count_km2_3km": 600.0,
+      "road_length_km_km2_1km": 14.0,
+      "green_fraction_1km": 0.15,
+      "water_fraction_1km": 0.02,
+      "impervious_fraction_1km": 0.29800000000000004,
+      "green_count_km2_3km": 25.0,
+      "water_count_km2_3km": 4.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 1.7598580218301365,
+      "temp_c": 31.759858021830137,
+      "heat_index_c": 35.49756524197892,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-THI",
+    "name": "Thiruvananthapuram",
+    "state": "Kerala",
+    "country": "IN",
+    "lat": 8.5241,
+    "lon": 76.9366,
+    "elevation_m": 59.0,
+    "urban_class": "urban",
+    "tier": "large_city",
+    "morphology_source": "osm",
+    "morphology": {
+      "building_plan_fraction_1km": 0.2321223709369025,
+      "building_count_km2_1km": 1472.5015334862157,
+      "building_count_km2_3km": 1243.6367253200701,
+      "road_length_km_km2_1km": 22.281032499510196,
+      "green_fraction_1km": 0.003951561504142766,
+      "water_fraction_1km": 0.0017845761631612492,
+      "impervious_fraction_1km": 0.3880895984334739,
+      "green_count_km2_3km": 6.61377207959654,
+      "water_count_km2_3km": 2.2635369684180673
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 2.289212077620783,
+      "temp_c": 32.28921207762078,
+      "heat_index_c": 36.15297869906818,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-KOC",
+    "name": "Kochi",
+    "state": "Kerala",
+    "country": "IN",
+    "lat": 9.9312,
+    "lon": 76.2673,
+    "elevation_m": 0.0,
+    "urban_class": "urban",
+    "tier": "large_city",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.28,
+      "building_count_km2_1km": 1600.0,
+      "building_count_km2_3km": 900.0,
+      "road_length_km_km2_1km": 20.0,
+      "green_fraction_1km": 0.1,
+      "water_fraction_1km": 0.02,
+      "impervious_fraction_1km": 0.42000000000000004,
+      "green_count_km2_3km": 18.0,
+      "water_count_km2_3km": 3.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 2.5828901338064467,
+      "temp_c": 32.582890133806444,
+      "heat_index_c": 36.516559782891356,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-KZD",
+    "name": "Kozhikode",
+    "state": "Kerala",
+    "country": "IN",
+    "lat": 11.2588,
+    "lon": 75.7804,
+    "elevation_m": 26.0,
+    "urban_class": "suburban",
+    "tier": "medium_city",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.2,
+      "building_count_km2_1km": 1000.0,
+      "building_count_km2_3km": 600.0,
+      "road_length_km_km2_1km": 14.0,
+      "green_fraction_1km": 0.15,
+      "water_fraction_1km": 0.02,
+      "impervious_fraction_1km": 0.29800000000000004,
+      "green_count_km2_3km": 25.0,
+      "water_count_km2_3km": 4.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 1.7598580218301365,
+      "temp_c": 31.759858021830137,
+      "heat_index_c": 35.49756524197892,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-TRV",
+    "name": "Thrissur",
+    "state": "Kerala",
+    "country": "IN",
+    "lat": 10.5276,
+    "lon": 76.2144,
+    "elevation_m": 17.0,
+    "urban_class": "suburban",
+    "tier": "medium_city",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.2,
+      "building_count_km2_1km": 1000.0,
+      "building_count_km2_3km": 600.0,
+      "road_length_km_km2_1km": 14.0,
+      "green_fraction_1km": 0.15,
+      "water_fraction_1km": 0.02,
+      "impervious_fraction_1km": 0.29800000000000004,
+      "green_count_km2_3km": 25.0,
+      "water_count_km2_3km": 4.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 1.763763154674729,
+      "temp_c": 31.763763154674727,
+      "heat_index_c": 35.502403288200306,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-LEH",
+    "name": "Leh",
+    "state": "Ladakh",
+    "country": "IN",
+    "lat": 34.1526,
+    "lon": 77.5771,
+    "elevation_m": 3514.0,
+    "urban_class": "rural",
+    "tier": "hill_city",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.1,
+      "building_count_km2_1km": 400.0,
+      "building_count_km2_3km": 200.0,
+      "road_length_km_km2_1km": 7.0,
+      "green_fraction_1km": 0.38,
+      "water_fraction_1km": 0.05,
+      "impervious_fraction_1km": 0.14900000000000002,
+      "green_count_km2_3km": 55.0,
+      "water_count_km2_3km": 8.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 0.5384027701765922,
+      "temp_c": 30.538402770176592,
+      "heat_index_c": 33.9768782777796,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-IDR",
+    "name": "Indore",
+    "state": "Madhya Pradesh",
+    "country": "IN",
+    "lat": 22.7196,
+    "lon": 75.8577,
+    "elevation_m": 553.0,
+    "urban_class": "urban",
+    "tier": "major_metro",
+    "morphology_source": "osm",
+    "morphology": {
+      "building_plan_fraction_1km": 0.34710006373486296,
+      "building_count_km2_1km": 3041.769272372304,
+      "building_count_km2_3km": 2039.9773250216515,
+      "road_length_km_km2_1km": 26.529238703124104,
+      "green_fraction_1km": 0.030210325047801148,
+      "water_fraction_1km": 0.0,
+      "impervious_fraction_1km": 0.5328047346567317,
+      "green_count_km2_3km": 6.1539911328866195,
+      "water_count_km2_3km": 0.1061032953945969
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 2.2021782027094585,
+      "temp_c": 32.20217820270946,
+      "heat_index_c": 36.0452460633591,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-BPL",
+    "name": "Bhopal",
+    "state": "Madhya Pradesh",
+    "country": "IN",
+    "lat": 23.2599,
+    "lon": 77.4126,
+    "elevation_m": 523.0,
+    "urban_class": "urban",
+    "tier": "large_city",
+    "morphology_source": "osm",
+    "morphology": {
+      "building_plan_fraction_1km": 0.22868068833652008,
+      "building_count_km2_1km": 2006.3072126164327,
+      "building_count_km2_3km": 1435.8251610448167,
+      "road_length_km_km2_1km": 24.677248852127256,
+      "green_fraction_1km": 0.0047163798597833016,
+      "water_fraction_1km": 0.043467176545570425,
+      "impervious_fraction_1km": 0.40142143030141086,
+      "green_count_km2_3km": 1.4854461355243564,
+      "water_count_km2_3km": 0.45978094670991987
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 2.1122880272975366,
+      "temp_c": 32.11228802729754,
+      "heat_index_c": 35.93397547882635,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-JBL",
+    "name": "Jabalpur",
+    "state": "Madhya Pradesh",
+    "country": "IN",
+    "lat": 23.1815,
+    "lon": 79.9864,
+    "elevation_m": 411.0,
+    "urban_class": "urban",
+    "tier": "large_city",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.28,
+      "building_count_km2_1km": 1600.0,
+      "building_count_km2_3km": 900.0,
+      "road_length_km_km2_1km": 20.0,
+      "green_fraction_1km": 0.1,
+      "water_fraction_1km": 0.02,
+      "impervious_fraction_1km": 0.42000000000000004,
+      "green_count_km2_3km": 18.0,
+      "water_count_km2_3km": 3.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 2.40909288495098,
+      "temp_c": 32.40909288495098,
+      "heat_index_c": 36.30137723420846,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-GWL",
+    "name": "Gwalior",
+    "state": "Madhya Pradesh",
+    "country": "IN",
+    "lat": 26.2183,
+    "lon": 78.1828,
+    "elevation_m": 196.0,
+    "urban_class": "urban",
+    "tier": "large_city",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.28,
+      "building_count_km2_1km": 1600.0,
+      "building_count_km2_3km": 900.0,
+      "road_length_km_km2_1km": 20.0,
+      "green_fraction_1km": 0.1,
+      "water_fraction_1km": 0.02,
+      "impervious_fraction_1km": 0.42000000000000004,
+      "green_count_km2_3km": 18.0,
+      "water_count_km2_3km": 3.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 2.4068811573315347,
+      "temp_c": 32.40688115733153,
+      "heat_index_c": 36.298639221126415,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-MUM",
+    "name": "Mumbai",
+    "state": "Maharashtra",
+    "country": "IN",
+    "lat": 19.076,
+    "lon": 72.8777,
+    "elevation_m": 14.0,
+    "urban_class": "rural",
+    "tier": "mega_metro",
+    "morphology_source": "osm",
+    "morphology": {
+      "building_plan_fraction_1km": 0.10388782664117271,
+      "building_count_km2_1km": 239.3690344102106,
+      "building_count_km2_3km": 186.2820189477806,
+      "road_length_km_km2_1km": 21.34536029839215,
+      "green_fraction_1km": 0.046653919694072656,
+      "water_fraction_1km": 0.041937539834289356,
+      "impervious_fraction_1km": 0.2533053487299178,
+      "green_count_km2_3km": 7.957747154594767,
+      "water_count_km2_3km": 0.7073553026306459
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 1.1329845252352038,
+      "temp_c": 31.132984525235205,
+      "heat_index_c": 34.71950600448682,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-PUN",
+    "name": "Pune",
+    "state": "Maharashtra",
+    "country": "IN",
+    "lat": 18.5204,
+    "lon": 73.8567,
+    "elevation_m": 560.0,
+    "urban_class": "suburban",
+    "tier": "mega_metro",
+    "morphology_source": "osm",
+    "morphology": {
+      "building_plan_fraction_1km": 0.2179732313575526,
+      "building_count_km2_1km": 1342.3127900370453,
+      "building_count_km2_3km": 576.8482492952918,
+      "road_length_km_km2_1km": 23.390293075677725,
+      "green_fraction_1km": 0.025366475462077757,
+      "water_fraction_1km": 0.015551306564690885,
+      "impervious_fraction_1km": 0.38170528288729666,
+      "green_count_km2_3km": 4.668544997362264,
+      "water_count_km2_3km": 1.167136249340566
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 1.6035794984455225,
+      "temp_c": 31.603579498445523,
+      "heat_index_c": 35.303886084495595,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-NGP",
+    "name": "Nagpur",
+    "state": "Maharashtra",
+    "country": "IN",
+    "lat": 21.1458,
+    "lon": 79.0882,
+    "elevation_m": 310.0,
+    "urban_class": "suburban",
+    "tier": "large_city",
+    "morphology_source": "osm",
+    "morphology": {
+      "building_plan_fraction_1km": 0.11485022307202039,
+      "building_count_km2_1km": 475.2366600723995,
+      "building_count_km2_3km": 459.74557894478835,
+      "road_length_km_km2_1km": 19.84582473056349,
+      "green_fraction_1km": 0.1360101975780752,
+      "water_fraction_1km": 0.02511153601019758,
+      "impervious_fraction_1km": 0.2537709961859648,
+      "green_count_km2_3km": 5.9064167769658935,
+      "water_count_km2_3km": 0.45978094670991987
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 0.8070508407102706,
+      "temp_c": 30.80705084071027,
+      "heat_index_c": 34.313186767952566,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-NSK",
+    "name": "Nashik",
+    "state": "Maharashtra",
+    "country": "IN",
+    "lat": 19.9975,
+    "lon": 73.7898,
+    "elevation_m": 584.0,
+    "urban_class": "suburban",
+    "tier": "large_city",
+    "morphology_source": "osm",
+    "morphology": {
+      "building_plan_fraction_1km": 0.08336520076481836,
+      "building_count_km2_1km": 235.5493157760051,
+      "building_count_km2_3km": 385.2256978126498,
+      "road_length_km_km2_1km": 20.86300176094403,
+      "green_fraction_1km": 0.06093052899936265,
+      "water_fraction_1km": 0.009050350541746336,
+      "impervious_fraction_1km": 0.22940621309142656,
+      "green_count_km2_3km": 3.784350869073956,
+      "water_count_km2_3km": 0.24757435592072607
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 0.6535395870360355,
+      "temp_c": 30.653539587036036,
+      "heat_index_c": 34.121191777814325,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-AUR",
+    "name": "Aurangabad",
+    "state": "Maharashtra",
+    "country": "IN",
+    "lat": 19.8762,
+    "lon": 75.3433,
+    "elevation_m": 513.0,
+    "urban_class": "urban",
+    "tier": "large_city",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.28,
+      "building_count_km2_1km": 1600.0,
+      "building_count_km2_3km": 900.0,
+      "road_length_km_km2_1km": 20.0,
+      "green_fraction_1km": 0.1,
+      "water_fraction_1km": 0.02,
+      "impervious_fraction_1km": 0.42000000000000004,
+      "green_count_km2_3km": 18.0,
+      "water_count_km2_3km": 3.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 2.4075261329930044,
+      "temp_c": 32.407526132993006,
+      "heat_index_c": 36.29943766941747,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-KPD",
+    "name": "Kolhapur",
+    "state": "Maharashtra",
+    "country": "IN",
+    "lat": 16.705,
+    "lon": 74.2433,
+    "elevation_m": 567.0,
+    "urban_class": "suburban",
+    "tier": "medium_city",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.2,
+      "building_count_km2_1km": 1000.0,
+      "building_count_km2_3km": 600.0,
+      "road_length_km_km2_1km": 14.0,
+      "green_fraction_1km": 0.15,
+      "water_fraction_1km": 0.02,
+      "impervious_fraction_1km": 0.29800000000000004,
+      "green_count_km2_3km": 25.0,
+      "water_count_km2_3km": 4.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 1.5692082556742253,
+      "temp_c": 31.569208255674226,
+      "heat_index_c": 35.26126920475562,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-IMF",
+    "name": "Imphal",
+    "state": "Manipur",
+    "country": "IN",
+    "lat": 24.817,
+    "lon": 93.9368,
+    "elevation_m": 786.0,
+    "urban_class": "suburban",
+    "tier": "small_city",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.14,
+      "building_count_km2_1km": 600.0,
+      "building_count_km2_3km": 350.0,
+      "road_length_km_km2_1km": 10.0,
+      "green_fraction_1km": 0.2,
+      "water_fraction_1km": 0.03,
+      "impervious_fraction_1km": 0.21000000000000002,
+      "green_count_km2_3km": 35.0,
+      "water_count_km2_3km": 5.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 0.6359989361750781,
+      "temp_c": 30.635998936175078,
+      "heat_index_c": 34.09922435095029,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-SHL",
+    "name": "Shillong",
+    "state": "Meghalaya",
+    "country": "IN",
+    "lat": 25.5788,
+    "lon": 91.8933,
+    "elevation_m": 1496.0,
+    "urban_class": "rural",
+    "tier": "hill_city",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.1,
+      "building_count_km2_1km": 400.0,
+      "building_count_km2_3km": 200.0,
+      "road_length_km_km2_1km": 7.0,
+      "green_fraction_1km": 0.38,
+      "water_fraction_1km": 0.05,
+      "impervious_fraction_1km": 0.14900000000000002,
+      "green_count_km2_3km": 55.0,
+      "water_count_km2_3km": 8.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 0.5293846195262727,
+      "temp_c": 30.529384619526272,
+      "heat_index_c": 33.96556260088586,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-AIZ",
+    "name": "Aizawl",
+    "state": "Mizoram",
+    "country": "IN",
+    "lat": 23.7271,
+    "lon": 92.7176,
+    "elevation_m": 1132.0,
+    "urban_class": "rural",
+    "tier": "hill_city",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.1,
+      "building_count_km2_1km": 400.0,
+      "building_count_km2_3km": 200.0,
+      "road_length_km_km2_1km": 7.0,
+      "green_fraction_1km": 0.38,
+      "water_fraction_1km": 0.05,
+      "impervious_fraction_1km": 0.14900000000000002,
+      "green_count_km2_3km": 55.0,
+      "water_count_km2_3km": 8.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 0.5293846195262727,
+      "temp_c": 30.529384619526272,
+      "heat_index_c": 33.96556260088586,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-KOH",
+    "name": "Kohima",
+    "state": "Nagaland",
+    "country": "IN",
+    "lat": 25.6601,
+    "lon": 94.1101,
+    "elevation_m": 1445.0,
+    "urban_class": "rural",
+    "tier": "hill_city",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.1,
+      "building_count_km2_1km": 400.0,
+      "building_count_km2_3km": 200.0,
+      "road_length_km_km2_1km": 7.0,
+      "green_fraction_1km": 0.38,
+      "water_fraction_1km": 0.05,
+      "impervious_fraction_1km": 0.14900000000000002,
+      "green_count_km2_3km": 55.0,
+      "water_count_km2_3km": 8.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 0.5293846195262727,
+      "temp_c": 30.529384619526272,
+      "heat_index_c": 33.96556260088586,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-BBS",
+    "name": "Bhubaneswar",
+    "state": "Odisha",
+    "country": "IN",
+    "lat": 20.2961,
+    "lon": 85.8245,
+    "elevation_m": 45.0,
+    "urban_class": "urban",
+    "tier": "large_city",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.28,
+      "building_count_km2_1km": 1600.0,
+      "building_count_km2_3km": 900.0,
+      "road_length_km_km2_1km": 20.0,
+      "green_fraction_1km": 0.1,
+      "water_fraction_1km": 0.02,
+      "impervious_fraction_1km": 0.42000000000000004,
+      "green_count_km2_3km": 18.0,
+      "water_count_km2_3km": 3.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 2.556243480177132,
+      "temp_c": 32.55624348017713,
+      "heat_index_c": 36.48356332948429,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-CUT",
+    "name": "Cuttack",
+    "state": "Odisha",
+    "country": "IN",
+    "lat": 20.4625,
+    "lon": 85.883,
+    "elevation_m": 28.0,
+    "urban_class": "suburban",
+    "tier": "medium_city",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.2,
+      "building_count_km2_1km": 1000.0,
+      "building_count_km2_3km": 600.0,
+      "road_length_km_km2_1km": 14.0,
+      "green_fraction_1km": 0.15,
+      "water_fraction_1km": 0.02,
+      "impervious_fraction_1km": 0.29800000000000004,
+      "green_count_km2_3km": 25.0,
+      "water_count_km2_3km": 4.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 1.7764543205455683,
+      "temp_c": 31.776454320545568,
+      "heat_index_c": 35.518125807584376,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-LDH",
+    "name": "Ludhiana",
+    "state": "Punjab",
+    "country": "IN",
+    "lat": 30.901,
+    "lon": 75.8573,
+    "elevation_m": 244.0,
+    "urban_class": "urban",
+    "tier": "major_metro",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.35,
+      "building_count_km2_1km": 2200.0,
+      "building_count_km2_3km": 1400.0,
+      "road_length_km_km2_1km": 26.0,
+      "green_fraction_1km": 0.07,
+      "water_fraction_1km": 0.01,
+      "impervious_fraction_1km": 0.532,
+      "green_count_km2_3km": 12.0,
+      "water_count_km2_3km": 2.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 2.203042005091106,
+      "temp_c": 32.203042005091106,
+      "heat_index_c": 36.04631529964409,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-ASR",
+    "name": "Amritsar",
+    "state": "Punjab",
+    "country": "IN",
+    "lat": 31.634,
+    "lon": 74.8723,
+    "elevation_m": 234.0,
+    "urban_class": "urban",
+    "tier": "large_city",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.28,
+      "building_count_km2_1km": 1600.0,
+      "building_count_km2_3km": 900.0,
+      "road_length_km_km2_1km": 20.0,
+      "green_fraction_1km": 0.1,
+      "water_fraction_1km": 0.02,
+      "impervious_fraction_1km": 0.42000000000000004,
+      "green_count_km2_3km": 18.0,
+      "water_count_km2_3km": 3.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 2.412257498314805,
+      "temp_c": 32.4122574983148,
+      "heat_index_c": 36.30529488704844,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-JUL",
+    "name": "Jalandhar",
+    "state": "Punjab",
+    "country": "IN",
+    "lat": 31.326,
+    "lon": 75.5762,
+    "elevation_m": 228.0,
+    "urban_class": "urban",
+    "tier": "large_city",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.28,
+      "building_count_km2_1km": 1600.0,
+      "building_count_km2_3km": 900.0,
+      "road_length_km_km2_1km": 20.0,
+      "green_fraction_1km": 0.1,
+      "water_fraction_1km": 0.02,
+      "impervious_fraction_1km": 0.42000000000000004,
+      "green_count_km2_3km": 18.0,
+      "water_count_km2_3km": 3.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 2.412257498314805,
+      "temp_c": 32.4122574983148,
+      "heat_index_c": 36.30529488704844,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-JAI",
+    "name": "Jaipur",
+    "state": "Rajasthan",
+    "country": "IN",
+    "lat": 26.9124,
+    "lon": 75.7873,
+    "elevation_m": 431.0,
+    "urban_class": "rural",
+    "tier": "major_metro",
+    "morphology_source": "osm",
+    "morphology": {
+      "building_plan_fraction_1km": 0.08795411089866156,
+      "building_count_km2_1km": 155.01691457150605,
+      "building_count_km2_3km": 123.78717796036304,
+      "road_length_km_km2_1km": 24.88512076887704,
+      "green_fraction_1km": 0.03581899298916507,
+      "water_fraction_1km": 0.0,
+      "impervious_fraction_1km": 0.26214995628080084,
+      "green_count_km2_3km": 4.703912762493796,
+      "water_count_km2_3km": 0.49514871184145215
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 0.8606000680082279,
+      "temp_c": 30.860600068008228,
+      "heat_index_c": 34.38005824341867,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-JDH",
+    "name": "Jodhpur",
+    "state": "Rajasthan",
+    "country": "IN",
+    "lat": 26.2389,
+    "lon": 73.0243,
+    "elevation_m": 231.0,
+    "urban_class": "urban",
+    "tier": "large_city",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.28,
+      "building_count_km2_1km": 1600.0,
+      "building_count_km2_3km": 900.0,
+      "road_length_km_km2_1km": 20.0,
+      "green_fraction_1km": 0.1,
+      "water_fraction_1km": 0.02,
+      "impervious_fraction_1km": 0.42000000000000004,
+      "green_count_km2_3km": 18.0,
+      "water_count_km2_3km": 3.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 2.405972902356759,
+      "temp_c": 32.40597290235676,
+      "heat_index_c": 36.297514846977556,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-UDR",
+    "name": "Udaipur",
+    "state": "Rajasthan",
+    "country": "IN",
+    "lat": 24.5854,
+    "lon": 73.7125,
+    "elevation_m": 598.0,
+    "urban_class": "suburban",
+    "tier": "medium_city",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.2,
+      "building_count_km2_1km": 1000.0,
+      "building_count_km2_3km": 600.0,
+      "road_length_km_km2_1km": 14.0,
+      "green_fraction_1km": 0.15,
+      "water_fraction_1km": 0.02,
+      "impervious_fraction_1km": 0.29800000000000004,
+      "green_count_km2_3km": 25.0,
+      "water_count_km2_3km": 4.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 1.5761245370189496,
+      "temp_c": 31.57612453701895,
+      "heat_index_c": 35.26984534252311,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-KOT",
+    "name": "Kota",
+    "state": "Rajasthan",
+    "country": "IN",
+    "lat": 25.2138,
+    "lon": 75.8648,
+    "elevation_m": 271.0,
+    "urban_class": "urban",
+    "tier": "large_city",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.28,
+      "building_count_km2_1km": 1600.0,
+      "building_count_km2_3km": 900.0,
+      "road_length_km_km2_1km": 20.0,
+      "green_fraction_1km": 0.1,
+      "water_fraction_1km": 0.02,
+      "impervious_fraction_1km": 0.42000000000000004,
+      "green_count_km2_3km": 18.0,
+      "water_count_km2_3km": 3.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 2.420348034321577,
+      "temp_c": 32.42034803432158,
+      "heat_index_c": 36.31531068643432,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-AJM",
+    "name": "Ajmer",
+    "state": "Rajasthan",
+    "country": "IN",
+    "lat": 26.4499,
+    "lon": 74.6399,
+    "elevation_m": 487.0,
+    "urban_class": "suburban",
+    "tier": "medium_city",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.2,
+      "building_count_km2_1km": 1000.0,
+      "building_count_km2_3km": 600.0,
+      "road_length_km_km2_1km": 14.0,
+      "green_fraction_1km": 0.15,
+      "water_fraction_1km": 0.02,
+      "impervious_fraction_1km": 0.29800000000000004,
+      "green_count_km2_3km": 25.0,
+      "water_count_km2_3km": 4.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 1.5761245370189496,
+      "temp_c": 31.57612453701895,
+      "heat_index_c": 35.26984534252311,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-GTK",
+    "name": "Gangtok",
+    "state": "Sikkim",
+    "country": "IN",
+    "lat": 27.3314,
+    "lon": 88.6138,
+    "elevation_m": 1650.0,
+    "urban_class": "rural",
+    "tier": "hill_city",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.1,
+      "building_count_km2_1km": 400.0,
+      "building_count_km2_3km": 200.0,
+      "road_length_km_km2_1km": 7.0,
+      "green_fraction_1km": 0.38,
+      "water_fraction_1km": 0.05,
+      "impervious_fraction_1km": 0.14900000000000002,
+      "green_count_km2_3km": 55.0,
+      "water_count_km2_3km": 8.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 0.5293846195262727,
+      "temp_c": 30.529384619526272,
+      "heat_index_c": 33.96556260088586,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-CHE",
+    "name": "Chennai",
+    "state": "Tamil Nadu",
+    "country": "IN",
+    "lat": 13.0827,
+    "lon": 80.2707,
+    "elevation_m": 7.0,
+    "urban_class": "suburban",
+    "tier": "mega_metro",
+    "morphology_source": "osm",
+    "morphology": {
+      "building_plan_fraction_1km": 0.15372848948374762,
+      "building_count_km2_1km": 552.5859624150606,
+      "building_count_km2_3km": 784.2801917917287,
+      "road_length_km_km2_1km": 22.066607505674437,
+      "green_fraction_1km": 0.05608667941363926,
+      "water_fraction_1km": 0.01708094327597196,
+      "impervious_fraction_1km": 0.30819474202346864,
+      "green_count_km2_3km": 4.668544997362264,
+      "water_count_km2_3km": 1.5561816657874212
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 1.664949547974023,
+      "temp_c": 31.66494954797402,
+      "heat_index_c": 35.37995983501462,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-CBE",
+    "name": "Coimbatore",
+    "state": "Tamil Nadu",
+    "country": "IN",
+    "lat": 11.0168,
+    "lon": 76.9558,
+    "elevation_m": 411.0,
+    "urban_class": "urban",
+    "tier": "large_city",
+    "morphology_source": "osm",
+    "morphology": {
+      "building_plan_fraction_1km": 0.26666666666666666,
+      "building_count_km2_1km": 1208.6226378398533,
+      "building_count_km2_3km": 1195.2889903852656,
+      "road_length_km_km2_1km": 19.960826192106502,
+      "green_fraction_1km": 0.0066284257488846395,
+      "water_fraction_1km": 0.0,
+      "impervious_fraction_1km": 0.4063924500114122,
+      "green_count_km2_3km": 2.864788975654116,
+      "water_count_km2_3km": 0.24757435592072607
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 2.0852729551967446,
+      "temp_c": 32.08527295519674,
+      "heat_index_c": 35.90053340879076,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-MDU",
+    "name": "Madurai",
+    "state": "Tamil Nadu",
+    "country": "IN",
+    "lat": 9.9252,
+    "lon": 78.1198,
+    "elevation_m": 101.0,
+    "urban_class": "urban",
+    "tier": "large_city",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.28,
+      "building_count_km2_1km": 1600.0,
+      "building_count_km2_3km": 900.0,
+      "road_length_km_km2_1km": 20.0,
+      "green_fraction_1km": 0.1,
+      "water_fraction_1km": 0.02,
+      "impervious_fraction_1km": 0.42000000000000004,
+      "green_count_km2_3km": 18.0,
+      "water_count_km2_3km": 3.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 2.4891063894375507,
+      "temp_c": 32.48910638943755,
+      "heat_index_c": 36.40043573909069,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-SLM",
+    "name": "Salem",
+    "state": "Tamil Nadu",
+    "country": "IN",
+    "lat": 11.6643,
+    "lon": 78.146,
+    "elevation_m": 281.0,
+    "urban_class": "suburban",
+    "tier": "medium_city",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.2,
+      "building_count_km2_1km": 1000.0,
+      "building_count_km2_3km": 600.0,
+      "road_length_km_km2_1km": 14.0,
+      "green_fraction_1km": 0.15,
+      "water_fraction_1km": 0.02,
+      "impervious_fraction_1km": 0.29800000000000004,
+      "green_count_km2_3km": 25.0,
+      "water_count_km2_3km": 4.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 1.5692082556742253,
+      "temp_c": 31.569208255674226,
+      "heat_index_c": 35.26126920475562,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-TRY",
+    "name": "Tiruchirappalli",
+    "state": "Tamil Nadu",
+    "country": "IN",
+    "lat": 10.7905,
+    "lon": 78.7047,
+    "elevation_m": 78.0,
+    "urban_class": "urban",
+    "tier": "large_city",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.28,
+      "building_count_km2_1km": 1600.0,
+      "building_count_km2_3km": 900.0,
+      "road_length_km_km2_1km": 20.0,
+      "green_fraction_1km": 0.1,
+      "water_fraction_1km": 0.02,
+      "impervious_fraction_1km": 0.42000000000000004,
+      "green_count_km2_3km": 18.0,
+      "water_count_km2_3km": 3.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 2.5031928851867447,
+      "temp_c": 32.50319288518674,
+      "heat_index_c": 36.417876435455895,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-HYD",
+    "name": "Hyderabad",
+    "state": "Telangana",
+    "country": "IN",
+    "lat": 17.385,
+    "lon": 78.4867,
+    "elevation_m": 542.0,
+    "urban_class": "urban",
+    "tier": "mega_metro",
+    "morphology_source": "osm",
+    "morphology": {
+      "building_plan_fraction_1km": 0.2594008922880816,
+      "building_count_km2_1km": 1563.8564708209635,
+      "building_count_km2_3km": 1375.2401793745018,
+      "road_length_km_km2_1km": 25.076810420935722,
+      "green_fraction_1km": 0.03836838750796686,
+      "water_fraction_1km": 0.0,
+      "impervious_fraction_1km": 0.4349385652346317,
+      "green_count_km2_3km": 5.6588424210451675,
+      "water_count_km2_3km": 0.1061032953945969
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 2.155147375375048,
+      "temp_c": 32.15514737537505,
+      "heat_index_c": 35.987029646067924,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-WGL",
+    "name": "Warangal",
+    "state": "Telangana",
+    "country": "IN",
+    "lat": 17.9784,
+    "lon": 79.5941,
+    "elevation_m": 269.0,
+    "urban_class": "suburban",
+    "tier": "medium_city",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.2,
+      "building_count_km2_1km": 1000.0,
+      "building_count_km2_3km": 600.0,
+      "road_length_km_km2_1km": 14.0,
+      "green_fraction_1km": 0.15,
+      "water_fraction_1km": 0.02,
+      "impervious_fraction_1km": 0.29800000000000004,
+      "green_count_km2_3km": 25.0,
+      "water_count_km2_3km": 4.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 1.5858129344315717,
+      "temp_c": 31.585812934431573,
+      "heat_index_c": 35.28185833121087,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-NZB",
+    "name": "Nizamabad",
+    "state": "Telangana",
+    "country": "IN",
+    "lat": 18.6725,
+    "lon": 78.0941,
+    "elevation_m": 381.0,
+    "urban_class": "suburban",
+    "tier": "medium_city",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.2,
+      "building_count_km2_1km": 1000.0,
+      "building_count_km2_3km": 600.0,
+      "road_length_km_km2_1km": 14.0,
+      "green_fraction_1km": 0.15,
+      "water_fraction_1km": 0.02,
+      "impervious_fraction_1km": 0.29800000000000004,
+      "green_count_km2_3km": 25.0,
+      "water_count_km2_3km": 4.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 1.5745577850609747,
+      "temp_c": 31.574557785060975,
+      "heat_index_c": 35.26790261064722,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-AGX",
+    "name": "Agartala",
+    "state": "Tripura",
+    "country": "IN",
+    "lat": 23.8315,
+    "lon": 91.2868,
+    "elevation_m": 13.0,
+    "urban_class": "suburban",
+    "tier": "small_city",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.14,
+      "building_count_km2_1km": 600.0,
+      "building_count_km2_3km": 350.0,
+      "road_length_km_km2_1km": 10.0,
+      "green_fraction_1km": 0.2,
+      "water_fraction_1km": 0.03,
+      "impervious_fraction_1km": 0.21000000000000002,
+      "green_count_km2_3km": 35.0,
+      "water_count_km2_3km": 5.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 0.7431259308853316,
+      "temp_c": 30.74312593088533,
+      "heat_index_c": 34.23329109288201,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-LKO",
+    "name": "Lucknow",
+    "state": "Uttar Pradesh",
+    "country": "IN",
+    "lat": 26.8467,
+    "lon": 80.9462,
+    "elevation_m": 123.0,
+    "urban_class": "rural",
+    "tier": "major_metro",
+    "morphology_source": "osm",
+    "morphology": {
+      "building_plan_fraction_1km": 0.060293180369662205,
+      "building_count_km2_1km": 72.25634416372048,
+      "building_count_km2_3km": 28.258844340094306,
+      "road_length_km_km2_1km": 19.222973320696063,
+      "green_fraction_1km": 0.038623326959847035,
+      "water_fraction_1km": 0.0003824091778202677,
+      "impervious_fraction_1km": 0.19485399361453465,
+      "green_count_km2_3km": 4.31486734604694,
+      "water_count_km2_3km": 0.6719875374991137
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 0.9312040847860054,
+      "temp_c": 30.931204084786007,
+      "heat_index_c": 34.468153538454125,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-KNP",
+    "name": "Kanpur",
+    "state": "Uttar Pradesh",
+    "country": "IN",
+    "lat": 26.4499,
+    "lon": 80.3319,
+    "elevation_m": 126.0,
+    "urban_class": "rural",
+    "tier": "major_metro",
+    "morphology_source": "osm",
+    "morphology": {
+      "building_plan_fraction_1km": 0.010197578075207138,
+      "building_count_km2_1km": 67.48169587096362,
+      "building_count_km2_3km": 75.82848844200525,
+      "road_length_km_km2_1km": 19.073208508405685,
+      "green_fraction_1km": 0.0010197578075207138,
+      "water_fraction_1km": 0.010325047801147227,
+      "impervious_fraction_1km": 0.1437100376340469,
+      "green_count_km2_3km": 0.6719875374991137,
+      "water_count_km2_3km": 0.0707355302630646
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 0.5888147808033517,
+      "temp_c": 30.58881478080335,
+      "heat_index_c": 34.0401002444091,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-AGR",
+    "name": "Agra",
+    "state": "Uttar Pradesh",
+    "country": "IN",
+    "lat": 27.1767,
+    "lon": 78.0081,
+    "elevation_m": 171.0,
+    "urban_class": "rural",
+    "tier": "large_city",
+    "morphology_source": "osm",
+    "morphology": {
+      "building_plan_fraction_1km": 0.014021669853409816,
+      "building_count_km2_1km": 28.01126998417358,
+      "building_count_km2_3km": 21.645072260497766,
+      "road_length_km_km2_1km": 18.95756720985334,
+      "green_fraction_1km": 0.005863607393244105,
+      "water_fraction_1km": 0.0,
+      "impervious_fraction_1km": 0.1467246403223832,
+      "green_count_km2_3km": 3.8904541644685526,
+      "water_count_km2_3km": 0.3183098861837907
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 0.6362986668516083,
+      "temp_c": 30.63629866685161,
+      "heat_index_c": 34.09959977875178,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-VNS",
+    "name": "Varanasi",
+    "state": "Uttar Pradesh",
+    "country": "IN",
+    "lat": 25.3176,
+    "lon": 82.9739,
+    "elevation_m": 80.0,
+    "urban_class": "rural",
+    "tier": "large_city",
+    "morphology_source": "osm",
+    "morphology": {
+      "building_plan_fraction_1km": 0.008795411089866157,
+      "building_count_km2_1km": 16.870423967740905,
+      "building_count_km2_3km": 22.387795328259944,
+      "road_length_km_km2_1km": 17.872145283126144,
+      "green_fraction_1km": 0.0015296367112810707,
+      "water_fraction_1km": 0.03479923518164436,
+      "impervious_fraction_1km": 0.13390042807174915,
+      "green_count_km2_3km": 1.308607309866695,
+      "water_count_km2_3km": 1.6269171960504858
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 0.5188107246337297,
+      "temp_c": 30.51881072463373,
+      "heat_index_c": 33.95229247702032,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-MRT",
+    "name": "Meerut",
+    "state": "Uttar Pradesh",
+    "country": "IN",
+    "lat": 28.9845,
+    "lon": 77.7064,
+    "elevation_m": 219.0,
+    "urban_class": "urban",
+    "tier": "large_city",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.28,
+      "building_count_km2_1km": 1600.0,
+      "building_count_km2_3km": 900.0,
+      "road_length_km_km2_1km": 20.0,
+      "green_fraction_1km": 0.1,
+      "water_fraction_1km": 0.02,
+      "impervious_fraction_1km": 0.42000000000000004,
+      "green_count_km2_3km": 18.0,
+      "water_count_km2_3km": 3.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 2.405972902356759,
+      "temp_c": 32.40597290235676,
+      "heat_index_c": 36.297514846977556,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-PRG",
+    "name": "Prayagraj",
+    "state": "Uttar Pradesh",
+    "country": "IN",
+    "lat": 25.4358,
+    "lon": 81.8463,
+    "elevation_m": 98.0,
+    "urban_class": "urban",
+    "tier": "large_city",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.28,
+      "building_count_km2_1km": 1600.0,
+      "building_count_km2_3km": 900.0,
+      "road_length_km_km2_1km": 20.0,
+      "green_fraction_1km": 0.1,
+      "water_fraction_1km": 0.02,
+      "impervious_fraction_1km": 0.42000000000000004,
+      "green_count_km2_3km": 18.0,
+      "water_count_km2_3km": 3.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 2.496022670782275,
+      "temp_c": 32.496022670782274,
+      "heat_index_c": 36.40899883385037,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-GZB",
+    "name": "Ghaziabad",
+    "state": "Uttar Pradesh",
+    "country": "IN",
+    "lat": 28.6692,
+    "lon": 77.4538,
+    "elevation_m": 214.0,
+    "urban_class": "urban",
+    "tier": "major_metro",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.35,
+      "building_count_km2_1km": 2200.0,
+      "building_count_km2_3km": 1400.0,
+      "road_length_km_km2_1km": 26.0,
+      "green_fraction_1km": 0.07,
+      "water_fraction_1km": 0.01,
+      "impervious_fraction_1km": 0.532,
+      "green_count_km2_3km": 12.0,
+      "water_count_km2_3km": 2.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 2.1979198720660063,
+      "temp_c": 32.19791987206601,
+      "heat_index_c": 36.0399749915172,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-GKP",
+    "name": "Gorakhpur",
+    "state": "Uttar Pradesh",
+    "country": "IN",
+    "lat": 26.7606,
+    "lon": 83.3732,
+    "elevation_m": 82.0,
+    "urban_class": "urban",
+    "tier": "large_city",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.28,
+      "building_count_km2_1km": 1600.0,
+      "building_count_km2_3km": 900.0,
+      "road_length_km_km2_1km": 20.0,
+      "green_fraction_1km": 0.1,
+      "water_fraction_1km": 0.02,
+      "impervious_fraction_1km": 0.42000000000000004,
+      "green_count_km2_3km": 18.0,
+      "water_count_km2_3km": 3.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 2.496022670782275,
+      "temp_c": 32.496022670782274,
+      "heat_index_c": 36.40899883385037,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-DDN",
+    "name": "Dehradun",
+    "state": "Uttarakhand",
+    "country": "IN",
+    "lat": 30.3165,
+    "lon": 78.0322,
+    "elevation_m": 640.0,
+    "urban_class": "urban",
+    "tier": "large_city",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.28,
+      "building_count_km2_1km": 1600.0,
+      "building_count_km2_3km": 900.0,
+      "road_length_km_km2_1km": 20.0,
+      "green_fraction_1km": 0.1,
+      "water_fraction_1km": 0.02,
+      "impervious_fraction_1km": 0.42000000000000004,
+      "green_count_km2_3km": 18.0,
+      "water_count_km2_3km": 3.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 2.40909288495098,
+      "temp_c": 32.40909288495098,
+      "heat_index_c": 36.30137723420846,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-HDW",
+    "name": "Haridwar",
+    "state": "Uttarakhand",
+    "country": "IN",
+    "lat": 29.9457,
+    "lon": 78.1642,
+    "elevation_m": 249.0,
+    "urban_class": "suburban",
+    "tier": "medium_city",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.2,
+      "building_count_km2_1km": 1000.0,
+      "building_count_km2_3km": 600.0,
+      "road_length_km_km2_1km": 14.0,
+      "green_fraction_1km": 0.15,
+      "water_fraction_1km": 0.02,
+      "impervious_fraction_1km": 0.29800000000000004,
+      "green_count_km2_3km": 25.0,
+      "water_count_km2_3km": 4.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 1.5927951078103357,
+      "temp_c": 31.592795107810336,
+      "heat_index_c": 35.29051538217915,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-KOL",
+    "name": "Kolkata",
+    "state": "West Bengal",
+    "country": "IN",
+    "lat": 22.5726,
+    "lon": 88.3639,
+    "elevation_m": 6.0,
+    "urban_class": "urban",
+    "tier": "mega_metro",
+    "morphology_source": "osm",
+    "morphology": {
+      "building_plan_fraction_1km": 0.3027405991077119,
+      "building_count_km2_1km": 1454.3578699737395,
+      "building_count_km2_3km": 865.626051594253,
+      "road_length_km_km2_1km": 28.38599892739588,
+      "green_fraction_1km": 0.021032504780114723,
+      "water_fraction_1km": 0.0034416826003824093,
+      "impervious_fraction_1km": 0.5014425915994831,
+      "green_count_km2_3km": 3.3599376874955684,
+      "water_count_km2_3km": 2.6879501499964547
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 2.1275320916779235,
+      "temp_c": 32.12753209167792,
+      "heat_index_c": 35.95284579780617,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-HWH",
+    "name": "Howrah",
+    "state": "West Bengal",
+    "country": "IN",
+    "lat": 22.5958,
+    "lon": 88.2636,
+    "elevation_m": 12.0,
+    "urban_class": "urban",
+    "tier": "major_metro",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.35,
+      "building_count_km2_1km": 2200.0,
+      "building_count_km2_3km": 1400.0,
+      "road_length_km_km2_1km": 26.0,
+      "green_fraction_1km": 0.07,
+      "water_fraction_1km": 0.01,
+      "impervious_fraction_1km": 0.532,
+      "green_count_km2_3km": 12.0,
+      "water_count_km2_3km": 2.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 2.3529656347250913,
+      "temp_c": 32.352965634725095,
+      "heat_index_c": 36.23189640312755,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-DGP",
+    "name": "Durgapur",
+    "state": "West Bengal",
+    "country": "IN",
+    "lat": 23.5204,
+    "lon": 87.3119,
+    "elevation_m": 70.0,
+    "urban_class": "urban",
+    "tier": "large_city",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.28,
+      "building_count_km2_1km": 1600.0,
+      "building_count_km2_3km": 900.0,
+      "road_length_km_km2_1km": 20.0,
+      "green_fraction_1km": 0.1,
+      "water_fraction_1km": 0.02,
+      "impervious_fraction_1km": 0.42000000000000004,
+      "green_count_km2_3km": 18.0,
+      "water_count_km2_3km": 3.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 2.556243480177132,
+      "temp_c": 32.55624348017713,
+      "heat_index_c": 36.48356332948429,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-SLG",
+    "name": "Siliguri",
+    "state": "West Bengal",
+    "country": "IN",
+    "lat": 26.7271,
+    "lon": 88.3953,
+    "elevation_m": 122.0,
+    "urban_class": "urban",
+    "tier": "large_city",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.28,
+      "building_count_km2_1km": 1600.0,
+      "building_count_km2_3km": 900.0,
+      "road_length_km_km2_1km": 20.0,
+      "green_fraction_1km": 0.1,
+      "water_fraction_1km": 0.02,
+      "impervious_fraction_1km": 0.42000000000000004,
+      "green_count_km2_3km": 18.0,
+      "water_count_km2_3km": 3.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 2.4068074194125653,
+      "temp_c": 32.406807419412566,
+      "heat_index_c": 36.29854793723226,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-DEL",
+    "name": "Delhi",
+    "state": "Delhi",
+    "country": "IN",
+    "lat": 28.6139,
+    "lon": 77.209,
+    "elevation_m": 216.0,
+    "urban_class": "rural",
+    "tier": "mega_metro",
+    "morphology_source": "osm",
+    "morphology": {
+      "building_plan_fraction_1km": 0.09012109623964308,
+      "building_count_km2_1km": 105.67888221301851,
+      "building_count_km2_3km": 180.65854429186697,
+      "road_length_km_km2_1km": 20.472709267190115,
+      "green_fraction_1km": 0.15474824729126832,
+      "water_fraction_1km": 0.01172721478648821,
+      "impervious_fraction_1km": 0.23343006110997389,
+      "green_count_km2_3km": 13.864163931560661,
+      "water_count_km2_3km": 1.0256651888144366
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 0.523249800560031,
+      "temp_c": 30.52324980056003,
+      "heat_index_c": 33.95786377961884,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-CHD",
+    "name": "Chandigarh",
+    "state": "Chandigarh",
+    "country": "IN",
+    "lat": 30.7333,
+    "lon": 76.7794,
+    "elevation_m": 321.0,
+    "urban_class": "rural",
+    "tier": "medium_city",
+    "morphology_source": "osm",
+    "morphology": {
+      "building_plan_fraction_1km": 0.07762906309751434,
+      "building_count_km2_1km": 260.05917701215697,
+      "building_count_km2_3km": 230.2795187714068,
+      "road_length_km_km2_1km": 24.66360722180484,
+      "green_fraction_1km": 0.09598470363288719,
+      "water_fraction_1km": 0.0,
+      "impervious_fraction_1km": 0.2502743136501482,
+      "green_count_km2_3km": 16.19843643024179,
+      "water_count_km2_3km": 0.17683882565766149
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 0.9010361704084546,
+      "temp_c": 30.901036170408453,
+      "heat_index_c": 34.43052187646927,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-PY",
+    "name": "Puducherry",
+    "state": "Puducherry",
+    "country": "IN",
+    "lat": 11.9416,
+    "lon": 79.8083,
+    "elevation_m": 12.0,
+    "urban_class": "suburban",
+    "tier": "medium_city",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.2,
+      "building_count_km2_1km": 1000.0,
+      "building_count_km2_3km": 600.0,
+      "road_length_km_km2_1km": 14.0,
+      "green_fraction_1km": 0.15,
+      "water_fraction_1km": 0.02,
+      "impervious_fraction_1km": 0.29800000000000004,
+      "green_count_km2_3km": 25.0,
+      "water_count_km2_3km": 4.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 1.7533312587141916,
+      "temp_c": 31.75333125871419,
+      "heat_index_c": 35.489479111486006,
+      "heat_risk": "extreme-caution"
+    }
+  },
+  {
+    "station_id": "IN-NOI",
+    "name": "Noida",
+    "state": "Delhi NCR",
+    "country": "IN",
+    "lat": 28.5355,
+    "lon": 77.391,
+    "elevation_m": 198.0,
+    "urban_class": "urban",
+    "tier": "major_metro",
+    "morphology_source": "estimated",
+    "morphology": {
+      "building_plan_fraction_1km": 0.35,
+      "building_count_km2_1km": 2200.0,
+      "building_count_km2_3km": 1400.0,
+      "road_length_km_km2_1km": 26.0,
+      "green_fraction_1km": 0.07,
+      "water_fraction_1km": 0.01,
+      "impervious_fraction_1km": 0.532,
+      "green_count_km2_3km": 12.0,
+      "water_count_km2_3km": 2.0
+    },
+    "observed": null,
+    "modelled": {
+      "uhi_c": 2.1979198720660063,
+      "temp_c": 32.19791987206601,
+      "heat_index_c": 36.0399749915172,
+      "heat_risk": "extreme-caution"
+    }
+  }
+]

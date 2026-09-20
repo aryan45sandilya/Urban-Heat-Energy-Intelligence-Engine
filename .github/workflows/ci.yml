@@ -1,0 +1,83 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  python:
+    name: ML & API
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Install
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install -e . --no-deps
+
+      # Artifacts are not committed, so the suite runs in its degraded mode:
+      # the unit tests exercise every pure function, and the API tests assert
+      # that prediction endpoints return a clear 503 rather than a made-up
+      # number. Dataset-dependent tests skip themselves with a message.
+      - name: Test
+        run: pytest -q --tb=short
+
+      - name: Import check
+        run: |
+          python -c "import uhei, uhei.pipeline, uhei.train, uhei.finalize, uhei.explain"
+          PYTHONPATH=backend python -c "from app.main import app; print(len(app.routes), 'routes')"
+
+  web:
+    name: Frontend
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: frontend
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+
+      - name: Install
+        run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Type check
+        run: npx tsc --noEmit
+
+      - name: Build
+        run: npm run build
+        env:
+          NEXT_PUBLIC_API_BASE_URL: http://localhost:8000
+
+  docker:
+    name: Images
+    runs-on: ubuntu-latest
+    needs: [python, web]
+    if: github.event_name == 'push'
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build API image
+        run: docker build -f docker/backend.Dockerfile -t uhei-api:ci .
+      - name: Build web image
+        run: docker build -f docker/frontend.Dockerfile -t uhei-web:ci .

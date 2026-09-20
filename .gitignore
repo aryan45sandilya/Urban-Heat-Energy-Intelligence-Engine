@@ -1,0 +1,38 @@
+# ── Python ──────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# ── Environment ─────────────────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ── Node / Next ─────────────────────────────────────────────────────────────
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+.npm/
+
+# ── Data & artifacts ────────────────────────────────────────────────────────
+# Raw downloads and intermediate frames are reproducible from the pipeline and
+# far too large for version control. Reports are small and are kept, because the
+# product reads its charts and metrics from them.
+ml/data/raw/
+ml/data/interim/
+ml/data/processed/
+ml/models/*.joblib
+
+# ── OS / editor ─────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp

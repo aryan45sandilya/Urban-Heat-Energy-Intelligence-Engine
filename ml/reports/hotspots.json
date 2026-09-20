@@ -1,0 +1,5298 @@
+{
+  "generated_at": "2026-09-19T17:21:05.665911+00:00",
+  "reference_time_utc": "2024-07-16 03:00:00+00:00",
+  "reference_time_local": "2024-07-15 23:00 US/Eastern",
+  "baseline_conditions": {
+    "t_ref_c": 19.411251068115234,
+    "dewpoint_ref_c": 16.899999618530273,
+    "wind_speed_ms": 1.100000023841858,
+    "sky_cover_oktas": 0.0,
+    "slp_hpa": 1015.300048828125,
+    "precip_1h_mm": 0.0
+  },
+  "baseline_description": "Median observed atmospheric conditions on summer nights across the study region, applied identically to every site so that the differences between sites come only from geography and urban fabric.",
+  "sites": [
+    {
+      "station_id": "997781-99999",
+      "name": "Cove Point",
+      "state": "MD",
+      "country": "US",
+      "lat": 38.717,
+      "lon": -76.65,
+      "elevation_m": 2.0,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.02192479286169535,
+        "building_count_km2_1km": 73.52958370845565,
+        "building_count_km2_3km": 72.50391851964122,
+        "road_length_km_km2_1km": 8.303799876733477,
+        "green_fraction_1km": 0.07648183556405354,
+        "water_fraction_1km": 0.011217335882727853,
+        "impervious_fraction_1km": 0.08005139199882969,
+        "green_count_km2_3km": 0.5658842421045168,
+        "water_count_km2_3km": 0.7780908328937106
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 2.5734074115753174,
+        "summer_night_p90_uhi_c": 4.529799938201904,
+        "summer_night_mean_temp_c": 24.29452133178711,
+        "summer_night_hours": 146,
+        "annual_mean_uhi_c": 1.1559028625488281,
+        "annual_hours": 1318
+      },
+      "modelled": {
+        "uhi_c": 3.298034092049967,
+        "temp_c": 22.7092851601652,
+        "heat_index_c": 22.85705388198509,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725040-94702",
+      "name": "Igor I Sikorsky Memorial Airport",
+      "state": "CT",
+      "country": "US",
+      "lat": 41.164,
+      "lon": -73.127,
+      "elevation_m": 1.8,
+      "urban_class": "urban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.04282982791586998,
+        "building_count_km2_1km": 160.7464925228143,
+        "building_count_km2_3km": 243.5424306957314,
+        "road_length_km_km2_1km": 6.216235185650965,
+        "green_fraction_1km": 0.08221797323135756,
+        "water_fraction_1km": 0.03938814531548757,
+        "impervious_fraction_1km": 0.08634347421542674,
+        "green_count_km2_3km": 1.2378717796036305,
+        "water_count_km2_3km": 0.7073553026306459
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 2.3744051456451416,
+        "summer_night_p90_uhi_c": 5.036850070953369,
+        "summer_night_mean_temp_c": 21.67533302307129,
+        "summer_night_hours": 150,
+        "annual_mean_uhi_c": 1.1097397804260254,
+        "annual_hours": 1376
+      },
+      "modelled": {
+        "uhi_c": 2.9571757147027045,
+        "temp_c": 22.368426782817938,
+        "heat_index_c": 22.520205266798143,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725020-14734",
+      "name": "Newark Liberty International Ap",
+      "state": "NJ",
+      "country": "US",
+      "lat": 40.683,
+      "lon": -74.169,
+      "elevation_m": 2.0,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.04945825366475462,
+        "building_count_km2_1km": 9.23098669932993,
+        "building_count_km2_3km": 78.02128988016025,
+        "road_length_km_km2_1km": 10.5496957792076,
+        "green_fraction_1km": 0.17348629700446144,
+        "water_fraction_1km": 0.023581899298916506,
+        "impervious_fraction_1km": 0.12330612411920781,
+        "green_count_km2_3km": 15.066667946032759,
+        "water_count_km2_3km": 0.6366197723675814
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 3.565634250640869,
+        "summer_night_p90_uhi_c": 6.195134162902832,
+        "summer_night_mean_temp_c": 23.20941925048828,
+        "summer_night_hours": 138,
+        "annual_mean_uhi_c": 1.898046612739563,
+        "annual_hours": 1369
+      },
+      "modelled": {
+        "uhi_c": 2.8882046595532698,
+        "temp_c": 22.299455727668505,
+        "heat_index_c": 22.452154045231893,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725045-14758",
+      "name": "Tweed-New Haven Airport",
+      "state": "CT",
+      "country": "US",
+      "lat": 41.259,
+      "lon": -72.889,
+      "elevation_m": 1.8,
+      "urban_class": "urban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.04767367750159337,
+        "building_count_km2_1km": 372.1042569488513,
+        "building_count_km2_3km": 329.5922032607495,
+        "road_length_km_km2_1km": 7.645747852288683,
+        "green_fraction_1km": 0.14327597195666028,
+        "water_fraction_1km": 0.00994263862332696,
+        "impervious_fraction_1km": 0.10119391246761415,
+        "green_count_km2_3km": 4.7746482927568605,
+        "water_count_km2_3km": 1.1317684842090336
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 2.6167192459106445,
+        "summer_night_p90_uhi_c": 5.422541046142578,
+        "summer_night_mean_temp_c": 21.44896697998047,
+        "summer_night_hours": 145,
+        "annual_mean_uhi_c": 1.8091285228729248,
+        "annual_hours": 1380
+      },
+      "modelled": {
+        "uhi_c": 2.773916680498242,
+        "temp_c": 22.185167748613477,
+        "heat_index_c": 22.339471712385393,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725180-14735",
+      "name": "Albany International Airport",
+      "state": "NY",
+      "country": "US",
+      "lat": 42.747,
+      "lon": -73.799,
+      "elevation_m": 85.4,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.039515615041427664,
+        "building_count_km2_1km": 18.14366351247607,
+        "building_count_km2_3km": 98.21628377026519,
+        "road_length_km_km2_1km": 9.914001633460757,
+        "green_fraction_1km": 0.09432759719566602,
+        "water_fraction_1km": 0.0,
+        "impervious_fraction_1km": 0.10891362647565297,
+        "green_count_km2_3km": 8.558999161830815,
+        "water_count_km2_3km": 1.167136249340566
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 2.145066022872925,
+        "summer_night_p90_uhi_c": 4.301732730865478,
+        "summer_night_mean_temp_c": 20.17133331298828,
+        "summer_night_hours": 150,
+        "annual_mean_uhi_c": 0.8146519660949707,
+        "annual_hours": 1395
+      },
+      "modelled": {
+        "uhi_c": 2.526802050532136,
+        "temp_c": 21.93805311864737,
+        "heat_index_c": 22.09617989292758,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "743945-14710",
+      "name": "Manchester Airport",
+      "state": "NH",
+      "country": "US",
+      "lat": 42.93,
+      "lon": -71.436,
+      "elevation_m": 69.8,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.07189292543021032,
+        "building_count_km2_1km": 26.101410667070837,
+        "building_count_km2_3km": 87.8181608215947,
+        "road_length_km_km2_1km": 16.484449499911978,
+        "green_fraction_1km": 0.07138304652644997,
+        "water_fraction_1km": 0.0015296367112810707,
+        "impervious_fraction_1km": 0.18728407192959418,
+        "green_count_km2_3km": 10.574961774328157,
+        "water_count_km2_3km": 1.8037560217081472
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 2.4417197704315186,
+        "summer_night_p90_uhi_c": 4.976115798950196,
+        "summer_night_mean_temp_c": 19.70802879333496,
+        "summer_night_hours": 137,
+        "annual_mean_uhi_c": 1.9390616416931152,
+        "annual_hours": 1369
+      },
+      "modelled": {
+        "uhi_c": 2.4748890122176355,
+        "temp_c": 21.88614008033287,
+        "heat_index_c": 22.045131599056035,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725205-14762",
+      "name": "Allegheny County Airport",
+      "state": "PA",
+      "country": "US",
+      "lat": 40.355,
+      "lon": -79.921,
+      "elevation_m": 379.2,
+      "urban_class": "urban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.04474187380497132,
+        "building_count_km2_1km": 148.96902673401405,
+        "building_count_km2_3km": 265.08139966083456,
+        "road_length_km_km2_1km": 7.1044979040806595,
+        "green_fraction_1km": 0.19158699808795412,
+        "water_fraction_1km": 0.002166985340981517,
+        "impervious_fraction_1km": 0.09447335913353594,
+        "green_count_km2_3km": 2.61721461973339,
+        "water_count_km2_3km": 0.7073553026306459
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 2.29256010055542,
+        "summer_night_p90_uhi_c": 4.301746749877929,
+        "summer_night_mean_temp_c": 21.18903350830078,
+        "summer_night_hours": 155,
+        "annual_mean_uhi_c": 1.5778748989105225,
+        "annual_hours": 1395
+      },
+      "modelled": {
+        "uhi_c": 2.338855441322941,
+        "temp_c": 21.750106509438176,
+        "heat_index_c": 21.911466690494688,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "999999-13752",
+      "name": "U.S. Naval Academy",
+      "state": "MD",
+      "country": "US",
+      "lat": 38.991,
+      "lon": -76.489,
+      "elevation_m": 1.8,
+      "urban_class": "urban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.040407903123008286,
+        "building_count_km2_1km": 156.29015411624124,
+        "building_count_km2_3km": 303.0663794121003,
+        "road_length_km_km2_1km": 7.781337369084766,
+        "green_fraction_1km": 0.0792861695347355,
+        "water_fraction_1km": 0.0,
+        "impervious_fraction_1km": 0.09487726470660166,
+        "green_count_km2_3km": 5.517371360519038,
+        "water_count_km2_3km": 0.45978094670991987
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 2.103027820587158,
+        "summer_night_p90_uhi_c": 3.6500806808471684,
+        "summer_night_mean_temp_c": 23.856081008911133,
+        "summer_night_hours": 148,
+        "annual_mean_uhi_c": 1.12431001663208,
+        "annual_hours": 1232
+      },
+      "modelled": {
+        "uhi_c": 2.337041348559425,
+        "temp_c": 21.74829241667466,
+        "heat_index_c": 21.909685194401682,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725016-54790",
+      "name": "Brookhaven Airport",
+      "state": "NY",
+      "country": "US",
+      "lat": 40.821,
+      "lon": -72.867,
+      "elevation_m": 20.0,
+      "urban_class": "urban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.040280433397068195,
+        "building_count_km2_1km": 275.65636143516275,
+        "building_count_km2_3km": 307.699556644331,
+        "road_length_km_km2_1km": 6.112360064815578,
+        "green_fraction_1km": 0.4280433397068196,
+        "water_fraction_1km": 0.0,
+        "impervious_fraction_1km": 0.08306695385077724,
+        "green_count_km2_3km": 19.416903057211233,
+        "water_count_km2_3km": 0.6012520072360491
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 1.5135235786437988,
+        "summer_night_p90_uhi_c": 4.121817398071289,
+        "summer_night_mean_temp_c": 20.501359939575195,
+        "summer_night_hours": 147,
+        "annual_mean_uhi_c": 1.266515851020813,
+        "annual_hours": 1352
+      },
+      "modelled": {
+        "uhi_c": 2.3168206344662203,
+        "temp_c": 21.728071702581456,
+        "heat_index_c": 21.88982962293205,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "998409-99999",
+      "name": "Annapolis",
+      "state": "MD",
+      "country": "US",
+      "lat": 38.983,
+      "lon": -76.48,
+      "elevation_m": 3.8,
+      "urban_class": "urban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.06462715105162524,
+        "building_count_km2_1km": 213.90424351550735,
+        "building_count_km2_3km": 291.819430100273,
+        "road_length_km_km2_1km": 6.85597925625768,
+        "green_fraction_1km": 0.08005098789037604,
+        "water_fraction_1km": 0.005863607393244105,
+        "impervious_fraction_1km": 0.112619005845429,
+        "green_count_km2_3km": 5.6942101861767,
+        "water_count_km2_3km": 0.2829421210522584
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 2.122072219848633,
+        "summer_night_p90_uhi_c": 3.6915008544921877,
+        "summer_night_mean_temp_c": 24.079999923706055,
+        "summer_night_hours": 155,
+        "annual_mean_uhi_c": 1.0175708532333374,
+        "annual_hours": 1291
+      },
+      "modelled": {
+        "uhi_c": 2.2470779529128357,
+        "temp_c": 21.65832902102807,
+        "heat_index_c": 21.821371822529468,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "997297-99999",
+      "name": "Cambridge  Md",
+      "state": "MD",
+      "country": "US",
+      "lat": 38.57,
+      "lon": -76.07,
+      "elevation_m": 6.0,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.04206500956022945,
+        "building_count_km2_1km": 148.65071684783024,
+        "building_count_km2_3km": 24.686700061809542,
+        "road_length_km_km2_1km": 14.590359894886534,
+        "green_fraction_1km": 0.022689611217335884,
+        "water_fraction_1km": 0.0,
+        "impervious_fraction_1km": 0.14419752882443518,
+        "green_count_km2_3km": 5.23442923946678,
+        "water_count_km2_3km": 1.167136249340566
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 1.6900440454483032,
+        "summer_night_p90_uhi_c": 3.154749870300293,
+        "summer_night_mean_temp_c": 23.911643981933594,
+        "summer_night_hours": 146,
+        "annual_mean_uhi_c": 1.2211034297943115,
+        "annual_hours": 1284
+      },
+      "modelled": {
+        "uhi_c": 2.204445268825958,
+        "temp_c": 21.61569633694119,
+        "heat_index_c": 21.779544087320392,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "726170-14742",
+      "name": "Burlington International Airport",
+      "state": "VT",
+      "country": "US",
+      "lat": 44.468,
+      "lon": -73.15,
+      "elevation_m": 101.1,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.04869343530911409,
+        "building_count_km2_1km": 58.250709171633694,
+        "building_count_km2_3km": 64.29859700912571,
+        "road_length_km_km2_1km": 10.900129138226232,
+        "green_fraction_1km": 0.29904397705544933,
+        "water_fraction_1km": 0.0,
+        "impervious_fraction_1km": 0.12499433927669772,
+        "green_count_km2_3km": 18.249766807870667,
+        "water_count_km2_3km": 1.8037560217081472
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 2.1508772373199463,
+        "summer_night_p90_uhi_c": 4.275664615631106,
+        "summer_night_mean_temp_c": 19.24305534362793,
+        "summer_night_hours": 144,
+        "annual_mean_uhi_c": 1.3341182470321655,
+        "annual_hours": 1401
+      },
+      "modelled": {
+        "uhi_c": 2.0927965692940225,
+        "temp_c": 21.504047637409258,
+        "heat_index_c": 21.670074011075716,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "744904-94723",
+      "name": "Lawrence Municipal Airport",
+      "state": "MA",
+      "country": "US",
+      "lat": 42.712,
+      "lon": -71.126,
+      "elevation_m": 41.5,
+      "urban_class": "urban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.04996813256851498,
+        "building_count_km2_1km": 223.13523021483726,
+        "building_count_km2_3km": 389.6820362192229,
+        "road_length_km_km2_1km": 11.423919956458723,
+        "green_fraction_1km": 0.2309751434034417,
+        "water_fraction_1km": 0.02345442957297642,
+        "impervious_fraction_1km": 0.12993557226372604,
+        "green_count_km2_3km": 7.568701738147912,
+        "water_count_km2_3km": 1.167136249340566
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 1.5756622552871704,
+        "summer_night_p90_uhi_c": 3.4326593399047853,
+        "summer_night_mean_temp_c": 19.589435577392578,
+        "summer_night_hours": 142,
+        "annual_mean_uhi_c": 0.948539674282074,
+        "annual_hours": 1373
+      },
+      "modelled": {
+        "uhi_c": 2.0841058526196163,
+        "temp_c": 21.49535692073485,
+        "heat_index_c": 21.661557181118226,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "997273-99999",
+      "name": "Borden Flats Light",
+      "state": "MA",
+      "country": "US",
+      "lat": 41.7,
+      "lon": -71.17,
+      "elevation_m": 10.0,
+      "urban_class": "urban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.10911408540471638,
+        "building_count_km2_1km": 505.1577893736758,
+        "building_count_km2_3km": 548.5894049551974,
+        "road_length_km_km2_1km": 13.65736084765327,
+        "green_fraction_1km": 0.07864882090503506,
+        "water_fraction_1km": 0.004333970681963034,
+        "impervious_fraction_1km": 0.20471561133828928,
+        "green_count_km2_3km": 1.768388256576615,
+        "water_count_km2_3km": 0.35367765131532297
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 1.6654375791549683,
+        "summer_night_p90_uhi_c": 2.8918004035949707,
+        "summer_night_mean_temp_c": 20.822059631347656,
+        "summer_night_hours": 136,
+        "annual_mean_uhi_c": 0.6542341113090515,
+        "annual_hours": 1301
+      },
+      "modelled": {
+        "uhi_c": 2.0839042738572378,
+        "temp_c": 21.49515534197247,
+        "heat_index_c": 21.66135964300765,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725050-04781",
+      "name": "Long Island Mac Arthur Airport",
+      "state": "NY",
+      "country": "US",
+      "lat": 40.794,
+      "lon": -73.102,
+      "elevation_m": 25.4,
+      "urban_class": "urban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.04231994901210962,
+        "building_count_km2_1km": 32.78591827693044,
+        "building_count_km2_3km": 388.6210032652769,
+        "road_length_km_km2_1km": 9.566786537424315,
+        "green_fraction_1km": 0.517144678138942,
+        "water_fraction_1km": 0.00025493945188017844,
+        "impervious_fraction_1km": 0.10928745477407983,
+        "green_count_km2_3km": 14.536151469059774,
+        "water_count_km2_3km": 0.35367765131532297
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 2.0367064476013184,
+        "summer_night_p90_uhi_c": 4.90691614151001,
+        "summer_night_mean_temp_c": 21.296384811401367,
+        "summer_night_hours": 166,
+        "annual_mean_uhi_c": 1.4859246015548706,
+        "annual_hours": 1475
+      },
+      "modelled": {
+        "uhi_c": 2.068857722205137,
+        "temp_c": 21.480108790320372,
+        "heat_index_c": 21.64661564733437,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725118-14751",
+      "name": "Capital City Airport",
+      "state": "PA",
+      "country": "US",
+      "lat": 40.218,
+      "lon": -76.855,
+      "elevation_m": 102.2,
+      "urban_class": "urban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.05595920968769917,
+        "building_count_km2_1km": 90.40000767619655,
+        "building_count_km2_3km": 123.46886807417926,
+        "road_length_km_km2_1km": 12.468949127640528,
+        "green_fraction_1km": 0.2832377310388783,
+        "water_fraction_1km": 0.015933715742511154,
+        "impervious_fraction_1km": 0.14324185358118285,
+        "green_count_km2_3km": 4.491706171704602,
+        "water_count_km2_3km": 1.0256651888144366
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 2.3664968013763428,
+        "summer_night_p90_uhi_c": 4.387950134277345,
+        "summer_night_mean_temp_c": 22.76535987854004,
+        "summer_night_hours": 153,
+        "annual_mean_uhi_c": 1.7422374486923218,
+        "annual_hours": 1380
+      },
+      "modelled": {
+        "uhi_c": 2.005926262907172,
+        "temp_c": 21.41717733102241,
+        "heat_index_c": 21.584969918221915,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725100-94746",
+      "name": "Worcester Regional Airport",
+      "state": "MA",
+      "country": "US",
+      "lat": 42.271,
+      "lon": -71.873,
+      "elevation_m": 305.5,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.01606118546845124,
+        "building_count_km2_1km": 64.29859700912571,
+        "building_count_km2_3km": 223.55964339641565,
+        "road_length_km_km2_1km": 3.683024679277771,
+        "green_fraction_1km": 0.16443594646271512,
+        "water_fraction_1km": 0.0033142128744423197,
+        "impervious_fraction_1km": 0.04184235822339564,
+        "green_count_km2_3km": 9.443193290119124,
+        "water_count_km2_3km": 1.2378717796036305
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 2.0295276641845703,
+        "summer_night_p90_uhi_c": 4.861050415039063,
+        "summer_night_mean_temp_c": 19.018367767333984,
+        "summer_night_hours": 147,
+        "annual_mean_uhi_c": 1.3064440488815308,
+        "annual_hours": 1313
+      },
+      "modelled": {
+        "uhi_c": 1.9955817512242382,
+        "temp_c": 21.406832819339474,
+        "heat_index_c": 21.57483989496859,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725090-14739",
+      "name": "Gen E L Logan International Airport",
+      "state": "MA",
+      "country": "US",
+      "lat": 42.361,
+      "lon": -71.01,
+      "elevation_m": 3.3,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.02141491395793499,
+        "building_count_km2_1km": 18.78028328484365,
+        "building_count_km2_3km": 257.6188012180813,
+        "road_length_km_km2_1km": 6.567506333983737,
+        "green_fraction_1km": 0.3469725940089229,
+        "water_fraction_1km": 0.0,
+        "impervious_fraction_1km": 0.06738745829582116,
+        "green_count_km2_3km": 10.681065069722754,
+        "water_count_km2_3km": 0.1414710605261292
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 2.09576678276062,
+        "summer_night_p90_uhi_c": 4.1532487869262695,
+        "summer_night_mean_temp_c": 20.703845977783203,
+        "summer_night_hours": 156,
+        "annual_mean_uhi_c": 0.9131157994270325,
+        "annual_hours": 1357
+      },
+      "modelled": {
+        "uhi_c": 1.9786900948241661,
+        "temp_c": 21.3899411629394,
+        "heat_index_c": 21.558300391086878,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725070-14765",
+      "name": "Theodore F Green State Airport",
+      "state": "RI",
+      "country": "US",
+      "lat": 41.723,
+      "lon": -71.432,
+      "elevation_m": 15.4,
+      "urban_class": "urban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.06386233269598471,
+        "building_count_km2_1km": 59.84225860255265,
+        "building_count_km2_3km": 316.75370451800325,
+        "road_length_km_km2_1km": 12.474965620798086,
+        "green_fraction_1km": 0.31880178457616315,
+        "water_fraction_1km": 0.00012746972594008922,
+        "impervious_fraction_1km": 0.15118709204157132,
+        "green_count_km2_3km": 8.099218215120896,
+        "water_count_km2_3km": 1.6269171960504858
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 1.0375279188156128,
+        "summer_night_p90_uhi_c": 3.215848922729492,
+        "summer_night_mean_temp_c": 19.1314697265625,
+        "summer_night_hours": 143,
+        "annual_mean_uhi_c": 1.085928201675415,
+        "annual_hours": 1275
+      },
+      "modelled": {
+        "uhi_c": 1.955011149034885,
+        "temp_c": 21.36626221715012,
+        "heat_index_c": 21.535119095421386,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "744864-54787",
+      "name": "Republic Airport",
+      "state": "NY",
+      "country": "US",
+      "lat": 40.734,
+      "lon": -73.416,
+      "elevation_m": 22.8,
+      "urban_class": "urban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.06309751434034416,
+        "building_count_km2_1km": 61.11549814728781,
+        "building_count_km2_3km": 304.48109001736157,
+        "road_length_km_km2_1km": 17.502883141812532,
+        "green_fraction_1km": 0.19974506054811983,
+        "water_fraction_1km": 0.0034416826003824093,
+        "impervious_fraction_1km": 0.18561769633303188,
+        "green_count_km2_3km": 28.860096347330355,
+        "water_count_km2_3km": 1.2378717796036305
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 2.2415568828582764,
+        "summer_night_p90_uhi_c": 5.2542512893676765,
+        "summer_night_mean_temp_c": 21.33629035949707,
+        "summer_night_hours": 124,
+        "annual_mean_uhi_c": 1.423622965812683,
+        "annual_hours": 1358
+      },
+      "modelled": {
+        "uhi_c": 1.896018975351009,
+        "temp_c": 21.307270043466243,
+        "heat_index_c": 21.477387082717897,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725107-04780",
+      "name": "Fitchburg Municipal Arp",
+      "state": "MA",
+      "country": "US",
+      "lat": 42.555,
+      "lon": -71.757,
+      "elevation_m": 102.3,
+      "urban_class": "urban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.07355003186743149,
+        "building_count_km2_1km": 105.67888221301851,
+        "building_count_km2_3km": 300.51990032262995,
+        "road_length_km_km2_1km": 12.1606856072387,
+        "green_fraction_1km": 0.45863607393244105,
+        "water_fraction_1km": 0.01963033779477374,
+        "impervious_fraction_1km": 0.15867483111810238,
+        "green_count_km2_3km": 40.42535554534142,
+        "water_count_km2_3km": 1.0256651888144366
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 1.600669264793396,
+        "summer_night_p90_uhi_c": 3.6143177032470706,
+        "summer_night_mean_temp_c": 19.38225746154785,
+        "summer_night_hours": 124,
+        "annual_mean_uhi_c": 1.0928102731704712,
+        "annual_hours": 1297
+      },
+      "modelled": {
+        "uhi_c": 1.8511913518079939,
+        "temp_c": 21.26244241992323,
+        "heat_index_c": 21.43353652487521,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "743946-54754",
+      "name": "Boire Field Airport",
+      "state": "NH",
+      "country": "US",
+      "lat": 42.783,
+      "lon": -71.517,
+      "elevation_m": 61.0,
+      "urban_class": "urban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.07558954748247292,
+        "building_count_km2_1km": 105.67888221301851,
+        "building_count_km2_3km": 186.06981235699143,
+        "road_length_km_km2_1km": 14.445264177524964,
+        "green_fraction_1km": 0.02115997450605481,
+        "water_fraction_1km": 0.005226258763543658,
+        "impervious_fraction_1km": 0.17670639672514765,
+        "green_count_km2_3km": 3.1477310967063747,
+        "water_count_km2_3km": 1.768388256576615
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 1.9699162244796753,
+        "summer_night_p90_uhi_c": 3.7055850982666017,
+        "summer_night_mean_temp_c": 19.08169937133789,
+        "summer_night_hours": 153,
+        "annual_mean_uhi_c": 1.3645669221878052,
+        "annual_hours": 1421
+      },
+      "modelled": {
+        "uhi_c": 1.6733176427305148,
+        "temp_c": 21.084568710845748,
+        "heat_index_c": 21.25970676217226,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725130-14777",
+      "name": "Wilkes-Barre/Scranton Intl Airport",
+      "state": "PA",
+      "country": "US",
+      "lat": 41.333,
+      "lon": -75.723,
+      "elevation_m": 289.9,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.02625876354365838,
+        "building_count_km2_1km": 7.002817496043395,
+        "building_count_km2_3km": 49.30266459335602,
+        "road_length_km_km2_1km": 6.411655750285174,
+        "green_fraction_1km": 0.3196940726577438,
+        "water_fraction_1km": 0.00803059273422562,
+        "impervious_fraction_1km": 0.0711403537956546,
+        "green_count_km2_3km": 6.825978670385734,
+        "water_count_km2_3km": 0.9195618934198397
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 0.859113872051239,
+        "summer_night_p90_uhi_c": 2.4993503570556634,
+        "summer_night_mean_temp_c": 19.56121253967285,
+        "summer_night_hours": 165,
+        "annual_mean_uhi_c": 0.8767890334129333,
+        "annual_hours": 1403
+      },
+      "modelled": {
+        "uhi_c": 1.627451751437715,
+        "temp_c": 21.03870281955295,
+        "heat_index_c": 21.21492718715863,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725200-94823",
+      "name": "Pittsburgh International Airport",
+      "state": "PA",
+      "country": "US",
+      "lat": 40.485,
+      "lon": -80.214,
+      "elevation_m": 341.0,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.020777565328234545,
+        "building_count_km2_1km": 29.921129301276324,
+        "building_count_km2_3km": 69.70986507425016,
+        "road_length_km_km2_1km": 6.619994535640815,
+        "green_fraction_1km": 0.2307202039515615,
+        "water_fraction_1km": 0.0,
+        "impervious_fraction_1km": 0.06711752707772026,
+        "green_count_km2_3km": 17.789985861160748,
+        "water_count_km2_3km": 1.2732395447351628
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 1.8221856355667114,
+        "summer_night_p90_uhi_c": 3.6091203689575195,
+        "summer_night_mean_temp_c": 21.179410934448242,
+        "summer_night_hours": 136,
+        "annual_mean_uhi_c": 0.9885052442550659,
+        "annual_hours": 1422
+      },
+      "modelled": {
+        "uhi_c": 1.557554694462319,
+        "temp_c": 20.968805762577553,
+        "heat_index_c": 21.146720217591408,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "724085-94732",
+      "name": "Ne Philadelphia Airport",
+      "state": "PA",
+      "country": "US",
+      "lat": 40.079,
+      "lon": -75.013,
+      "elevation_m": 32.9,
+      "urban_class": "urban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.09216061185468451,
+        "building_count_km2_1km": 41.69859509007658,
+        "building_count_km2_3km": 841.4345002442849,
+        "road_length_km_km2_1km": 7.97501027293533,
+        "green_fraction_1km": 0.589929891650733,
+        "water_fraction_1km": 0.001147227533460803,
+        "impervious_fraction_1km": 0.1479856837652318,
+        "green_count_km2_3km": 13.192176394061548,
+        "water_count_km2_3km": 0.17683882565766149
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 1.3158416748046875,
+        "summer_night_p90_uhi_c": 2.7442665100097656,
+        "summer_night_mean_temp_c": 22.621740341186523,
+        "summer_night_hours": 138,
+        "annual_mean_uhi_c": 0.724696695804596,
+        "annual_hours": 1355
+      },
+      "modelled": {
+        "uhi_c": 1.5552049272590724,
+        "temp_c": 20.966455995374307,
+        "heat_index_c": 21.14442799511862,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "743700-14715",
+      "name": "Wheeler-Sack Aaf Airport",
+      "state": "NY",
+      "country": "US",
+      "lat": 44.05,
+      "lon": -75.733,
+      "elevation_m": 209.7,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.02319949012109624,
+        "building_count_km2_1km": 11.777465788800255,
+        "building_count_km2_3km": 22.31705979799688,
+        "road_length_km_km2_1km": 3.9318644385993684,
+        "green_fraction_1km": 0.22855321861057998,
+        "water_fraction_1km": 0.008922880815806247,
+        "impervious_fraction_1km": 0.05072254119129182,
+        "green_count_km2_3km": 3.3599376874955684,
+        "water_count_km2_3km": 0.49514871184145215
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 2.2019662857055664,
+        "summer_night_p90_uhi_c": 4.925724029541016,
+        "summer_night_mean_temp_c": 18.490779876708984,
+        "summer_night_hours": 141,
+        "annual_mean_uhi_c": 1.17019522190094,
+        "annual_hours": 1302
+      },
+      "modelled": {
+        "uhi_c": 1.5343290505791645,
+        "temp_c": 20.945580118694398,
+        "heat_index_c": 21.124065443728817,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "726056-54791",
+      "name": "Skyhaven Airport",
+      "state": "NH",
+      "country": "US",
+      "lat": 43.279,
+      "lon": -70.924,
+      "elevation_m": 100.2,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.028680688336520075,
+        "building_count_km2_1km": 19.735212943395023,
+        "building_count_km2_3km": 32.67981498153584,
+        "road_length_km_km2_1km": 4.878115327442388,
+        "green_fraction_1km": 0.5611217335882728,
+        "water_fraction_1km": 0.0014021669853409816,
+        "impervious_fraction_1km": 0.0628274956286168,
+        "green_count_km2_3km": 4.91611935328299,
+        "water_count_km2_3km": 1.6269171960504858
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 1.662468671798706,
+        "summer_night_p90_uhi_c": 3.53371639251709,
+        "summer_night_mean_temp_c": 18.65581512451172,
+        "summer_night_hours": 129,
+        "annual_mean_uhi_c": 1.5527821779251099,
+        "annual_hours": 1301
+      },
+      "modelled": {
+        "uhi_c": 1.4644538914872056,
+        "temp_c": 20.87570495960244,
+        "heat_index_c": 21.055935800672817,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "724066-93706",
+      "name": "Hgrtwn Rgnl-R.Hnson Fld Ap",
+      "state": "MD",
+      "country": "US",
+      "lat": 39.706,
+      "lon": -77.73,
+      "elevation_m": 209.4,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.07112810707456979,
+        "building_count_km2_1km": 17.507043740108486,
+        "building_count_km2_3km": 22.600001919049138,
+        "road_length_km_km2_1km": 8.611002716933967,
+        "green_fraction_1km": 0.0841300191204589,
+        "water_fraction_1km": 0.00025493945188017844,
+        "impervious_fraction_1km": 0.13140512609310756,
+        "green_count_km2_3km": 5.977152307228958,
+        "water_count_km2_3km": 0.35367765131532297
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 2.4280169010162354,
+        "summer_night_p90_uhi_c": 4.723817253112792,
+        "summer_night_mean_temp_c": 22.332168579101562,
+        "summer_night_hours": 143,
+        "annual_mean_uhi_c": 1.4500834941864014,
+        "annual_hours": 1386
+      },
+      "modelled": {
+        "uhi_c": 1.4449428289444666,
+        "temp_c": 20.8561938970597,
+        "heat_index_c": 21.03691967111375,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725144-54723",
+      "name": "Muir Army Airfield (Fort Indiantown Gap)",
+      "state": "PA",
+      "country": "US",
+      "lat": 40.433,
+      "lon": -76.567,
+      "elevation_m": 148.7,
+      "urban_class": "rural",
+      "morphology": {
+        "building_plan_fraction_1km": 0.00854047163798598,
+        "building_count_km2_1km": 8.594366926962348,
+        "building_count_km2_3km": 2.228169203286535,
+        "road_length_km_km2_1km": 10.012760726802112,
+        "green_fraction_1km": 0.03836838750796686,
+        "water_fraction_1km": 0.0,
+        "impervious_fraction_1km": 0.07862979672560076,
+        "green_count_km2_3km": 0.0707355302630646,
+        "water_count_km2_3km": 0.2122065907891938
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 0.656439483165741,
+        "summer_night_p90_uhi_c": 2.354933166503908,
+        "summer_night_mean_temp_c": 20.397315979003906,
+        "summer_night_hours": 149,
+        "annual_mean_uhi_c": 0.5270171761512756,
+        "annual_hours": 1297
+      },
+      "modelled": {
+        "uhi_c": 1.4215806009715242,
+        "temp_c": 20.832831669086758,
+        "heat_index_c": 21.014154408838724,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725037-94745",
+      "name": "Westchester County Airport",
+      "state": "NY",
+      "country": "US",
+      "lat": 41.062,
+      "lon": -73.705,
+      "elevation_m": 112.9,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.032249840662842574,
+        "building_count_km2_1km": 56.97746962689853,
+        "building_count_km2_3km": 91.60251169066865,
+        "road_length_km_km2_1km": 7.119962198837618,
+        "green_fraction_1km": 0.2669216061185469,
+        "water_fraction_1km": 0.0031867431485022306,
+        "impervious_fraction_1km": 0.0820895760547059,
+        "green_count_km2_3km": 7.321127382227186,
+        "water_count_km2_3km": 2.7940534453910515
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 1.6363062858581543,
+        "summer_night_p90_uhi_c": 4.185533332824708,
+        "summer_night_mean_temp_c": 20.12837791442871,
+        "summer_night_hours": 148,
+        "annual_mean_uhi_c": 1.1628174781799316,
+        "annual_hours": 1374
+      },
+      "modelled": {
+        "uhi_c": 1.3984621125321461,
+        "temp_c": 20.809713180647382,
+        "heat_index_c": 20.991631322914134,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "724094-54743",
+      "name": "Essex County Airport",
+      "state": "NJ",
+      "country": "US",
+      "lat": 40.876,
+      "lon": -74.283,
+      "elevation_m": 52.0,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.1301465901848311,
+        "building_count_km2_1km": 65.2535266676771,
+        "building_count_km2_3km": 45.90735914072892,
+        "road_length_km_km2_1km": 15.919205537680929,
+        "green_fraction_1km": 0.3674952198852772,
+        "water_fraction_1km": 0.0,
+        "impervious_fraction_1km": 0.24158102894859762,
+        "green_count_km2_3km": 14.14710605261292,
+        "water_count_km2_3km": 0.3890454164468553
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 1.981884241104126,
+        "summer_night_p90_uhi_c": 3.680132579803467,
+        "summer_night_mean_temp_c": 22.13194465637207,
+        "summer_night_hours": 144,
+        "annual_mean_uhi_c": 1.0455129146575928,
+        "annual_hours": 1408
+      },
+      "modelled": {
+        "uhi_c": 1.3825731576876301,
+        "temp_c": 20.793824225802865,
+        "heat_index_c": 20.976154273321455,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "998265-99999",
+      "name": "Marcus Hook",
+      "state": "PA",
+      "country": "US",
+      "lat": 39.817,
+      "lon": -75.417,
+      "elevation_m": 3.0,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.027533460803059275,
+        "building_count_km2_1km": 34.37746770784939,
+        "building_count_km2_3km": 32.750550511798906,
+        "road_length_km_km2_1km": 12.22517097878547,
+        "green_fraction_1km": 0.01669853409815169,
+        "water_fraction_1km": 0.0067558954748247295,
+        "impervious_fraction_1km": 0.11310965765455758,
+        "green_count_km2_3km": 6.896714200648798,
+        "water_count_km2_3km": 0.7073553026306459
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 1.0424197912216187,
+        "summer_night_p90_uhi_c": 2.1432834625244146,
+        "summer_night_mean_temp_c": 23.370269775390625,
+        "summer_night_hours": 148,
+        "annual_mean_uhi_c": 0.28577497601509094,
+        "annual_hours": 1318
+      },
+      "modelled": {
+        "uhi_c": 1.3590743623884383,
+        "temp_c": 20.77032543050367,
+        "heat_index_c": 20.953268691695705,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725087-14752",
+      "name": "Hartford-Brainard Airport",
+      "state": "CT",
+      "country": "US",
+      "lat": 41.735,
+      "lon": -72.651,
+      "elevation_m": 4.0,
+      "urban_class": "urban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.06360739324410453,
+        "building_count_km2_1km": 58.887328944001275,
+        "building_count_km2_3km": 521.8160067506275,
+        "road_length_km_km2_1km": 9.572283427305601,
+        "green_fraction_1km": 0.0673040152963671,
+        "water_fraction_1km": 0.01644359464627151,
+        "impervious_fraction_1km": 0.13061337723524374,
+        "green_count_km2_3km": 13.439750749982274,
+        "water_count_km2_3km": 1.5208139006558887
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 1.2685061693191528,
+        "summer_night_p90_uhi_c": 3.3057508468627934,
+        "summer_night_mean_temp_c": 20.96938705444336,
+        "summer_night_hours": 147,
+        "annual_mean_uhi_c": 0.7996788620948792,
+        "annual_hours": 1392
+      },
+      "modelled": {
+        "uhi_c": 1.3211183689290544,
+        "temp_c": 20.732369437044287,
+        "heat_index_c": 20.916313358859554,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "994046-99999",
+      "name": "Nantucket Island",
+      "state": "MA",
+      "country": "US",
+      "lat": 41.28,
+      "lon": -70.1,
+      "elevation_m": 0.0,
+      "urban_class": "urban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.11688973868706182,
+        "building_count_km2_1km": 882.6733143876515,
+        "building_count_km2_3km": 286.93867851212156,
+        "road_length_km_km2_1km": 17.025366020673445,
+        "green_fraction_1km": 0.07138304652644997,
+        "water_fraction_1km": 0.0006373486297004461,
+        "impervious_fraction_1km": 0.23606730083177593,
+        "green_count_km2_3km": 5.128325944072183,
+        "water_count_km2_3km": 0.49514871184145215
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": -0.01821679249405861,
+        "summer_night_p90_uhi_c": 1.900133514404297,
+        "summer_night_mean_temp_c": 19.32805824279785,
+        "summer_night_hours": 139,
+        "annual_mean_uhi_c": 0.11601419746875763,
+        "annual_hours": 1266
+      },
+      "modelled": {
+        "uhi_c": 1.2832447227780968,
+        "temp_c": 20.69449579089333,
+        "heat_index_c": 20.879450766285977,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "726145-94705",
+      "name": "Edward F Knapp State Arpt",
+      "state": "VT",
+      "country": "US",
+      "lat": 44.205,
+      "lon": -72.565,
+      "elevation_m": 336.7,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.019757807520713832,
+        "building_count_km2_1km": 32.46760839074665,
+        "building_count_km2_3km": 28.29421210522584,
+        "road_length_km_km2_1km": 5.411445848779513,
+        "green_fraction_1km": 0.09636711281070745,
+        "water_fraction_1km": 0.0015296367112810707,
+        "impervious_fraction_1km": 0.05763792846217042,
+        "green_count_km2_3km": 1.2732395447351628,
+        "water_count_km2_3km": 0.7780908328937106
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 0.728030264377594,
+        "summer_night_p90_uhi_c": 2.2204004287719727,
+        "summer_night_mean_temp_c": 16.838850021362305,
+        "summer_night_hours": 139,
+        "annual_mean_uhi_c": 0.8964698910713196,
+        "annual_hours": 1382
+      },
+      "modelled": {
+        "uhi_c": 1.272072637795546,
+        "temp_c": 20.68332370591078,
+        "heat_index_c": 20.868579327411066,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725116-54737",
+      "name": "Lancaster Airport",
+      "state": "PA",
+      "country": "US",
+      "lat": 40.121,
+      "lon": -76.294,
+      "elevation_m": 121.1,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.018610579987253028,
+        "building_count_km2_1km": 18.78028328484365,
+        "building_count_km2_3km": 42.93646686968021,
+        "road_length_km_km2_1km": 4.6451454741718115,
+        "green_fraction_1km": 0.12823454429572975,
+        "water_fraction_1km": 0.0006373486297004461,
+        "impervious_fraction_1km": 0.0511265983064557,
+        "green_count_km2_3km": 1.768388256576615,
+        "water_count_km2_3km": 0.8134585980252429
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 0.7840177416801453,
+        "summer_night_p90_uhi_c": 2.395280361175538,
+        "summer_night_mean_temp_c": 21.574647903442383,
+        "summer_night_hours": 142,
+        "annual_mean_uhi_c": 0.5108492374420166,
+        "annual_hours": 1305
+      },
+      "modelled": {
+        "uhi_c": 1.2611709291385431,
+        "temp_c": 20.672421997253778,
+        "heat_index_c": 20.857972045589072,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "720492-00151",
+      "name": "Caledonia County Airport",
+      "state": "VT",
+      "country": "US",
+      "lat": 44.567,
+      "lon": -72.017,
+      "elevation_m": 362.1,
+      "urban_class": "rural",
+      "morphology": {
+        "building_plan_fraction_1km": 0.001147227533460803,
+        "building_count_km2_1km": 9.867606471697512,
+        "building_count_km2_3km": 6.1539911328866195,
+        "road_length_km_km2_1km": 1.4349160566631876,
+        "green_fraction_1km": 0.029445506692160613,
+        "water_fraction_1km": 0.0026768642447418736,
+        "impervious_fraction_1km": 0.011191639930103116,
+        "green_count_km2_3km": 0.3183098861837907,
+        "water_count_km2_3km": 0.4244131815783876
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 0.9077188372612,
+        "summer_night_p90_uhi_c": 2.3049003601074247,
+        "summer_night_mean_temp_c": 15.978524208068848,
+        "summer_night_hours": 149,
+        "annual_mean_uhi_c": 0.2704341411590576,
+        "annual_hours": 1320
+      },
+      "modelled": {
+        "uhi_c": 1.2481979724791004,
+        "temp_c": 20.659449040594335,
+        "heat_index_c": 20.845350816039314,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725104-04843",
+      "name": "Port Meadville Airport",
+      "state": "PA",
+      "country": "US",
+      "lat": 41.626,
+      "lon": -80.212,
+      "elevation_m": 427.5,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.03734862970044615,
+        "building_count_km2_1km": 61.4338080334716,
+        "building_count_km2_3km": 46.04883020125505,
+        "road_length_km_km2_1km": 8.728018810504485,
+        "green_fraction_1km": 0.5247928616953473,
+        "water_fraction_1km": 0.0016571064372211599,
+        "impervious_fraction_1km": 0.09844476137397754,
+        "green_count_km2_3km": 4.7746482927568605,
+        "water_count_km2_3km": 0.8488263631567752
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 0.5619170665740967,
+        "summer_night_p90_uhi_c": 2.44332389831543,
+        "summer_night_mean_temp_c": 18.25732421875,
+        "summer_night_hours": 157,
+        "annual_mean_uhi_c": -0.013865871354937553,
+        "annual_hours": 1410
+      },
+      "modelled": {
+        "uhi_c": 1.2331664505960567,
+        "temp_c": 20.64441751871129,
+        "heat_index_c": 20.830728685684026,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725086-54734",
+      "name": "Danbury Municipal Airport",
+      "state": "CT",
+      "country": "US",
+      "lat": 41.372,
+      "lon": -73.483,
+      "elevation_m": 138.0,
+      "urban_class": "urban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.049840662842574886,
+        "building_count_km2_1km": 125.73240504259732,
+        "building_count_km2_3km": 236.39814213916188,
+        "road_length_km_km2_1km": 14.490193823453945,
+        "green_fraction_1km": 0.011982154238368388,
+        "water_fraction_1km": 0.017845761631612493,
+        "impervious_fraction_1km": 0.1512720196067525,
+        "green_count_km2_3km": 0.954929658551372,
+        "water_count_km2_3km": 1.5561816657874212
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 1.533781886100769,
+        "summer_night_p90_uhi_c": 2.792150592803955,
+        "summer_night_mean_temp_c": 19.78285789489746,
+        "summer_night_hours": 140,
+        "annual_mean_uhi_c": 1.5424447059631348,
+        "annual_hours": 1407
+      },
+      "modelled": {
+        "uhi_c": 1.2212824584008872,
+        "temp_c": 20.63253352651612,
+        "heat_index_c": 20.819169768992328,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725030-14732",
+      "name": "La Guardia Airport",
+      "state": "NY",
+      "country": "US",
+      "lat": 40.779,
+      "lon": -73.88,
+      "elevation_m": 3.0,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.03326959847036329,
+        "building_count_km2_1km": 12.414085561167836,
+        "building_count_km2_3km": 924.2658061823336,
+        "road_length_km_km2_1km": 8.938430153144706,
+        "green_fraction_1km": 0.0673040152963671,
+        "water_fraction_1km": 0.0,
+        "impervious_fraction_1km": 0.09583860954237622,
+        "green_count_km2_3km": 12.16651120524711,
+        "water_count_km2_3km": 0.1061032953945969
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 3.519174098968506,
+        "summer_night_p90_uhi_c": 6.881633377075195,
+        "summer_night_mean_temp_c": 23.143447875976562,
+        "summer_night_hours": 145,
+        "annual_mean_uhi_c": 1.6465044021606445,
+        "annual_hours": 1402
+      },
+      "modelled": {
+        "uhi_c": 1.2113424941647188,
+        "temp_c": 20.622593562279953,
+        "heat_index_c": 20.80950265940932,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "724077-54779",
+      "name": "Aeroflex-Andover Airport",
+      "state": "NJ",
+      "country": "US",
+      "lat": 41.009,
+      "lon": -74.736,
+      "elevation_m": 176.8,
+      "urban_class": "rural",
+      "morphology": {
+        "building_plan_fraction_1km": 0.0008922880815806246,
+        "building_count_km2_1km": 0.954929658551372,
+        "building_count_km2_3km": 4.986854883546054,
+        "road_length_km_km2_1km": 3.461029304081078,
+        "green_fraction_1km": 0.09012109623964308,
+        "water_fraction_1km": 0.13766730401529637,
+        "impervious_fraction_1km": 0.02511949321014817,
+        "green_count_km2_3km": 3.183098861837907,
+        "water_count_km2_3km": 0.8488263631567752
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 1.1630902290344238,
+        "summer_night_p90_uhi_c": 2.7099678039550796,
+        "summer_night_mean_temp_c": 19.390804290771484,
+        "summer_night_hours": 174,
+        "annual_mean_uhi_c": 0.908295750617981,
+        "annual_hours": 1364
+      },
+      "modelled": {
+        "uhi_c": 1.193738391568571,
+        "temp_c": 20.604989459683807,
+        "heat_index_c": 20.792383933617188,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "997743-99999",
+      "name": "Robbins Reef",
+      "state": "NJ",
+      "country": "US",
+      "lat": 40.65,
+      "lon": -74.067,
+      "elevation_m": 72.0,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.01312938177182919,
+        "building_count_km2_1km": 5.729577951308232,
+        "building_count_km2_3km": 239.86418312205205,
+        "road_length_km_km2_1km": 1.095766503983836,
+        "green_fraction_1km": 0.0003824091778202677,
+        "water_fraction_1km": 0.0,
+        "impervious_fraction_1km": 0.02079974729971604,
+        "green_count_km2_3km": 20.866981427604056,
+        "water_count_km2_3km": 1.2732395447351628
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 3.0903244018554688,
+        "summer_night_p90_uhi_c": 6.6801347732543945,
+        "summer_night_mean_temp_c": 22.89642906188965,
+        "summer_night_hours": 140,
+        "annual_mean_uhi_c": 1.1187245845794678,
+        "annual_hours": 1278
+      },
+      "modelled": {
+        "uhi_c": 1.1685927047967606,
+        "temp_c": 20.579843772911996,
+        "heat_index_c": 20.76793630827875,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725114-93778",
+      "name": "York Airport",
+      "state": "PA",
+      "country": "US",
+      "lat": 39.919,
+      "lon": -76.877,
+      "elevation_m": 141.4,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.00981516889738687,
+        "building_count_km2_1km": 20.371832715762604,
+        "building_count_km2_3km": 34.66040982890165,
+        "road_length_km_km2_1km": 3.0868702457702324,
+        "green_fraction_1km": 0.0,
+        "water_fraction_1km": 0.0,
+        "impervious_fraction_1km": 0.031423260617778496,
+        "green_count_km2_3km": 0.17683882565766149,
+        "water_count_km2_3km": 0.3890454164468553
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 0.8533626794815063,
+        "summer_night_p90_uhi_c": 2.52276611328125,
+        "summer_night_mean_temp_c": 20.644521713256836,
+        "summer_night_hours": 146,
+        "annual_mean_uhi_c": 0.5784507393836975,
+        "annual_hours": 1387
+      },
+      "modelled": {
+        "uhi_c": 1.1601807026666449,
+        "temp_c": 20.571431770781878,
+        "heat_index_c": 20.759759077933197,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "724080-13739",
+      "name": "Philadelphia International Airport",
+      "state": "PA",
+      "country": "US",
+      "lat": 39.873,
+      "lon": -75.227,
+      "elevation_m": 2.2,
+      "urban_class": "rural",
+      "morphology": {
+        "building_plan_fraction_1km": 0.010197578075207138,
+        "building_count_km2_1km": 12.732395447351628,
+        "building_count_km2_3km": 19.629109648000426,
+        "road_length_km_km2_1km": 4.043755218270087,
+        "green_fraction_1km": 0.1561504142766093,
+        "water_fraction_1km": 0.004333970681963034,
+        "impervious_fraction_1km": 0.03850386460309775,
+        "green_count_km2_3km": 7.533333973016379,
+        "water_count_km2_3km": 1.8744915519712118
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 2.0459392070770264,
+        "summer_night_p90_uhi_c": 3.933248519897461,
+        "summer_night_mean_temp_c": 23.0668888092041,
+        "summer_night_hours": 151,
+        "annual_mean_uhi_c": 1.0607757568359375,
+        "annual_hours": 1392
+      },
+      "modelled": {
+        "uhi_c": 1.1284455288329729,
+        "temp_c": 20.539696596948207,
+        "heat_index_c": 20.728915251660347,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "723990-14711",
+      "name": "Harrisburg International Airport",
+      "state": "PA",
+      "country": "US",
+      "lat": 40.196,
+      "lon": -76.772,
+      "elevation_m": 91.1,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.012492033142128744,
+        "building_count_km2_1km": 14.960564650638162,
+        "building_count_km2_3km": 19.912051769052685,
+        "road_length_km_km2_1km": 7.135082442207145,
+        "green_fraction_1km": 0.015806246016571063,
+        "water_fraction_1km": 0.022052262587635436,
+        "impervious_fraction_1km": 0.06243761023757877,
+        "green_count_km2_3km": 2.9001567407856483,
+        "water_count_km2_3km": 1.0964007190775011
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 2.0783331394195557,
+        "summer_night_p90_uhi_c": 3.8224657058715823,
+        "summer_night_mean_temp_c": 21.971851348876953,
+        "summer_night_hours": 135,
+        "annual_mean_uhi_c": 0.9168826937675476,
+        "annual_hours": 1371
+      },
+      "modelled": {
+        "uhi_c": 1.1116801460125103,
+        "temp_c": 20.522931214127745,
+        "heat_index_c": 20.712624367631438,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "744860-94789",
+      "name": "John F Kennedy International Airport",
+      "state": "NY",
+      "country": "US",
+      "lat": 40.639,
+      "lon": -73.764,
+      "elevation_m": 2.7,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.0003824091778202677,
+        "building_count_km2_1km": 3.5014087480216975,
+        "building_count_km2_3km": 330.0519842074594,
+        "road_length_km_km2_1km": 3.1835840825348996,
+        "green_fraction_1km": 0.5543658381134481,
+        "water_fraction_1km": 0.0,
+        "impervious_fraction_1km": 0.022667497755564564,
+        "green_count_km2_3km": 18.42660563352833,
+        "water_count_km2_3km": 0.5658842421045168
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 2.189910411834717,
+        "summer_night_p90_uhi_c": 5.534281158447266,
+        "summer_night_mean_temp_c": 21.843795776367188,
+        "summer_night_hours": 137,
+        "annual_mean_uhi_c": 0.812383770942688,
+        "annual_hours": 1361
+      },
+      "modelled": {
+        "uhi_c": 1.0614034468651816,
+        "temp_c": 20.472654514980416,
+        "heat_index_c": 20.663785610624107,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725029-64707",
+      "name": "Waterbury-Oxford Airport",
+      "state": "CT",
+      "country": "US",
+      "lat": 41.483,
+      "lon": -73.133,
+      "elevation_m": 221.3,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.02511153601019758,
+        "building_count_km2_1km": 17.188733853924695,
+        "building_count_km2_3km": 59.09953553479047,
+        "road_length_km_km2_1km": 4.614908333374457,
+        "green_fraction_1km": 0.38636073932441045,
+        "water_fraction_1km": 0.005608667941363926,
+        "impervious_fraction_1km": 0.057415894343818774,
+        "green_count_km2_3km": 7.9931149197263,
+        "water_count_km2_3km": 2.8294212105225838
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 0.9069610834121704,
+        "summer_night_p90_uhi_c": 2.9969329833984375,
+        "summer_night_mean_temp_c": 18.84900665283203,
+        "summer_night_hours": 151,
+        "annual_mean_uhi_c": 0.7093823552131653,
+        "annual_hours": 1419
+      },
+      "modelled": {
+        "uhi_c": 1.0577440401557832,
+        "temp_c": 20.468995108271017,
+        "heat_index_c": 20.660231744735697,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725075-54768",
+      "name": "Harriman-And-West Airport",
+      "state": "MA",
+      "country": "US",
+      "lat": 42.697,
+      "lon": -73.17,
+      "elevation_m": 197.0,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.025748884639898023,
+        "building_count_km2_1km": 186.52959330370135,
+        "building_count_km2_3km": 95.66980468079487,
+        "road_length_km_km2_1km": 4.879818445338119,
+        "green_fraction_1km": 0.20089228808158063,
+        "water_fraction_1km": 0.013511790949649459,
+        "impervious_fraction_1km": 0.05990761375726485,
+        "green_count_km2_3km": 3.006260036180245,
+        "water_count_km2_3km": 0.17683882565766149
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 0.4275868535041809,
+        "summer_night_p90_uhi_c": 2.0189499855041517,
+        "summer_night_mean_temp_c": 17.4189395904541,
+        "summer_night_hours": 132,
+        "annual_mean_uhi_c": 0.9799360632896423,
+        "annual_hours": 1314
+      },
+      "modelled": {
+        "uhi_c": 1.0527381026032736,
+        "temp_c": 20.46398917071851,
+        "heat_index_c": 20.65537037688346,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "997281-99999",
+      "name": "Lewes",
+      "state": "DE",
+      "country": "US",
+      "lat": 38.78,
+      "lon": -75.12,
+      "elevation_m": 10.0,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.013639260675589548,
+        "building_count_km2_1km": 58.569019057817485,
+        "building_count_km2_3km": 73.21127382227186,
+        "road_length_km_km2_1km": 3.442289309859003,
+        "green_fraction_1km": 0.32135117909496497,
+        "water_fraction_1km": 0.0025493945188017845,
+        "impervious_fraction_1km": 0.03773528584460257,
+        "green_count_km2_3km": 3.678247573679359,
+        "water_count_km2_3km": 0.7427230677621782
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 0.6045205593109131,
+        "summer_night_p90_uhi_c": 1.8474182128906278,
+        "summer_night_mean_temp_c": 22.549285888671875,
+        "summer_night_hours": 140,
+        "annual_mean_uhi_c": 0.5872253179550171,
+        "annual_hours": 1253
+      },
+      "modelled": {
+        "uhi_c": 1.0518223922070056,
+        "temp_c": 20.46307346032224,
+        "heat_index_c": 20.654481136089295,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "724060-93721",
+      "name": "Baltimore-Washington Intl Airport",
+      "state": "MD",
+      "country": "US",
+      "lat": 39.173,
+      "lon": -76.684,
+      "elevation_m": 42.0,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.015678776290630976,
+        "building_count_km2_1km": 7.002817496043395,
+        "building_count_km2_3km": 54.360255007165144,
+        "road_length_km_km2_1km": 6.540952072111415,
+        "green_fraction_1km": 0.16838750796685786,
+        "water_fraction_1km": 0.004588910133843212,
+        "impervious_fraction_1km": 0.06146544079541088,
+        "green_count_km2_3km": 13.156808628930015,
+        "water_count_km2_3km": 1.768388256576615
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 1.3936712741851807,
+        "summer_night_p90_uhi_c": 2.7864662170410166,
+        "summer_night_mean_temp_c": 23.277952194213867,
+        "summer_night_hours": 127,
+        "annual_mean_uhi_c": 1.2387394905090332,
+        "annual_hours": 1324
+      },
+      "modelled": {
+        "uhi_c": 1.0257944924360531,
+        "temp_c": 20.437045560551287,
+        "heat_index_c": 20.629208734684173,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725053-94728",
+      "name": "Central Park",
+      "state": "NY",
+      "country": "US",
+      "lat": 40.779,
+      "lon": -73.969,
+      "elevation_m": 42.7,
+      "urban_class": "urban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.21045251752708732,
+        "building_count_km2_1km": 804.369082386439,
+        "building_count_km2_3km": 577.8739144841062,
+        "road_length_km_km2_1km": 11.146387645987724,
+        "green_fraction_1km": 0.5179094964945825,
+        "water_fraction_1km": 0.07074569789674952,
+        "impervious_fraction_1km": 0.2884772310490014,
+        "green_count_km2_3km": 42.724260278891016,
+        "water_count_km2_3km": 1.768388256576615
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 2.8853588104248047,
+        "summer_night_p90_uhi_c": 6.186348533630371,
+        "summer_night_mean_temp_c": 22.40886116027832,
+        "summer_night_hours": 158,
+        "annual_mean_uhi_c": 1.5643954277038574,
+        "annual_hours": 1388
+      },
+      "modelled": {
+        "uhi_c": 1.021560607404397,
+        "temp_c": 20.43281167551963,
+        "heat_index_c": 20.62509831742188,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725103-14712",
+      "name": "Rdng Rgnl/C A Spaatz Fd Ap",
+      "state": "PA",
+      "country": "US",
+      "lat": 40.373,
+      "lon": -75.959,
+      "elevation_m": 101.3,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.033779477374123644,
+        "building_count_km2_1km": 13.687325105903,
+        "building_count_km2_3km": 28.541786461146565,
+        "road_length_km_km2_1km": 9.25054553217628,
+        "green_fraction_1km": 0.16749521988527724,
+        "water_fraction_1km": 0.0026768642447418736,
+        "impervious_fraction_1km": 0.0985332960993576,
+        "green_count_km2_3km": 5.482003595387506,
+        "water_count_km2_3km": 0.24757435592072607
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 1.0411266088485718,
+        "summer_night_p90_uhi_c": 2.434051513671875,
+        "summer_night_mean_temp_c": 22.13416290283203,
+        "summer_night_hours": 161,
+        "annual_mean_uhi_c": 0.4230078458786011,
+        "annual_hours": 1459
+      },
+      "modelled": {
+        "uhi_c": 1.0089625564551625,
+        "temp_c": 20.420213624570398,
+        "heat_index_c": 20.612868597829404,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725128-54739",
+      "name": "University Park Airport",
+      "state": "PA",
+      "country": "US",
+      "lat": 40.85,
+      "lon": -77.85,
+      "elevation_m": 377.7,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.012874442319949012,
+        "building_count_km2_1km": 23.8732414637843,
+        "building_count_km2_3km": 61.15086591241934,
+        "road_length_km_km2_1km": 5.262870507102114,
+        "green_fraction_1km": 0.3236456341618866,
+        "water_fraction_1km": 0.0,
+        "impervious_fraction_1km": 0.0497145358696638,
+        "green_count_km2_3km": 3.6428798085478267,
+        "water_count_km2_3km": 0.5305164769729844
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 0.7244910001754761,
+        "summer_night_p90_uhi_c": 2.473250770568847,
+        "summer_night_mean_temp_c": 19.12030029296875,
+        "summer_night_hours": 133,
+        "annual_mean_uhi_c": 0.1595996916294098,
+        "annual_hours": 1248
+      },
+      "modelled": {
+        "uhi_c": 0.9895845385992387,
+        "temp_c": 20.400835606714473,
+        "heat_index_c": 20.59405991499689,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725127-04726",
+      "name": "J Murtha Jtwn-Cmbra Co Apt",
+      "state": "PA",
+      "country": "US",
+      "lat": 40.315,
+      "lon": -78.831,
+      "elevation_m": 693.9,
+      "urban_class": "rural",
+      "morphology": {
+        "building_plan_fraction_1km": 0.004461440407903123,
+        "building_count_km2_1km": 6.684507609859605,
+        "building_count_km2_3km": 1.6269171960504858,
+        "road_length_km_km2_1km": 2.652919876426323,
+        "green_fraction_1km": 0.023964308476736775,
+        "water_fraction_1km": 0.01797323135755258,
+        "impervious_fraction_1km": 0.02303187954288738,
+        "green_count_km2_3km": 1.2025040144720982,
+        "water_count_km2_3km": 1.1317684842090336
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 1.3368171453475952,
+        "summer_night_p90_uhi_c": 2.9888668060302734,
+        "summer_night_mean_temp_c": 19.148529052734375,
+        "summer_night_hours": 136,
+        "annual_mean_uhi_c": 0.4906751811504364,
+        "annual_hours": 1368
+      },
+      "modelled": {
+        "uhi_c": 0.9787721414076321,
+        "temp_c": 20.390023209522866,
+        "heat_index_c": 20.583566655335375,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "720545-00169",
+      "name": "Chester Airport",
+      "state": "CT",
+      "country": "US",
+      "lat": 41.384,
+      "lon": -72.506,
+      "elevation_m": 127.1,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.012746972594008922,
+        "building_count_km2_1km": 41.061975317709,
+        "building_count_km2_3km": 36.4641658506098,
+        "road_length_km_km2_1km": 3.808891542681287,
+        "green_fraction_1km": 0.0082855321861058,
+        "water_fraction_1km": 0.0017845761631612492,
+        "impervious_fraction_1km": 0.039409213392777934,
+        "green_count_km2_3km": 1.2732395447351628,
+        "water_count_km2_3km": 1.8037560217081472
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 1.0314946174621582,
+        "summer_night_p90_uhi_c": 2.7920328140258794,
+        "summer_night_mean_temp_c": 19.20472526550293,
+        "summer_night_hours": 127,
+        "annual_mean_uhi_c": 1.1555507183074951,
+        "annual_hours": 1297
+      },
+      "modelled": {
+        "uhi_c": 0.964581072718982,
+        "temp_c": 20.375832140834216,
+        "heat_index_c": 20.56979604221378,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "720334-93764",
+      "name": "Gaithersburg Montgomery County Air Park",
+      "state": "MD",
+      "country": "US",
+      "lat": 39.167,
+      "lon": -77.167,
+      "elevation_m": 164.3,
+      "urban_class": "urban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.12300828553218611,
+        "building_count_km2_1km": 295.70988426474156,
+        "building_count_km2_3km": 368.28453831464583,
+        "road_length_km_km2_1km": 15.870423318174826,
+        "green_fraction_1km": 0.20484384958572338,
+        "water_fraction_1km": 0.00815806246016571,
+        "impervious_fraction_1km": 0.2341012487594099,
+        "green_count_km2_3km": 8.099218215120896,
+        "water_count_km2_3km": 1.5561816657874212
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 0.20040909945964813,
+        "summer_night_p90_uhi_c": 2.6814182281494143,
+        "summer_night_mean_temp_c": 20.4805965423584,
+        "summer_night_hours": 134,
+        "annual_mean_uhi_c": 0.713982880115509,
+        "annual_hours": 1260
+      },
+      "modelled": {
+        "uhi_c": 0.9433562577047364,
+        "temp_c": 20.35460732581997,
+        "heat_index_c": 20.549203459765245,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725125-04787",
+      "name": "Du Bois-Jefferson Co Arpt",
+      "state": "PA",
+      "country": "US",
+      "lat": 41.179,
+      "lon": -78.893,
+      "elevation_m": 550.5,
+      "urban_class": "rural",
+      "morphology": {
+        "building_plan_fraction_1km": 0.005098789037603569,
+        "building_count_km2_1km": 6.684507609859605,
+        "building_count_km2_3km": 0.8841941282883075,
+        "road_length_km_km2_1km": 2.070468364113533,
+        "green_fraction_1km": 0.39184193753983426,
+        "water_fraction_1km": 0.0007648183556405354,
+        "impervious_fraction_1km": 0.019592067586398303,
+        "green_count_km2_3km": 3.006260036180245,
+        "water_count_km2_3km": 0.6719875374991137
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 0.9011135101318359,
+        "summer_night_p90_uhi_c": 2.4753499031066895,
+        "summer_night_mean_temp_c": 18.272891998291016,
+        "summer_night_hours": 166,
+        "annual_mean_uhi_c": 0.6229283213615417,
+        "annual_hours": 1379
+      },
+      "modelled": {
+        "uhi_c": 0.9342330101603916,
+        "temp_c": 20.345484078275625,
+        "heat_index_c": 20.540353216594927,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725080-14740",
+      "name": "Bradley International Airport",
+      "state": "CT",
+      "country": "US",
+      "lat": 41.937,
+      "lon": -72.682,
+      "elevation_m": 51.6,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.03275971956660293,
+        "building_count_km2_1km": 18.46197339865986,
+        "building_count_km2_3km": 103.45071300973197,
+        "road_length_km_km2_1km": 9.433097150627434,
+        "green_fraction_1km": 0.33460803059273425,
+        "water_fraction_1km": 0.0,
+        "impervious_fraction_1km": 0.09879139962099498,
+        "green_count_km2_3km": 7.215024086832589,
+        "water_count_km2_3km": 0.6366197723675814
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 1.6450111865997314,
+        "summer_night_p90_uhi_c": 3.6840160369873045,
+        "summer_night_mean_temp_c": 20.437063217163086,
+        "summer_night_hours": 143,
+        "annual_mean_uhi_c": 1.1718857288360596,
+        "annual_hours": 1427
+      },
+      "modelled": {
+        "uhi_c": 0.9328581058637831,
+        "temp_c": 20.344109173979017,
+        "heat_index_c": 20.53901952000825,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725260-14860",
+      "name": "Erie Intl/T. Ridge Field Airport",
+      "state": "PA",
+      "country": "US",
+      "lat": 42.08,
+      "lon": -80.182,
+      "elevation_m": 222.2,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.0367112810707457,
+        "building_count_km2_1km": 94.21972631040204,
+        "building_count_km2_3km": 121.55900875707651,
+        "road_length_km_km2_1km": 12.121417984844241,
+        "green_fraction_1km": 0.020395156150414276,
+        "water_fraction_1km": 0.00025493945188017844,
+        "impervious_fraction_1km": 0.12156120696465539,
+        "green_count_km2_3km": 6.01252007236049,
+        "water_count_km2_3km": 2.15743367302347
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 0.5771601796150208,
+        "summer_night_p90_uhi_c": 2.7616671562194823,
+        "summer_night_mean_temp_c": 19.604068756103516,
+        "summer_night_hours": 172,
+        "annual_mean_uhi_c": -0.35094889998435974,
+        "annual_hours": 1403
+      },
+      "modelled": {
+        "uhi_c": 0.9249941193698145,
+        "temp_c": 20.336245187485048,
+        "heat_index_c": 20.531391555114933,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "744915-14775",
+      "name": "Barnes Municipal Airport",
+      "state": "MA",
+      "country": "US",
+      "lat": 42.16,
+      "lon": -72.712,
+      "elevation_m": 80.6,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.018865519439133206,
+        "building_count_km2_1km": 24.82817112233567,
+        "building_count_km2_3km": 105.04226244065093,
+        "road_length_km_km2_1km": 3.928677198581558,
+        "green_fraction_1km": 0.33320586360739324,
+        "water_fraction_1km": 0.01988527724665392,
+        "impervious_fraction_1km": 0.046366259829204115,
+        "green_count_km2_3km": 3.006260036180245,
+        "water_count_km2_3km": 0.9902974236829043
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 0.7721754908561707,
+        "summer_night_p90_uhi_c": 2.74791488647461,
+        "summer_night_mean_temp_c": 19.002613067626953,
+        "summer_night_hours": 153,
+        "annual_mean_uhi_c": 0.4164724051952362,
+        "annual_hours": 1422
+      },
+      "modelled": {
+        "uhi_c": 0.9077196358681273,
+        "temp_c": 20.31897070398336,
+        "heat_index_c": 20.51463748878761,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "997694-99999",
+      "name": "Delaware City",
+      "state": "DE",
+      "country": "US",
+      "lat": 39.58,
+      "lon": -75.58,
+      "elevation_m": 8.0,
+      "urban_class": "rural",
+      "morphology": {
+        "building_plan_fraction_1km": 0.002804333970681963,
+        "building_count_km2_1km": 15.278874536821952,
+        "building_count_km2_3km": 4.668544997362264,
+        "road_length_km_km2_1km": 2.1094519214932275,
+        "green_fraction_1km": 0.008922880815806247,
+        "water_fraction_1km": 0.011472275334608031,
+        "impervious_fraction_1km": 0.017570497421134555,
+        "green_count_km2_3km": 1.308607309866695,
+        "water_count_km2_3km": 0.5658842421045168
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 0.6375181078910828,
+        "summer_night_p90_uhi_c": 1.7446990966796876,
+        "summer_night_mean_temp_c": 22.45683479309082,
+        "summer_night_hours": 139,
+        "annual_mean_uhi_c": 0.01763232611119747,
+        "annual_hours": 1230
+      },
+      "modelled": {
+        "uhi_c": 0.8947945147266688,
+        "temp_c": 20.306045582841904,
+        "heat_index_c": 20.502103516613047,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725025-94741",
+      "name": "Teterboro Airport",
+      "state": "NJ",
+      "country": "US",
+      "lat": 40.859,
+      "lon": -74.056,
+      "elevation_m": 0.8,
+      "urban_class": "urban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.19553855959209687,
+        "building_count_km2_1km": 55.38592019597958,
+        "building_count_km2_3km": 252.6319463345352,
+        "road_length_km_km2_1km": 18.84616078368854,
+        "green_fraction_1km": 0.15551306564690887,
+        "water_fraction_1km": 0.0010197578075207138,
+        "impervious_fraction_1km": 0.3274616850779166,
+        "green_count_km2_3km": 6.047887837492023,
+        "water_count_km2_3km": 0.2829421210522584
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 2.021082639694214,
+        "summer_night_p90_uhi_c": 4.258066177368164,
+        "summer_night_mean_temp_c": 21.973722457885742,
+        "summer_night_hours": 137,
+        "annual_mean_uhi_c": 0.5909985303878784,
+        "annual_hours": 1410
+      },
+      "modelled": {
+        "uhi_c": 0.8811088502705349,
+        "temp_c": 20.29235991838577,
+        "heat_index_c": 20.48883366322351,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "745940-13705",
+      "name": "Andrews Air Force Base Airport",
+      "state": "MD",
+      "country": "US",
+      "lat": 38.817,
+      "lon": -76.867,
+      "elevation_m": 86.0,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.010707456978967494,
+        "building_count_km2_1km": 18.46197339865986,
+        "building_count_km2_3km": 246.65479402730625,
+        "road_length_km_km2_1km": 4.389099089372916,
+        "green_fraction_1km": 0.09024856596558317,
+        "water_fraction_1km": 0.0,
+        "impervious_fraction_1km": 0.0414311506045779,
+        "green_count_km2_3km": 3.430673217758633,
+        "water_count_km2_3km": 2.970892271048713
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 0.6497187614440918,
+        "summer_night_p90_uhi_c": 2.3391334533691417,
+        "summer_night_mean_temp_c": 21.697315216064453,
+        "summer_night_hours": 149,
+        "annual_mean_uhi_c": 1.1261167526245117,
+        "annual_hours": 1377
+      },
+      "modelled": {
+        "uhi_c": 0.8719533465417484,
+        "temp_c": 20.283204414656982,
+        "heat_index_c": 20.47995727687825,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "726155-54736",
+      "name": "Laconia Municipal Airport",
+      "state": "NH",
+      "country": "US",
+      "lat": 43.567,
+      "lon": -71.433,
+      "elevation_m": 166.1,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.02141491395793499,
+        "building_count_km2_1km": 58.569019057817485,
+        "building_count_km2_3km": 31.159001080879953,
+        "road_length_km_km2_1km": 8.983577775456276,
+        "green_fraction_1km": 0.06959847036328871,
+        "water_fraction_1km": 0.06093052899936265,
+        "impervious_fraction_1km": 0.08429995838612891,
+        "green_count_km2_3km": 1.8037560217081472,
+        "water_count_km2_3km": 0.8488263631567752
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 2.3083384037017822,
+        "summer_night_p90_uhi_c": 4.364551067352295,
+        "summer_night_mean_temp_c": 18.396574020385742,
+        "summer_night_hours": 146,
+        "annual_mean_uhi_c": 1.0816041231155396,
+        "annual_hours": 1274
+      },
+      "modelled": {
+        "uhi_c": 0.8517474099113871,
+        "temp_c": 20.26299847802662,
+        "heat_index_c": 20.460370031206057,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "726166-54781",
+      "name": "W. H. Morse State Airport",
+      "state": "VT",
+      "country": "US",
+      "lat": 42.891,
+      "lon": -73.247,
+      "elevation_m": 251.8,
+      "urban_class": "rural",
+      "morphology": {
+        "building_plan_fraction_1km": 0.0024219247928616953,
+        "building_count_km2_1km": 3.5014087480216975,
+        "building_count_km2_3km": 5.835681246702829,
+        "road_length_km_km2_1km": 2.495755683716726,
+        "green_fraction_1km": 0.005991077119184194,
+        "water_fraction_1km": 0.0029318036966220523,
+        "impervious_fraction_1km": 0.019892214578878777,
+        "green_count_km2_3km": 0.5305164769729844,
+        "water_count_km2_3km": 0.8488263631567752
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 0.4326518177986145,
+        "summer_night_p90_uhi_c": 2.256216526031494,
+        "summer_night_mean_temp_c": 17.50753402709961,
+        "summer_night_hours": 146,
+        "annual_mean_uhi_c": 1.1695959568023682,
+        "annual_hours": 1284
+      },
+      "modelled": {
+        "uhi_c": 0.8442589462540441,
+        "temp_c": 20.25551001436928,
+        "heat_index_c": 20.453111798916463,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "720493-54758",
+      "name": "Newport Ap",
+      "state": "VT",
+      "country": "US",
+      "lat": 44.883,
+      "lon": -72.233,
+      "elevation_m": 278.9,
+      "urban_class": "rural",
+      "morphology": {
+        "building_plan_fraction_1km": 0.0008922880815806246,
+        "building_count_km2_1km": 3.5014087480216975,
+        "building_count_km2_3km": 3.925821929600085,
+        "road_length_km_km2_1km": 0.5108668656682482,
+        "green_fraction_1km": 0.0,
+        "water_fraction_1km": 0.0,
+        "impervious_fraction_1km": 0.004468356141258362,
+        "green_count_km2_3km": 0.35367765131532297,
+        "water_count_km2_3km": 0.0707355302630646
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 0.7405834197998047,
+        "summer_night_p90_uhi_c": 2.1838330268859862,
+        "summer_night_mean_temp_c": 15.909875869750977,
+        "summer_night_hours": 162,
+        "annual_mean_uhi_c": 0.12593060731887817,
+        "annual_hours": 1348
+      },
+      "modelled": {
+        "uhi_c": 0.8252157522946265,
+        "temp_c": 20.23646682040986,
+        "heat_index_c": 20.43465637732276,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "726055-04743",
+      "name": "Pease International Tradeport Airport",
+      "state": "NH",
+      "country": "US",
+      "lat": 43.083,
+      "lon": -70.817,
+      "elevation_m": 30.5,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.05137029955385596,
+        "building_count_km2_1km": 26.101410667070837,
+        "building_count_km2_3km": 37.6666698650819,
+        "road_length_km_km2_1km": 12.31186527408238,
+        "green_fraction_1km": 0.317144678138942,
+        "water_fraction_1km": 0.0010197578075207138,
+        "impervious_fraction_1km": 0.13755335647243264,
+        "green_count_km2_3km": 14.889829120375097,
+        "water_count_km2_3km": 1.6269171960504858
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 1.0058283805847168,
+        "summer_night_p90_uhi_c": 3.3386332511901857,
+        "summer_night_mean_temp_c": 19.10211181640625,
+        "summer_night_hours": 142,
+        "annual_mean_uhi_c": 0.4922047257423401,
+        "annual_hours": 1393
+      },
+      "modelled": {
+        "uhi_c": 0.8143448550056017,
+        "temp_c": 20.225595923120835,
+        "heat_index_c": 20.42412248995394,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "997991-99999",
+      "name": "Hudson River Reserve",
+      "state": "NY",
+      "country": "US",
+      "lat": 42.017,
+      "lon": -73.917,
+      "elevation_m": 12.0,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.013639260675589548,
+        "building_count_km2_1km": 37.878876455871094,
+        "building_count_km2_3km": 19.84131623878962,
+        "road_length_km_km2_1km": 3.9603063872421362,
+        "green_fraction_1km": 0.3830465264499681,
+        "water_fraction_1km": 0.002166985340981517,
+        "impervious_fraction_1km": 0.0413614053862845,
+        "green_count_km2_3km": 3.0416278013117775,
+        "water_count_km2_3km": 0.7780908328937106
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 0.6674906611442566,
+        "summer_night_p90_uhi_c": 2.1431495666503912,
+        "summer_night_mean_temp_c": 19.62740707397461,
+        "summer_night_hours": 135,
+        "annual_mean_uhi_c": -0.11381837725639343,
+        "annual_hours": 1321
+      },
+      "modelled": {
+        "uhi_c": 0.7950597081970926,
+        "temp_c": 20.20631077631233,
+        "heat_index_c": 20.40543784941742,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725036-14757",
+      "name": "Dutchess County Airport",
+      "state": "NY",
+      "country": "US",
+      "lat": 41.626,
+      "lon": -73.882,
+      "elevation_m": 46.6,
+      "urban_class": "rural",
+      "morphology": {
+        "building_plan_fraction_1km": 0.007903123008285532,
+        "building_count_km2_1km": 6.684507609859605,
+        "building_count_km2_3km": 6.01252007236049,
+        "road_length_km_km2_1km": 6.01259269055105,
+        "green_fraction_1km": 0.018483110261312937,
+        "water_fraction_1km": 0.004461440407903123,
+        "impervious_fraction_1km": 0.04999127184214288,
+        "green_count_km2_3km": 0.49514871184145215,
+        "water_count_km2_3km": 0.1414710605261292
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 0.8104453682899475,
+        "summer_night_p90_uhi_c": 2.056100177764893,
+        "summer_night_mean_temp_c": 20.187143325805664,
+        "summer_night_hours": 140,
+        "annual_mean_uhi_c": 0.25282928347587585,
+        "annual_hours": 1394
+      },
+      "modelled": {
+        "uhi_c": 0.7768265110735317,
+        "temp_c": 20.188077579188764,
+        "heat_index_c": 20.387775518050994,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "997270-99999",
+      "name": "Atlantic City",
+      "state": "NJ",
+      "country": "US",
+      "lat": 39.35,
+      "lon": -74.42,
+      "elevation_m": 10.0,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.010197578075207138,
+        "building_count_km2_1km": 16.870423967740905,
+        "building_count_km2_3km": 154.80470798071687,
+        "road_length_km_km2_1km": 0.5503089153133419,
+        "green_fraction_1km": 0.00012746972594008922,
+        "water_fraction_1km": 0.0,
+        "impervious_fraction_1km": 0.01404974048240053,
+        "green_count_km2_3km": 12.803130977614693,
+        "water_count_km2_3km": 0.0707355302630646
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": -0.27690327167510986,
+        "summer_night_p90_uhi_c": 2.612133026123047,
+        "summer_night_mean_temp_c": 21.857311248779297,
+        "summer_night_hours": 171,
+        "annual_mean_uhi_c": -0.2882324755191803,
+        "annual_hours": 1179
+      },
+      "modelled": {
+        "uhi_c": 0.763192791833913,
+        "temp_c": 20.174443859949147,
+        "heat_index_c": 20.37457064005712,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725069-94624",
+      "name": "Chatham Municipal Airport",
+      "state": "MA",
+      "country": "US",
+      "lat": 41.688,
+      "lon": -69.993,
+      "elevation_m": 18.5,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.03607393244104525,
+        "building_count_km2_1km": 265.47044507728145,
+        "building_count_km2_3km": 238.4141047516592,
+        "road_length_km_km2_1km": 7.938580315389758,
+        "green_fraction_1km": 0.22638623326959847,
+        "water_fraction_1km": 0.10962396430847673,
+        "impervious_fraction_1km": 0.09164399464877356,
+        "green_count_km2_3km": 19.416903057211233,
+        "water_count_km2_3km": 1.5915494309189535
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 0.6764930486679077,
+        "summer_night_p90_uhi_c": 2.83038330078125,
+        "summer_night_mean_temp_c": 19.893383026123047,
+        "summer_night_hours": 136,
+        "annual_mean_uhi_c": 0.4856327176094055,
+        "annual_hours": 1344
+      },
+      "modelled": {
+        "uhi_c": 0.7563799101092843,
+        "temp_c": 20.16763097822452,
+        "heat_index_c": 20.36797268968131,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "726140-54742",
+      "name": "St. Johnsbury(Amos)",
+      "state": "VT",
+      "country": "US",
+      "lat": 44.42,
+      "lon": -72.019,
+      "elevation_m": 212.4,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.08871892925430211,
+        "building_count_km2_1km": 412.84792238037653,
+        "building_count_km2_3km": 81.27512427226122,
+        "road_length_km_km2_1km": 16.611285635436083,
+        "green_fraction_1km": 0.07660930528999363,
+        "water_fraction_1km": 0.0010197578075207138,
+        "impervious_fraction_1km": 0.2049979287023547,
+        "green_count_km2_3km": 1.909859317102744,
+        "water_count_km2_3km": 0.17683882565766149
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 1.1362920999526978,
+        "summer_night_p90_uhi_c": 2.061583423614502,
+        "summer_night_mean_temp_c": 16.8389835357666,
+        "summer_night_hours": 118,
+        "annual_mean_uhi_c": 0.544257640838623,
+        "annual_hours": 1289
+      },
+      "modelled": {
+        "uhi_c": 0.7538278182912727,
+        "temp_c": 20.16507888640651,
+        "heat_index_c": 20.365501219874112,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "726050-14745",
+      "name": "Concord Municipal Airport",
+      "state": "NH",
+      "country": "US",
+      "lat": 43.205,
+      "lon": -71.503,
+      "elevation_m": 103.2,
+      "urban_class": "urban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.0425748884639898,
+        "building_count_km2_1km": 94.85634608276962,
+        "building_count_km2_3km": 121.24069887089271,
+        "road_length_km_km2_1km": 7.473221385986911,
+        "green_fraction_1km": 0.034034416826003826,
+        "water_fraction_1km": 0.0,
+        "impervious_fraction_1km": 0.09488743816589819,
+        "green_count_km2_3km": 2.015962612497341,
+        "water_count_km2_3km": 0.24757435592072607
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 0.9350844621658325,
+        "summer_night_p90_uhi_c": 2.546550750732422,
+        "summer_night_mean_temp_c": 17.583688735961914,
+        "summer_night_hours": 141,
+        "annual_mean_uhi_c": 0.5906886458396912,
+        "annual_hours": 1363
+      },
+      "modelled": {
+        "uhi_c": 0.6562112490559062,
+        "temp_c": 20.06746231717114,
+        "heat_index_c": 20.271013194359764,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725014-54780",
+      "name": "Montauk Airport",
+      "state": "NY",
+      "country": "US",
+      "lat": 41.073,
+      "lon": -71.924,
+      "elevation_m": 2.0,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.007265774378585086,
+        "building_count_km2_1km": 30.876058959827695,
+        "building_count_km2_3km": 60.62034943544636,
+        "road_length_km_km2_1km": 2.3218230657254546,
+        "green_fraction_1km": 0.3903123008285532,
+        "water_fraction_1km": 0.0030592734225621415,
+        "impervious_fraction_1km": 0.023518535838663267,
+        "green_count_km2_3km": 5.800313481571297,
+        "water_count_km2_3km": 1.0256651888144366
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 1.2022745609283447,
+        "summer_night_p90_uhi_c": 2.8809982299804706,
+        "summer_night_mean_temp_c": 20.954362869262695,
+        "summer_night_hours": 149,
+        "annual_mean_uhi_c": 1.2280758619308472,
+        "annual_hours": 1262
+      },
+      "modelled": {
+        "uhi_c": 0.6461852653212697,
+        "temp_c": 20.057436333436502,
+        "heat_index_c": 20.261313493019376,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725165-94737",
+      "name": "Rutland State Airport",
+      "state": "VT",
+      "country": "US",
+      "lat": 43.533,
+      "lon": -72.95,
+      "elevation_m": 239.0,
+      "urban_class": "rural",
+      "morphology": {
+        "building_plan_fraction_1km": 0.010070108349267049,
+        "building_count_km2_1km": 31.512678732195276,
+        "building_count_km2_3km": 7.144288556569524,
+        "road_length_km_km2_1km": 5.267763482302339,
+        "green_fraction_1km": 0.37476099426386233,
+        "water_fraction_1km": 0.012874442319949012,
+        "impervious_fraction_1km": 0.04694445272538342,
+        "green_count_km2_3km": 5.588106890782103,
+        "water_count_km2_3km": 0.6366197723675814
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 0.6649999618530273,
+        "summer_night_p90_uhi_c": 2.2119503021240234,
+        "summer_night_mean_temp_c": 17.214893341064453,
+        "summer_night_hours": 141,
+        "annual_mean_uhi_c": 0.13127057254314423,
+        "annual_hours": 1213
+      },
+      "modelled": {
+        "uhi_c": 0.6418956831130899,
+        "temp_c": 20.053146751228326,
+        "heat_index_c": 20.257163792430774,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "744104-14763",
+      "name": "Pittsfield Municipal Ap",
+      "state": "MA",
+      "country": "US",
+      "lat": 42.427,
+      "lon": -73.289,
+      "elevation_m": 351.2,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.008667941363926068,
+        "building_count_km2_1km": 35.65070725258456,
+        "building_count_km2_3km": 132.73522253864073,
+        "road_length_km_km2_1km": 2.7998115800080843,
+        "green_fraction_1km": 0.09802421924792862,
+        "water_fraction_1km": 0.010707456978967494,
+        "impervious_fraction_1km": 0.028266622423982656,
+        "green_count_km2_3km": 0.9902974236829043,
+        "water_count_km2_3km": 0.6719875374991137
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 0.8867185115814209,
+        "summer_night_p90_uhi_c": 2.4201503753662115,
+        "summer_night_mean_temp_c": 17.135753631591797,
+        "summer_night_hours": 179,
+        "annual_mean_uhi_c": 0.46923092007637024,
+        "annual_hours": 1393
+      },
+      "modelled": {
+        "uhi_c": 0.6375732390467553,
+        "temp_c": 20.04882430716199,
+        "heat_index_c": 20.25298247313033,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "726163-54770",
+      "name": "Jaffrey Mini-Slvr Rnch Apt",
+      "state": "NH",
+      "country": "US",
+      "lat": 42.807,
+      "lon": -72.001,
+      "elevation_m": 308.4,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.014404079031230083,
+        "building_count_km2_1km": 26.101410667070837,
+        "building_count_km2_3km": 59.347109890711195,
+        "road_length_km_km2_1km": 3.8015625748337323,
+        "green_fraction_1km": 0.01606118546845124,
+        "water_fraction_1km": 0.004461440407903123,
+        "impervious_fraction_1km": 0.04101501705506621,
+        "green_count_km2_3km": 2.228169203286535,
+        "water_count_km2_3km": 1.4500783703928242
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 1.6013349294662476,
+        "summer_night_p90_uhi_c": 3.3746158599853517,
+        "summer_night_mean_temp_c": 17.65581512451172,
+        "summer_night_hours": 129,
+        "annual_mean_uhi_c": 1.2889525890350342,
+        "annual_hours": 1359
+      },
+      "modelled": {
+        "uhi_c": 0.6023742114244376,
+        "temp_c": 20.01362527953967,
+        "heat_index_c": 20.21893908655222,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725203-99999",
+      "name": "Mifflin Co",
+      "state": "PA",
+      "country": "US",
+      "lat": 40.677,
+      "lon": -77.627,
+      "elevation_m": 249.6,
+      "urban_class": "rural",
+      "morphology": {
+        "building_plan_fraction_1km": 0.0020395156150414275,
+        "building_count_km2_1km": 3.5014087480216975,
+        "building_count_km2_3km": 6.896714200648798,
+        "road_length_km_km2_1km": 2.027682106952315,
+        "green_fraction_1km": 0.02345442957297642,
+        "water_fraction_1km": 0.0,
+        "impervious_fraction_1km": 0.01623329036370763,
+        "green_count_km2_3km": 2.5464790894703255,
+        "water_count_km2_3km": 0.1414710605261292
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 0.08982180804014206,
+        "summer_night_p90_uhi_c": 1.6858814239501956,
+        "summer_night_mean_temp_c": 19.838708877563477,
+        "summer_night_hours": 124,
+        "annual_mean_uhi_c": -0.20836204290390015,
+        "annual_hours": 1335
+      },
+      "modelled": {
+        "uhi_c": 0.5645272780095453,
+        "temp_c": 19.97577834612478,
+        "heat_index_c": 20.182347507936967,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "724180-13781",
+      "name": "Wilmington Airport",
+      "state": "DE",
+      "country": "US",
+      "lat": 39.674,
+      "lon": -75.606,
+      "elevation_m": 22.4,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.0639898024219248,
+        "building_count_km2_1km": 27.374650211806,
+        "building_count_km2_3km": 25.181848773650998,
+        "road_length_km_km2_1km": 12.993592735951847,
+        "green_fraction_1km": 0.0038240917782026767,
+        "water_fraction_1km": 0.0008922880815806246,
+        "impervious_fraction_1km": 0.15494495157358773,
+        "green_count_km2_3km": 3.99655745986315,
+        "water_count_km2_3km": 0.7427230677621782
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 0.5871199369430542,
+        "summer_night_p90_uhi_c": 1.661633491516113,
+        "summer_night_mean_temp_c": 22.2413330078125,
+        "summer_night_hours": 150,
+        "annual_mean_uhi_c": 0.1332743763923645,
+        "annual_hours": 1431
+      },
+      "modelled": {
+        "uhi_c": 0.5024031016694003,
+        "temp_c": 19.913654169784635,
+        "heat_index_c": 20.122312751524596,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725085-54756",
+      "name": "Orange Municipal Airport",
+      "state": "MA",
+      "country": "US",
+      "lat": 42.57,
+      "lon": -72.287,
+      "elevation_m": 165.8,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.037093690248565965,
+        "building_count_km2_1km": 97.08451528605616,
+        "building_count_km2_3km": 119.11863296300078,
+        "road_length_km_km2_1km": 6.15059418479073,
+        "green_fraction_1km": 0.19337157425111537,
+        "water_fraction_1km": 0.0,
+        "impervious_fraction_1km": 0.08014784954210108,
+        "green_count_km2_3km": 5.729577951308232,
+        "water_count_km2_3km": 0.49514871184145215
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 0.3637078106403351,
+        "summer_night_p90_uhi_c": 2.243332672119142,
+        "summer_night_mean_temp_c": 18.18255043029785,
+        "summer_night_hours": 149,
+        "annual_mean_uhi_c": 0.28564178943634033,
+        "annual_hours": 1396
+      },
+      "modelled": {
+        "uhi_c": 0.4436158646297428,
+        "temp_c": 19.854866932744976,
+        "heat_index_c": 20.065535806920785,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725140-14778",
+      "name": "Williamsport Regional Airport",
+      "state": "PA",
+      "country": "US",
+      "lat": 41.243,
+      "lon": -76.922,
+      "elevation_m": 159.8,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.02676864244741874,
+        "building_count_km2_1km": 27.69296009798979,
+        "building_count_km2_3km": 5.23442923946678,
+        "road_length_km_km2_1km": 7.7002976381969965,
+        "green_fraction_1km": 0.23518164435946462,
+        "water_fraction_1km": 0.061695347355003184,
+        "impervious_fraction_1km": 0.08067072591479772,
+        "green_count_km2_3km": 3.6428798085478267,
+        "water_count_km2_3km": 0.35367765131532297
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 0.2588428854942322,
+        "summer_night_p90_uhi_c": 2.069016933441162,
+        "summer_night_mean_temp_c": 20.089855194091797,
+        "summer_night_hours": 138,
+        "annual_mean_uhi_c": -0.1664295494556427,
+        "annual_hours": 1427
+      },
+      "modelled": {
+        "uhi_c": 0.42647085530705026,
+        "temp_c": 19.837721923422286,
+        "heat_index_c": 20.04898317400177,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725194-54778",
+      "name": "Penn Yan Airport",
+      "state": "NY",
+      "country": "US",
+      "lat": 42.644,
+      "lon": -77.053,
+      "elevation_m": 267.4,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.0295729764181007,
+        "building_count_km2_1km": 78.30423200121251,
+        "building_count_km2_3km": 104.05196501696803,
+        "road_length_km_km2_1km": 4.886874215627845,
+        "green_fraction_1km": 0.01172721478648821,
+        "water_fraction_1km": 0.0,
+        "impervious_fraction_1km": 0.06378109592749562,
+        "green_count_km2_3km": 0.8488263631567752,
+        "water_count_km2_3km": 0.2829421210522584
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 0.43799057602882385,
+        "summer_night_p90_uhi_c": 2.5830999374389654,
+        "summer_night_mean_temp_c": 18.677371978759766,
+        "summer_night_hours": 137,
+        "annual_mean_uhi_c": 0.14973683655261993,
+        "annual_hours": 1341
+      },
+      "modelled": {
+        "uhi_c": 0.4148361195871202,
+        "temp_c": 19.826087187702356,
+        "heat_index_c": 20.03775199795151,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "744910-14703",
+      "name": "Westover Afb/Metropolitan Airport",
+      "state": "MA",
+      "country": "US",
+      "lat": 42.2,
+      "lon": -72.533,
+      "elevation_m": 73.5,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.011982154238368388,
+        "building_count_km2_1km": 8.276057040778557,
+        "building_count_km2_3km": 115.4050176241899,
+        "road_length_km_km2_1km": 3.8904696824718616,
+        "green_fraction_1km": 0.5803696622052262,
+        "water_fraction_1km": 0.00012746972594008922,
+        "impervious_fraction_1km": 0.03921544201567142,
+        "green_count_km2_3km": 11.105478251301141,
+        "water_count_km2_3km": 0.7780908328937106
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 0.6174530982971191,
+        "summer_night_p90_uhi_c": 2.8517664909362797,
+        "summer_night_mean_temp_c": 18.996835708618164,
+        "summer_night_hours": 158,
+        "annual_mean_uhi_c": 0.37650373578071594,
+        "annual_hours": 1400
+      },
+      "modelled": {
+        "uhi_c": 0.40161234758068287,
+        "temp_c": 19.81286341569592,
+        "heat_index_c": 20.02498844399869,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "720408-00136",
+      "name": "Chester County Go Carlson Airport",
+      "state": "PA",
+      "country": "US",
+      "lat": 39.983,
+      "lon": -75.867,
+      "elevation_m": 201.2,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.015423836838750796,
+        "building_count_km2_1km": 15.278874536821952,
+        "building_count_km2_3km": 19.69984517826349,
+        "road_length_km_km2_1km": 6.398615400105081,
+        "green_fraction_1km": 0.0014021669853409816,
+        "water_fraction_1km": 0.0012746972594008922,
+        "impervious_fraction_1km": 0.06021414463948636,
+        "green_count_km2_3km": 3.006260036180245,
+        "water_count_km2_3km": 0.3890454164468553
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": -0.3098333775997162,
+        "summer_night_p90_uhi_c": 0.5882492065429688,
+        "summer_night_mean_temp_c": 20.17218589782715,
+        "summer_night_hours": 151,
+        "annual_mean_uhi_c": -0.09994139522314072,
+        "annual_hours": 1329
+      },
+      "modelled": {
+        "uhi_c": 0.3626266168455289,
+        "temp_c": 19.773877684960762,
+        "heat_index_c": 19.987369067600145,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725113-54786",
+      "name": "Doylestown Airport",
+      "state": "PA",
+      "country": "US",
+      "lat": 40.33,
+      "lon": -75.123,
+      "elevation_m": 120.5,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.04639898024219248,
+        "building_count_km2_1km": 45.518313724282066,
+        "building_count_km2_3km": 78.02128988016025,
+        "road_length_km_km2_1km": 15.147769080052598,
+        "green_fraction_1km": 0.06653919694072657,
+        "water_fraction_1km": 0.0025493945188017845,
+        "impervious_fraction_1km": 0.15243336380256067,
+        "green_count_km2_3km": 4.45633840657307,
+        "water_count_km2_3km": 2.051330377628873
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 0.33275824785232544,
+        "summer_night_p90_uhi_c": 1.820333862304688,
+        "summer_night_mean_temp_c": 21.12148094177246,
+        "summer_night_hours": 135,
+        "annual_mean_uhi_c": 0.3864288628101349,
+        "annual_hours": 1401
+      },
+      "modelled": {
+        "uhi_c": 0.28677321554283836,
+        "temp_c": 19.69802428365807,
+        "heat_index_c": 19.914215190783676,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "726116-94765",
+      "name": "Lebanon Municipal Airport",
+      "state": "NH",
+      "country": "US",
+      "lat": 43.627,
+      "lon": -72.305,
+      "elevation_m": 168.9,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.027023581899298918,
+        "building_count_km2_1km": 21.326762374313976,
+        "building_count_km2_3km": 41.41565296902432,
+        "road_length_km_km2_1km": 5.456776593567185,
+        "green_fraction_1km": 0.26284257488846396,
+        "water_fraction_1km": 0.007903123008285532,
+        "impervious_fraction_1km": 0.06522101805426922,
+        "green_count_km2_3km": 6.189358898018152,
+        "water_count_km2_3km": 0.7073553026306459
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 0.37553802132606506,
+        "summer_night_p90_uhi_c": 1.7622661590576172,
+        "summer_night_mean_temp_c": 17.85394859313965,
+        "summer_night_hours": 152,
+        "annual_mean_uhi_c": 0.5142467021942139,
+        "annual_hours": 1396
+      },
+      "modelled": {
+        "uhi_c": 0.23344896952036995,
+        "temp_c": 19.644700037635605,
+        "heat_index_c": 19.862821285667717,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "724988-94704",
+      "name": "Dansville Municipal Arpt",
+      "state": "NY",
+      "country": "US",
+      "lat": 42.57,
+      "lon": -77.714,
+      "elevation_m": 196.0,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.04780114722753346,
+        "building_count_km2_1km": 101.22254380644544,
+        "building_count_km2_3km": 91.14273074395874,
+        "road_length_km_km2_1km": 8.872736050973684,
+        "green_fraction_1km": 0.01669853409815169,
+        "water_fraction_1km": 0.0,
+        "impervious_fraction_1km": 0.10991029958434925,
+        "green_count_km2_3km": 2.0866981427604054,
+        "water_count_km2_3km": 0.2122065907891938
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 0.21372200548648834,
+        "summer_night_p90_uhi_c": 2.1140005111694347,
+        "summer_night_mean_temp_c": 19.004859924316406,
+        "summer_night_hours": 144,
+        "annual_mean_uhi_c": 0.7169221043586731,
+        "annual_hours": 1362
+      },
+      "modelled": {
+        "uhi_c": 0.2312186678858879,
+        "temp_c": 19.64246973600112,
+        "heat_index_c": 19.860672309454646,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725046-14707",
+      "name": "Groton-New London Airport",
+      "state": "CT",
+      "country": "US",
+      "lat": 41.328,
+      "lon": -72.049,
+      "elevation_m": 2.5,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.01797323135755258,
+        "building_count_km2_1km": 74.16620348082323,
+        "building_count_km2_3km": 146.81159306099056,
+        "road_length_km_km2_1km": 4.069800711002271,
+        "green_fraction_1km": 0.10235818992989165,
+        "water_fraction_1km": 0.02141491395793499,
+        "impervious_fraction_1km": 0.046461836334568477,
+        "green_count_km2_3km": 12.944602038140822,
+        "water_count_km2_3km": 1.6976527263135504
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 0.5634199380874634,
+        "summer_night_p90_uhi_c": 2.208799362182617,
+        "summer_night_mean_temp_c": 20.115602493286133,
+        "summer_night_hours": 141,
+        "annual_mean_uhi_c": 0.24013468623161316,
+        "annual_hours": 1275
+      },
+      "modelled": {
+        "uhi_c": 0.20452567676109606,
+        "temp_c": 19.61577674487633,
+        "heat_index_c": 19.834956321891216,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725157-54757",
+      "name": "Muni Arpt Tarantine Fld Ap",
+      "state": "NY",
+      "country": "US",
+      "lat": 42.108,
+      "lon": -77.984,
+      "elevation_m": 637.6,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.002166985340981517,
+        "building_count_km2_1km": 5.411268065124442,
+        "building_count_km2_3km": 51.21252391045877,
+        "road_length_km_km2_1km": 0.973796213157074,
+        "green_fraction_1km": 0.055449330783938815,
+        "water_fraction_1km": 0.0,
+        "impervious_fraction_1km": 0.008983558833081036,
+        "green_count_km2_3km": 2.4050080289441964,
+        "water_count_km2_3km": 0.0353677651315323
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 0.16465356945991516,
+        "summer_night_p90_uhi_c": 1.7756172180175798,
+        "summer_night_mean_temp_c": 17.353254318237305,
+        "summer_night_hours": 169,
+        "annual_mean_uhi_c": -0.0035423319786787033,
+        "annual_hours": 1368
+      },
+      "modelled": {
+        "uhi_c": 0.18434068699263398,
+        "temp_c": 19.59559175510787,
+        "heat_index_c": 19.815514641493913,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725124-64705",
+      "name": "Btlr Co/K W Scholter Fd Ap",
+      "state": "PA",
+      "country": "US",
+      "lat": 40.777,
+      "lon": -79.95,
+      "elevation_m": 380.1,
+      "urban_class": "rural",
+      "morphology": {
+        "building_plan_fraction_1km": 0.010962396430847674,
+        "building_count_km2_1km": 15.915494309189533,
+        "building_count_km2_3km": 13.404382984850741,
+        "road_length_km_km2_1km": 4.545617342387371,
+        "green_fraction_1km": 0.1040152963671128,
+        "water_fraction_1km": 0.009432759719566603,
+        "impervious_fraction_1km": 0.042781717827559275,
+        "green_count_km2_3km": 7.07355302630646,
+        "water_count_km2_3km": 2.0866981427604054
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 0.238111674785614,
+        "summer_night_p90_uhi_c": 1.2275568008422852,
+        "summer_night_mean_temp_c": 18.077611923217773,
+        "summer_night_hours": 134,
+        "annual_mean_uhi_c": 0.22660940885543823,
+        "annual_hours": 1259
+      },
+      "modelled": {
+        "uhi_c": 0.11085647961931398,
+        "temp_c": 19.52210754773455,
+        "heat_index_c": 19.74476937683291,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725196-64775",
+      "name": "Griffis Airfield",
+      "state": "NY",
+      "country": "US",
+      "lat": 43.224,
+      "lon": -75.396,
+      "elevation_m": 144.7,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.027533460803059275,
+        "building_count_km2_1km": 12.095775674984045,
+        "building_count_km2_3km": 5.446635830255974,
+        "road_length_km_km2_1km": 4.427999868881513,
+        "green_fraction_1km": 0.20420650095602294,
+        "water_fraction_1km": 0.0,
+        "impervious_fraction_1km": 0.05852945988522987,
+        "green_count_km2_3km": 1.308607309866695,
+        "water_count_km2_3km": 0.17683882565766149
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 0.5373721122741699,
+        "summer_night_p90_uhi_c": 2.3315491676330566,
+        "summer_night_mean_temp_c": 17.560274124145508,
+        "summer_night_hours": 146,
+        "annual_mean_uhi_c": -0.18331080675125122,
+        "annual_hours": 1366
+      },
+      "modelled": {
+        "uhi_c": 0.10895164289708961,
+        "temp_c": 19.520202711012324,
+        "heat_index_c": 19.742936226221463,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725059-14702",
+      "name": "Laurence G Hanscom Fld Apt",
+      "state": "MA",
+      "country": "US",
+      "lat": 42.47,
+      "lon": -71.289,
+      "elevation_m": 40.5,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.037221159974506056,
+        "building_count_km2_1km": 21.645072260497766,
+        "building_count_km2_3km": 144.08827514586258,
+        "road_length_km_km2_1km": 7.404506925108608,
+        "green_fraction_1km": 0.531421287444232,
+        "water_fraction_1km": 0.0016571064372211599,
+        "impervious_fraction_1km": 0.0890527084502663,
+        "green_count_km2_3km": 19.98278729931575,
+        "water_count_km2_3km": 1.8744915519712118
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": -0.09951481968164444,
+        "summer_night_p90_uhi_c": 2.0754161834716793,
+        "summer_night_mean_temp_c": 18.717241287231445,
+        "summer_night_hours": 145,
+        "annual_mean_uhi_c": 0.08815882354974747,
+        "annual_hours": 1365
+      },
+      "modelled": {
+        "uhi_c": 0.0748747965734875,
+        "temp_c": 19.486125864688724,
+        "heat_index_c": 19.710147709784223,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "724095-14792",
+      "name": "Trenton Mercer Airport",
+      "state": "NJ",
+      "country": "US",
+      "lat": 40.277,
+      "lon": -74.816,
+      "elevation_m": 57.9,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.029445506692160613,
+        "building_count_km2_1km": 29.284509528908742,
+        "building_count_km2_3km": 44.95242948217755,
+        "road_length_km_km2_1km": 8.188732235524208,
+        "green_fraction_1km": 0.4611854684512428,
+        "water_fraction_1km": 0.0015296367112810707,
+        "impervious_fraction_1km": 0.08676663234083007,
+        "green_count_km2_3km": 7.07355302630646,
+        "water_count_km2_3km": 0.7073553026306459
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": -0.027120063081383705,
+        "summer_night_p90_uhi_c": 0.9967655181884771,
+        "summer_night_mean_temp_c": 21.532466888427734,
+        "summer_night_hours": 154,
+        "annual_mean_uhi_c": -0.454623818397522,
+        "annual_hours": 1382
+      },
+      "modelled": {
+        "uhi_c": -0.014119202452919416,
+        "temp_c": 19.397131865662313,
+        "heat_index_c": 19.624571062971214,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725098-54704",
+      "name": "Norwood Memorial Airport",
+      "state": "MA",
+      "country": "US",
+      "lat": 42.191,
+      "lon": -71.173,
+      "elevation_m": 13.0,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.024091778202676863,
+        "building_count_km2_1km": 52.839441106509256,
+        "building_count_km2_3km": 270.10362230951216,
+        "road_length_km_km2_1km": 5.126447329909379,
+        "green_fraction_1km": 0.5476099426386233,
+        "water_fraction_1km": 0.008922880815806247,
+        "impervious_fraction_1km": 0.059976909512042514,
+        "green_count_km2_3km": 11.742098023668722,
+        "water_count_km2_3km": 2.581846854601858
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": -0.22476765513420105,
+        "summer_night_p90_uhi_c": 3.027965545654297,
+        "summer_night_mean_temp_c": 18.956165313720703,
+        "summer_night_hours": 146,
+        "annual_mean_uhi_c": 0.36396917700767517,
+        "annual_hours": 1306
+      },
+      "modelled": {
+        "uhi_c": -0.02787819339768354,
+        "temp_c": 19.38337287471755,
+        "heat_index_c": 19.6113472529506,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "726228-94740",
+      "name": "Adirondack Regional Arpt",
+      "state": "NY",
+      "country": "US",
+      "lat": 44.393,
+      "lon": -74.203,
+      "elevation_m": 505.6,
+      "urban_class": "rural",
+      "morphology": {
+        "building_plan_fraction_1km": 0.0,
+        "building_count_km2_1km": 0.0,
+        "building_count_km2_3km": 5.411268065124442,
+        "road_length_km_km2_1km": 0.7218723681005356,
+        "green_fraction_1km": 0.0,
+        "water_fraction_1km": 0.0,
+        "impervious_fraction_1km": 0.005053106576703749,
+        "green_count_km2_3km": 0.0707355302630646,
+        "water_count_km2_3km": 0.1414710605261292
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": -0.92365562915802,
+        "summer_night_p90_uhi_c": 1.3306758880615248,
+        "summer_night_mean_temp_c": 14.781889915466309,
+        "summer_night_hours": 127,
+        "annual_mean_uhi_c": -0.4955506920814514,
+        "annual_hours": 1285
+      },
+      "modelled": {
+        "uhi_c": -0.09654729792554888,
+        "temp_c": 19.314703770189684,
+        "heat_index_c": 19.54537665696049,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725073-64708",
+      "name": "Provincetown Muni Airport",
+      "state": "MA",
+      "country": "US",
+      "lat": 42.072,
+      "lon": -70.221,
+      "elevation_m": 2.4,
+      "urban_class": "rural",
+      "morphology": {
+        "building_plan_fraction_1km": 0.0006373486297004461,
+        "building_count_km2_1km": 5.092958178940651,
+        "building_count_km2_3km": 7.780908328937105,
+        "road_length_km_km2_1km": 1.269836669491336,
+        "green_fraction_1km": 0.13218610579987253,
+        "water_fraction_1km": 0.0,
+        "impervious_fraction_1km": 0.009526205316139796,
+        "green_count_km2_3km": 8.665102457225412,
+        "water_count_km2_3km": 0.24757435592072607
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": -0.4729492962360382,
+        "summer_night_p90_uhi_c": 1.2077655792236328,
+        "summer_night_mean_temp_c": 18.363088607788086,
+        "summer_night_hours": 149,
+        "annual_mean_uhi_c": 0.12412863224744797,
+        "annual_hours": 1321
+      },
+      "modelled": {
+        "uhi_c": -0.10378888362340725,
+        "temp_c": 19.307462184491825,
+        "heat_index_c": 19.538422322646756,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725027-54788",
+      "name": "Meriden Markham Muni Arpt",
+      "state": "CT",
+      "country": "US",
+      "lat": 41.51,
+      "lon": -72.828,
+      "elevation_m": 29.6,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.03913320586360739,
+        "building_count_km2_1km": 181.4366351247607,
+        "building_count_km2_3km": 301.6870365719705,
+        "road_length_km_km2_1km": 8.985415387418938,
+        "green_fraction_1km": 0.1594646271510516,
+        "water_fraction_1km": 0.017463352453792224,
+        "impervious_fraction_1km": 0.10203111357553996,
+        "green_count_km2_3km": 6.260094428281217,
+        "water_count_km2_3km": 1.662284961182018
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 0.5612159967422485,
+        "summer_night_p90_uhi_c": 2.550883102416992,
+        "summer_night_mean_temp_c": 19.611764907836914,
+        "summer_night_hours": 153,
+        "annual_mean_uhi_c": 0.5848985910415649,
+        "annual_hours": 1320
+      },
+      "modelled": {
+        "uhi_c": -0.14123350021546488,
+        "temp_c": 19.27001756789977,
+        "heat_index_c": 19.50247119021462,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "724093-13764",
+      "name": "Sussex County Airport",
+      "state": "DE",
+      "country": "US",
+      "lat": 38.69,
+      "lon": -75.362,
+      "elevation_m": 15.1,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.022179732313575527,
+        "building_count_km2_1km": 20.690142601946395,
+        "building_count_km2_3km": 29.956497066407856,
+        "road_length_km_km2_1km": 2.883535574143819,
+        "green_fraction_1km": 0.24282982791587,
+        "water_fraction_1km": 0.0,
+        "impervious_fraction_1km": 0.04236448133258226,
+        "green_count_km2_3km": 3.53677651315323,
+        "water_count_km2_3km": 0.5658842421045168
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": -0.24351103603839874,
+        "summer_night_p90_uhi_c": 1.2605655670166018,
+        "summer_night_mean_temp_c": 21.705095291137695,
+        "summer_night_hours": 157,
+        "annual_mean_uhi_c": 0.629090428352356,
+        "annual_hours": 1389
+      },
+      "modelled": {
+        "uhi_c": -0.1551870553718027,
+        "temp_c": 19.256064012743433,
+        "heat_index_c": 19.489077682487686,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "999999-64756",
+      "name": "Millbrook 3 W",
+      "state": "NY",
+      "country": "US",
+      "lat": 41.786,
+      "lon": -73.742,
+      "elevation_m": 125.9,
+      "urban_class": "rural",
+      "morphology": {
+        "building_plan_fraction_1km": 0.0017845761631612492,
+        "building_count_km2_1km": 1.5915494309189535,
+        "building_count_km2_3km": 0.6366197723675814,
+        "road_length_km_km2_1km": 4.221301753067163,
+        "green_fraction_1km": 0.0,
+        "water_fraction_1km": 0.0,
+        "impervious_fraction_1km": 0.03133368843463139,
+        "green_count_km2_3km": 0.2829421210522584,
+        "water_count_km2_3km": 0.24757435592072607
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": -0.8724350929260254,
+        "summer_night_p90_uhi_c": 0.2933648109436043,
+        "summer_night_mean_temp_c": 17.789438247680664,
+        "summer_night_hours": 142,
+        "annual_mean_uhi_c": -0.43794941902160645,
+        "annual_hours": 1402
+      },
+      "modelled": {
+        "uhi_c": -0.17158184315403283,
+        "temp_c": 19.2396692249612,
+        "heat_index_c": 19.473343362564368,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "742078-64773",
+      "name": "Plymouth Municipal Airport",
+      "state": "NH",
+      "country": "US",
+      "lat": 43.779,
+      "lon": -71.754,
+      "elevation_m": 153.9,
+      "urban_class": "rural",
+      "morphology": {
+        "building_plan_fraction_1km": 0.0010197578075207138,
+        "building_count_km2_1km": 2.864788975654116,
+        "building_count_km2_3km": 3.1477310967063747,
+        "road_length_km_km2_1km": 2.063517844388286,
+        "green_fraction_1km": 0.0,
+        "water_fraction_1km": 0.0,
+        "impervious_fraction_1km": 0.015464382718238714,
+        "green_count_km2_3km": 0.3183098861837907,
+        "water_count_km2_3km": 0.1061032953945969
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": -0.004687624052166939,
+        "summer_night_p90_uhi_c": 1.8656668663024902,
+        "summer_night_mean_temp_c": 16.19871711730957,
+        "summer_night_hours": 156,
+        "annual_mean_uhi_c": 0.18439440429210663,
+        "annual_hours": 1411
+      },
+      "modelled": {
+        "uhi_c": -0.187052439027278,
+        "temp_c": 19.224198629087958,
+        "heat_index_c": 19.458498421475557,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725088-54733",
+      "name": "Beverly Municipal Airport",
+      "state": "MA",
+      "country": "US",
+      "lat": 42.584,
+      "lon": -70.915,
+      "elevation_m": 27.6,
+      "urban_class": "urban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.048565965583174,
+        "building_count_km2_1km": 99.31268448934269,
+        "building_count_km2_3km": 302.11144975354887,
+        "road_length_km_km2_1km": 7.1793595060286926,
+        "green_fraction_1km": 0.33741236456341617,
+        "water_fraction_1km": 0.0007648183556405354,
+        "impervious_fraction_1km": 0.09882148212537485,
+        "green_count_km2_3km": 11.353052607221867,
+        "water_count_km2_3km": 0.5305164769729844
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 0.45366546511650085,
+        "summer_night_p90_uhi_c": 2.387868118286133,
+        "summer_night_mean_temp_c": 18.783803939819336,
+        "summer_night_hours": 142,
+        "annual_mean_uhi_c": -0.15486986935138702,
+        "annual_hours": 1353
+      },
+      "modelled": {
+        "uhi_c": -0.2081336779518459,
+        "temp_c": 19.20311739016339,
+        "heat_index_c": 19.43827352539284,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "997993-99999",
+      "name": "Great Bay Reserve",
+      "state": "NH",
+      "country": "US",
+      "lat": 43.05,
+      "lon": -70.833,
+      "elevation_m": 3.0,
+      "urban_class": "rural",
+      "morphology": {
+        "building_plan_fraction_1km": 0.0024219247928616953,
+        "building_count_km2_1km": 7.957747154594767,
+        "building_count_km2_3km": 22.63536968418067,
+        "road_length_km_km2_1km": 2.764758782701397,
+        "green_fraction_1km": 0.598597833014659,
+        "water_fraction_1km": 0.005353728489483747,
+        "impervious_fraction_1km": 0.021775236271771477,
+        "green_count_km2_3km": 9.655399880908318,
+        "water_count_km2_3km": 1.662284961182018
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": -0.801327645778656,
+        "summer_night_p90_uhi_c": 2.056550598144532,
+        "summer_night_mean_temp_c": 17.9752140045166,
+        "summer_night_hours": 117,
+        "annual_mean_uhi_c": -0.5191810131072998,
+        "annual_hours": 1286
+      },
+      "modelled": {
+        "uhi_c": -0.2542851419641476,
+        "temp_c": 19.156965926151088,
+        "heat_index_c": 19.39401205788305,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "999999-54795",
+      "name": "Durham 2 Ssw",
+      "state": "NH",
+      "country": "US",
+      "lat": 43.109,
+      "lon": -70.948,
+      "elevation_m": 19.2,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.0030592734225621415,
+        "building_count_km2_1km": 19.098593171027442,
+        "building_count_km2_3km": 30.557749073643905,
+        "road_length_km_km2_1km": 2.968933457648379,
+        "green_fraction_1km": 0.8383683875079668,
+        "water_fraction_1km": 0.005226258763543658,
+        "impervious_fraction_1km": 0.023841807626100796,
+        "green_count_km2_3km": 13.651957340771467,
+        "water_count_km2_3km": 1.3793428401297596
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": -0.8598859906196594,
+        "summer_night_p90_uhi_c": 1.2251838684082033,
+        "summer_night_mean_temp_c": 16.76567268371582,
+        "summer_night_hours": 134,
+        "annual_mean_uhi_c": -0.6062896847724915,
+        "annual_hours": 1356
+      },
+      "modelled": {
+        "uhi_c": -0.28345235127265667,
+        "temp_c": 19.127798716842577,
+        "heat_index_c": 19.366050145925815,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725054-64710",
+      "name": "North Central State Arpt",
+      "state": "RI",
+      "country": "US",
+      "lat": 41.921,
+      "lon": -71.491,
+      "elevation_m": 134.4,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.03760356915232632,
+        "building_count_km2_1km": 12.732395447351628,
+        "building_count_km2_3km": 7.07355302630646,
+        "road_length_km_km2_1km": 6.073486198211913,
+        "green_fraction_1km": 0.14620777565328236,
+        "water_fraction_1km": 0.010197578075207138,
+        "impervious_fraction_1km": 0.0801179725398097,
+        "green_count_km2_3km": 7.887011624331702,
+        "water_count_km2_3km": 0.5305164769729844
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": -0.2953829765319824,
+        "summer_night_p90_uhi_c": 1.4370662689208986,
+        "summer_night_mean_temp_c": 18.03999900817871,
+        "summer_night_hours": 130,
+        "annual_mean_uhi_c": 0.13397590816020966,
+        "annual_hours": 1340
+      },
+      "modelled": {
+        "uhi_c": -0.287523309964028,
+        "temp_c": 19.123727758151205,
+        "heat_index_c": 19.36214808344057,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725117-04827",
+      "name": "Washington County Airport",
+      "state": "PA",
+      "country": "US",
+      "lat": 40.133,
+      "lon": -80.283,
+      "elevation_m": 361.2,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.01159974506054812,
+        "building_count_km2_1km": 53.47606087887684,
+        "building_count_km2_3km": 50.61127190322272,
+        "road_length_km_km2_1km": 3.739510646980848,
+        "green_fraction_1km": 0.0024219247928616953,
+        "water_fraction_1km": 0.00012746972594008922,
+        "impervious_fraction_1km": 0.037776319589414055,
+        "green_count_km2_3km": 0.1414710605261292,
+        "water_count_km2_3km": 0.7427230677621782
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 0.11182747036218643,
+        "summer_night_p90_uhi_c": 1.5430755615234375,
+        "summer_night_mean_temp_c": 18.678808212280273,
+        "summer_night_hours": 151,
+        "annual_mean_uhi_c": 0.30896419286727905,
+        "annual_hours": 1353
+      },
+      "modelled": {
+        "uhi_c": -0.3198173277776137,
+        "temp_c": 19.09143374033762,
+        "heat_index_c": 19.33119969878444,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725266-04751",
+      "name": "Bradford Regional Airport",
+      "state": "PA",
+      "country": "US",
+      "lat": 41.798,
+      "lon": -78.635,
+      "elevation_m": 642.2,
+      "urban_class": "rural",
+      "morphology": {
+        "building_plan_fraction_1km": 0.00025493945188017844,
+        "building_count_km2_1km": 1.2732395447351628,
+        "building_count_km2_3km": 0.1414710605261292,
+        "road_length_km_km2_1km": 1.8550995170054145,
+        "green_fraction_1km": 0.01963033779477374,
+        "water_fraction_1km": 0.0,
+        "impervious_fraction_1km": 0.01324063607091808,
+        "green_count_km2_3km": 0.17683882565766149,
+        "water_count_km2_3km": 0.0353677651315323
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": -0.5140684843063354,
+        "summer_night_p90_uhi_c": 1.7399166107177746,
+        "summer_night_mean_temp_c": 16.1523494720459,
+        "summer_night_hours": 149,
+        "annual_mean_uhi_c": 0.529686689376831,
+        "annual_hours": 1364
+      },
+      "modelled": {
+        "uhi_c": -0.32794707815595925,
+        "temp_c": 19.083303989959276,
+        "heat_index_c": 19.32341032999132,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "726225-64776",
+      "name": "Plattsburgh International Airport",
+      "state": "NY",
+      "country": "US",
+      "lat": 44.639,
+      "lon": -73.463,
+      "elevation_m": 50.4,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.0029318036966220523,
+        "building_count_km2_1km": 6.684507609859605,
+        "building_count_km2_3km": 36.5702691460044,
+        "road_length_km_km2_1km": 1.5581101435359745,
+        "green_fraction_1km": 0.007520713830465264,
+        "water_fraction_1km": 0.0,
+        "impervious_fraction_1km": 0.013838574701373875,
+        "green_count_km2_3km": 2.1928014381550023,
+        "water_count_km2_3km": 0.49514871184145215
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 0.1830275058746338,
+        "summer_night_p90_uhi_c": 2.336165428161621,
+        "summer_night_mean_temp_c": 17.810274124145508,
+        "summer_night_hours": 146,
+        "annual_mean_uhi_c": -0.4335792660713196,
+        "annual_hours": 1416
+      },
+      "modelled": {
+        "uhi_c": -0.3311507474862426,
+        "temp_c": 19.080100320628993,
+        "heat_index_c": 19.32034097418455,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "726165-94721",
+      "name": "Dillant-Hopkins Airport",
+      "state": "NH",
+      "country": "US",
+      "lat": 42.9,
+      "lon": -72.267,
+      "elevation_m": 146.6,
+      "urban_class": "rural",
+      "morphology": {
+        "building_plan_fraction_1km": 0.004588910133843212,
+        "building_count_km2_1km": 5.729577951308232,
+        "building_count_km2_3km": 9.266354464461463,
+        "road_length_km_km2_1km": 4.729338697226647,
+        "green_fraction_1km": 0.6284257488846399,
+        "water_fraction_1km": 0.1159974506054812,
+        "impervious_fraction_1km": 0.037694281014429745,
+        "green_count_km2_3km": 17.71925033089768,
+        "water_count_km2_3km": 2.051330377628873
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": -0.085193932056427,
+        "summer_night_p90_uhi_c": 1.5560507774353027,
+        "summer_night_mean_temp_c": 17.48972511291504,
+        "summer_night_hours": 146,
+        "annual_mean_uhi_c": -0.11806084215641022,
+        "annual_hours": 1359
+      },
+      "modelled": {
+        "uhi_c": -0.37022743578848033,
+        "temp_c": 19.041023632326755,
+        "heat_index_c": 19.28291078484963,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725267-94868",
+      "name": "Venango Regional Airport",
+      "state": "PA",
+      "country": "US",
+      "lat": 41.383,
+      "lon": -79.867,
+      "elevation_m": 469.4,
+      "urban_class": "rural",
+      "morphology": {
+        "building_plan_fraction_1km": 0.0003824091778202677,
+        "building_count_km2_1km": 0.954929658551372,
+        "building_count_km2_3km": 4.91611935328299,
+        "road_length_km_km2_1km": 3.1266226058339313,
+        "green_fraction_1km": 0.3488846398980242,
+        "water_fraction_1km": 0.0007648183556405354,
+        "impervious_fraction_1km": 0.022268767418657787,
+        "green_count_km2_3km": 2.1928014381550023,
+        "water_count_km2_3km": 0.0707355302630646
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": -0.42263171076774597,
+        "summer_night_p90_uhi_c": 0.7427522659301772,
+        "summer_night_mean_temp_c": 17.700000762939453,
+        "summer_night_hours": 140,
+        "annual_mean_uhi_c": -0.6018021106719971,
+        "annual_hours": 1280
+      },
+      "modelled": {
+        "uhi_c": -0.4050695070701053,
+        "temp_c": 19.00618156104513,
+        "heat_index_c": 19.249549614289972,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "724074-93780",
+      "name": "South Jersey Regional Arpt",
+      "state": "NJ",
+      "country": "US",
+      "lat": 39.941,
+      "lon": -74.841,
+      "elevation_m": 15.2,
+      "urban_class": "rural",
+      "morphology": {
+        "building_plan_fraction_1km": 0.005098789037603569,
+        "building_count_km2_1km": 3.5014087480216975,
+        "building_count_km2_3km": 3.1477310967063747,
+        "road_length_km_km2_1km": 1.733354178092185,
+        "green_fraction_1km": 0.6632249840662843,
+        "water_fraction_1km": 0.007265774378585086,
+        "impervious_fraction_1km": 0.017232268284248866,
+        "green_count_km2_3km": 3.572144278284762,
+        "water_count_km2_3km": 2.7940534453910515
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": -0.3706061542034149,
+        "summer_night_p90_uhi_c": 1.511484146118164,
+        "summer_night_mean_temp_c": 21.677305221557617,
+        "summer_night_hours": 141,
+        "annual_mean_uhi_c": -0.07941494137048721,
+        "annual_hours": 1388
+      },
+      "modelled": {
+        "uhi_c": -0.41170960782502125,
+        "temp_c": 18.999541460290214,
+        "heat_index_c": 19.243193114046065,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725084-54767",
+      "name": "Windham Airport",
+      "state": "CT",
+      "country": "US",
+      "lat": 41.742,
+      "lon": -72.182,
+      "elevation_m": 74.9,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.035564053537284895,
+        "building_count_km2_1km": 229.50142793851307,
+        "building_count_km2_3km": 111.40846016432674,
+        "road_length_km_km2_1km": 7.747609369484265,
+        "green_fraction_1km": 0.3326959847036329,
+        "water_fraction_1km": 0.02791586998087954,
+        "impervious_fraction_1km": 0.08979731912367475,
+        "green_count_km2_3km": 18.78028328484365,
+        "water_count_km2_3km": 3.6428798085478267
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 0.07686059921979904,
+        "summer_night_p90_uhi_c": 1.667884063720703,
+        "summer_night_mean_temp_c": 18.986896514892578,
+        "summer_night_hours": 145,
+        "annual_mean_uhi_c": 0.12379087507724762,
+        "annual_hours": 1294
+      },
+      "modelled": {
+        "uhi_c": -0.41853616020300694,
+        "temp_c": 18.992714907912227,
+        "heat_index_c": 19.23665858497696,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725067-94720",
+      "name": "Brnsbl Muni-Bman/Pol Fd Ap",
+      "state": "MA",
+      "country": "US",
+      "lat": 41.672,
+      "lon": -70.27,
+      "elevation_m": 11.4,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.026896112173358827,
+        "building_count_km2_1km": 123.50423583931078,
+        "building_count_km2_3km": 192.22380348987804,
+        "road_length_km_km2_1km": 7.815704035287475,
+        "green_fraction_1km": 0.24996813256851497,
+        "water_fraction_1km": 0.040407903123008286,
+        "impervious_fraction_1km": 0.08160604042037116,
+        "green_count_km2_3km": 25.04037771312487,
+        "water_count_km2_3km": 1.9805948473658086
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 0.018438685685396194,
+        "summer_night_p90_uhi_c": 1.7008979797363282,
+        "summer_night_mean_temp_c": 19.71719741821289,
+        "summer_night_hours": 157,
+        "annual_mean_uhi_c": -0.3178977072238922,
+        "annual_hours": 1365
+      },
+      "modelled": {
+        "uhi_c": -0.43100879988868873,
+        "temp_c": 18.980242268226547,
+        "heat_index_c": 19.22472069817745,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "999999-54794",
+      "name": "Durham 2 N",
+      "state": "NH",
+      "country": "US",
+      "lat": 43.172,
+      "lon": -70.928,
+      "elevation_m": 36.3,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.0012746972594008922,
+        "building_count_km2_1km": 4.45633840657307,
+        "building_count_km2_3km": 31.72488532298447,
+        "road_length_km_km2_1km": 2.2594134562316737,
+        "green_fraction_1km": 0.8980242192479286,
+        "water_fraction_1km": 0.0036966220522625876,
+        "impervious_fraction_1km": 0.017090591453022604,
+        "green_count_km2_3km": 6.896714200648798,
+        "water_count_km2_3km": 1.167136249340566
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": -0.15511760115623474,
+        "summer_night_p90_uhi_c": 1.3716999053955081,
+        "summer_night_mean_temp_c": 17.114450454711914,
+        "summer_night_hours": 173,
+        "annual_mean_uhi_c": 0.10775601118803024,
+        "annual_hours": 1419
+      },
+      "modelled": {
+        "uhi_c": -0.4497611423790706,
+        "temp_c": 18.961489925736164,
+        "heat_index_c": 19.2067752759245,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725105-14770",
+      "name": "Penn Valley Airport",
+      "state": "PA",
+      "country": "US",
+      "lat": 40.819,
+      "lon": -76.866,
+      "elevation_m": 135.4,
+      "urban_class": "rural",
+      "morphology": {
+        "building_plan_fraction_1km": 0.009177820267686425,
+        "building_count_km2_1km": 4.7746482927568605,
+        "building_count_km2_3km": 8.31142480591009,
+        "road_length_km_km2_1km": 5.634302788535352,
+        "green_fraction_1km": 0.34518801784576164,
+        "water_fraction_1km": 0.00025493945188017844,
+        "impervious_fraction_1km": 0.04861793978743388,
+        "green_count_km2_3km": 5.446635830255974,
+        "water_count_km2_3km": 0.3890454164468553
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": -0.884462296962738,
+        "summer_night_p90_uhi_c": 1.0439158439636236,
+        "summer_night_mean_temp_c": 18.68055534362793,
+        "summer_night_hours": 144,
+        "annual_mean_uhi_c": -0.8007246255874634,
+        "annual_hours": 1349
+      },
+      "modelled": {
+        "uhi_c": -0.45812684182248264,
+        "temp_c": 18.95312422629275,
+        "heat_index_c": 19.198770692327585,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725126-14736",
+      "name": "Altoona-Blair County Arpt",
+      "state": "PA",
+      "country": "US",
+      "lat": 40.3,
+      "lon": -78.317,
+      "elevation_m": 446.6,
+      "urban_class": "rural",
+      "morphology": {
+        "building_plan_fraction_1km": 0.0024219247928616953,
+        "building_count_km2_1km": 1.909859317102744,
+        "building_count_km2_3km": 11.317684842090335,
+        "road_length_km_km2_1km": 2.6054169679010633,
+        "green_fraction_1km": 0.03365200764818355,
+        "water_fraction_1km": 0.0,
+        "impervious_fraction_1km": 0.02065984356816914,
+        "green_count_km2_3km": 2.581846854601858,
+        "water_count_km2_3km": 0.1414710605261292
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": -0.1472124457359314,
+        "summer_night_p90_uhi_c": 1.497549057006836,
+        "summer_night_mean_temp_c": 18.328147888183594,
+        "summer_night_hours": 135,
+        "annual_mean_uhi_c": 0.43128859996795654,
+        "annual_hours": 1365
+      },
+      "modelled": {
+        "uhi_c": -0.45876647730323394,
+        "temp_c": 18.952484590812002,
+        "heat_index_c": 19.198158696391975,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "740001-54793",
+      "name": "Sussex Airport",
+      "state": "NJ",
+      "country": "US",
+      "lat": 41.199,
+      "lon": -74.626,
+      "elevation_m": 127.5,
+      "urban_class": "rural",
+      "morphology": {
+        "building_plan_fraction_1km": 0.0024219247928616953,
+        "building_count_km2_1km": 4.45633840657307,
+        "building_count_km2_3km": 10.433490713802028,
+        "road_length_km_km2_1km": 3.6364620510379124,
+        "green_fraction_1km": 0.34518801784576164,
+        "water_fraction_1km": 0.0038240917782026767,
+        "impervious_fraction_1km": 0.02787715915012708,
+        "green_count_km2_3km": 5.199061474335248,
+        "water_count_km2_3km": 0.4244131815783876
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 0.007571961265057325,
+        "summer_night_p90_uhi_c": 1.2460336685180664,
+        "summer_night_mean_temp_c": 19.652307510375977,
+        "summer_night_hours": 130,
+        "annual_mean_uhi_c": 0.07113702595233917,
+        "annual_hours": 1377
+      },
+      "modelled": {
+        "uhi_c": -0.4800457380802767,
+        "temp_c": 18.931205330034956,
+        "heat_index_c": 19.177801282793798,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725015-04789",
+      "name": "Orange County Airport",
+      "state": "NY",
+      "country": "US",
+      "lat": 41.509,
+      "lon": -74.265,
+      "elevation_m": 108.2,
+      "urban_class": "rural",
+      "morphology": {
+        "building_plan_fraction_1km": 0.0057361376673040155,
+        "building_count_km2_1km": 12.095775674984045,
+        "building_count_km2_3km": 8.028482684857831,
+        "road_length_km_km2_1km": 2.582736871216982,
+        "green_fraction_1km": 0.1538559592096877,
+        "water_fraction_1km": 0.0008922880815806246,
+        "impervious_fraction_1km": 0.02381529576582289,
+        "green_count_km2_3km": 4.31486734604694,
+        "water_count_km2_3km": 0.9195618934198397
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": -0.7954202890396118,
+        "summer_night_p90_uhi_c": 0.13996620178222732,
+        "summer_night_mean_temp_c": 17.725767135620117,
+        "summer_night_hours": 163,
+        "annual_mean_uhi_c": -0.7203436493873596,
+        "annual_hours": 1364
+      },
+      "modelled": {
+        "uhi_c": -0.4967863225550229,
+        "temp_c": 18.91446474556021,
+        "heat_index_c": 19.161789120774472,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725170-14737",
+      "name": "Lehigh Valley International Airport",
+      "state": "PA",
+      "country": "US",
+      "lat": 40.65,
+      "lon": -75.448,
+      "elevation_m": 117.4,
+      "urban_class": "urban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.062842574888464,
+        "building_count_km2_1km": 229.1831180523293,
+        "building_count_km2_3km": 401.24729541723394,
+        "road_length_km_km2_1km": 8.982717095725333,
+        "green_fraction_1km": 0.12147864882090503,
+        "water_fraction_1km": 0.005608667941363926,
+        "impervious_fraction_1km": 0.12572159455854132,
+        "green_count_km2_3km": 6.260094428281217,
+        "water_count_km2_3km": 1.308607309866695
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": 0.14042389392852783,
+        "summer_night_p90_uhi_c": 2.176715850830078,
+        "summer_night_mean_temp_c": 20.63521957397461,
+        "summer_night_hours": 159,
+        "annual_mean_uhi_c": -0.5271966457366943,
+        "annual_hours": 1436
+      },
+      "modelled": {
+        "uhi_c": -0.4972700070626589,
+        "temp_c": 18.913981061052574,
+        "heat_index_c": 19.161326524413813,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "722256-64774",
+      "name": "Marshfield Municipal Airport - George Harlow Field",
+      "state": "MA",
+      "country": "US",
+      "lat": 42.098,
+      "lon": -70.672,
+      "elevation_m": 3.4,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.0260038240917782,
+        "building_count_km2_1km": 216.1324127187939,
+        "building_count_km2_3km": 231.0576096043005,
+        "road_length_km_km2_1km": 4.78155892415426,
+        "green_fraction_1km": 0.2852772466539197,
+        "water_fraction_1km": 0.0,
+        "impervious_fraction_1km": 0.05947473656085803,
+        "green_count_km2_3km": 6.401565488807346,
+        "water_count_km2_3km": 0.6012520072360491
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": -0.38908645510673523,
+        "summer_night_p90_uhi_c": 1.5089006423950218,
+        "summer_night_mean_temp_c": 19.207317352294922,
+        "summer_night_hours": 164,
+        "annual_mean_uhi_c": -0.23108504712581635,
+        "annual_hours": 1411
+      },
+      "modelled": {
+        "uhi_c": -0.5418211261784106,
+        "temp_c": 18.869429941936822,
+        "heat_index_c": 19.118727892347255,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "724096-14706",
+      "name": "Mcguire Afb Airport",
+      "state": "NJ",
+      "country": "US",
+      "lat": 40.017,
+      "lon": -74.6,
+      "elevation_m": 39.9,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.012746972594008922,
+        "building_count_km2_1km": 15.278874536821952,
+        "building_count_km2_3km": 29.70892271048713,
+        "road_length_km_km2_1km": 1.7278223235677836,
+        "green_fraction_1km": 0.2967495219885277,
+        "water_fraction_1km": 0.005353728489483747,
+        "impervious_fraction_1km": 0.024841728858983406,
+        "green_count_km2_3km": 6.719875374991137,
+        "water_count_km2_3km": 0.954929658551372
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": -0.4372562766075134,
+        "summer_night_p90_uhi_c": 0.7864313125610354,
+        "summer_night_mean_temp_c": 20.829578399658203,
+        "summer_night_hours": 142,
+        "annual_mean_uhi_c": 0.032438840717077255,
+        "annual_hours": 1406
+      },
+      "modelled": {
+        "uhi_c": -0.5544889819515268,
+        "temp_c": 18.85676208616371,
+        "heat_index_c": 19.106618870863983,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725060-14756",
+      "name": "Nantucket Memorial Airport",
+      "state": "MA",
+      "country": "US",
+      "lat": 41.254,
+      "lon": -70.059,
+      "elevation_m": 11.2,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.019120458891013385,
+        "building_count_km2_1km": 88.49014835909381,
+        "building_count_km2_3km": 86.33271468607035,
+        "road_length_km_km2_1km": 5.700544300594805,
+        "green_fraction_1km": 0.29751434034416824,
+        "water_fraction_1km": 0.0,
+        "impervious_fraction_1km": 0.059024268995177015,
+        "green_count_km2_3km": 2.15743367302347,
+        "water_count_km2_3km": 0.0353677651315323
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": -1.0173882246017456,
+        "summer_night_p90_uhi_c": 1.16821231842041,
+        "summer_night_mean_temp_c": 18.549219131469727,
+        "summer_night_hours": 128,
+        "annual_mean_uhi_c": -0.05933200940489769,
+        "annual_hours": 1366
+      },
+      "modelled": {
+        "uhi_c": -0.5797920125229081,
+        "temp_c": 18.831459055592326,
+        "heat_index_c": 19.082436923213876,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725156-14748",
+      "name": "Elmira/Corning Rgnl Arpt",
+      "state": "NY",
+      "country": "US",
+      "lat": 42.157,
+      "lon": -76.903,
+      "elevation_m": 285.3,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.022434671765455706,
+        "building_count_km2_1km": 17.507043740108486,
+        "building_count_km2_3km": 50.11612319138127,
+        "road_length_km_km2_1km": 7.447540148000761,
+        "green_fraction_1km": 0.5692797960484385,
+        "water_fraction_1km": 0.019120458891013385,
+        "impervious_fraction_1km": 0.07456745280146103,
+        "green_count_km2_3km": 11.671362493405658,
+        "water_count_km2_3km": 0.5658842421045168
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": -0.40498894453048706,
+        "summer_night_p90_uhi_c": 1.3977489471435547,
+        "summer_night_mean_temp_c": 17.75411033630371,
+        "summer_night_hours": 146,
+        "annual_mean_uhi_c": 0.200702965259552,
+        "annual_hours": 1385
+      },
+      "modelled": {
+        "uhi_c": -0.588609947280423,
+        "temp_c": 18.82264112083481,
+        "heat_index_c": 19.0740112008085,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725175-64706",
+      "name": "Indiana County/Jimmy Stewart Field/Airport",
+      "state": "PA",
+      "country": "US",
+      "lat": 40.633,
+      "lon": -79.1,
+      "elevation_m": 428.2,
+      "urban_class": "rural",
+      "morphology": {
+        "building_plan_fraction_1km": 0.006118546845124283,
+        "building_count_km2_1km": 6.684507609859605,
+        "building_count_km2_3km": 1.4500783703928242,
+        "road_length_km_km2_1km": 2.28309389506456,
+        "green_fraction_1km": 0.04945825366475462,
+        "water_fraction_1km": 0.0,
+        "impervious_fraction_1km": 0.022100204110576203,
+        "green_count_km2_3km": 2.758685680259519,
+        "water_count_km2_3km": 0.2829421210522584
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": -0.6426711082458496,
+        "summer_night_p90_uhi_c": 0.8102157592773439,
+        "summer_night_mean_temp_c": 18.489795684814453,
+        "summer_night_hours": 147,
+        "annual_mean_uhi_c": -0.1076447069644928,
+        "annual_hours": 1239
+      },
+      "modelled": {
+        "uhi_c": -0.5952775634738091,
+        "temp_c": 18.815973504641427,
+        "heat_index_c": 19.067640676128367,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725155-94761",
+      "name": "Ithaca Tompkins Regional Airport",
+      "state": "NY",
+      "country": "US",
+      "lat": 42.483,
+      "lon": -76.467,
+      "elevation_m": 335.0,
+      "urban_class": "urban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.07036328871892926,
+        "building_count_km2_1km": 103.13240312354819,
+        "building_count_km2_3km": 99.70172990578955,
+        "road_length_km_km2_1km": 12.108031670166447,
+        "green_fraction_1km": 0.12555768005098789,
+        "water_fraction_1km": 0.005991077119184194,
+        "impervious_fraction_1km": 0.1551195104100944,
+        "green_count_km2_3km": 6.578404314465008,
+        "water_count_km2_3km": 2.5111113243387932
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": -0.6012117862701416,
+        "summer_night_p90_uhi_c": 0.8325004577636719,
+        "summer_night_mean_temp_c": 17.371971130371094,
+        "summer_night_hours": 132,
+        "annual_mean_uhi_c": -0.10234502702951431,
+        "annual_hours": 1356
+      },
+      "modelled": {
+        "uhi_c": -0.5964330137199289,
+        "temp_c": 18.814818054395307,
+        "heat_index_c": 19.06653675552809,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "722151-14794",
+      "name": "Westerly State Airport",
+      "state": "RI",
+      "country": "US",
+      "lat": 41.351,
+      "lon": -71.806,
+      "elevation_m": 19.8,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.0367112810707457,
+        "building_count_km2_1km": 82.44226052160178,
+        "building_count_km2_3km": 228.9709114615401,
+        "road_length_km_km2_1km": 8.883108362722236,
+        "green_fraction_1km": 0.16112173358827278,
+        "water_fraction_1km": 0.0008922880815806246,
+        "impervious_fraction_1km": 0.09889303960980135,
+        "green_count_km2_3km": 8.346792571041622,
+        "water_count_km2_3km": 1.2378717796036305
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": -0.3164651393890381,
+        "summer_night_p90_uhi_c": 0.6767005920410156,
+        "summer_night_mean_temp_c": 19.703598022460938,
+        "summer_night_hours": 139,
+        "annual_mean_uhi_c": -0.32995882630348206,
+        "annual_hours": 1284
+      },
+      "modelled": {
+        "uhi_c": -0.6394959634886537,
+        "temp_c": 18.771755104626582,
+        "heat_index_c": 19.0254039480768,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "724088-13707",
+      "name": "Dover Afb Airport",
+      "state": "DE",
+      "country": "US",
+      "lat": 39.133,
+      "lon": -75.467,
+      "elevation_m": 8.5,
+      "urban_class": "rural",
+      "morphology": {
+        "building_plan_fraction_1km": 0.007903123008285532,
+        "building_count_km2_1km": 7.321127382227186,
+        "building_count_km2_3km": 11.494523667747996,
+        "road_length_km_km2_1km": 2.618785917833163,
+        "green_fraction_1km": 0.5932441045251753,
+        "water_fraction_1km": 0.0,
+        "impervious_fraction_1km": 0.02623462443311767,
+        "green_count_km2_3km": 2.9001567407856483,
+        "water_count_km2_3km": 0.3890454164468553
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": -0.27386388182640076,
+        "summer_night_p90_uhi_c": 1.1513175964355469,
+        "summer_night_mean_temp_c": 22.132230758666992,
+        "summer_night_hours": 121,
+        "annual_mean_uhi_c": 0.21557745337486267,
+        "annual_hours": 1285
+      },
+      "modelled": {
+        "uhi_c": -0.647033150384127,
+        "temp_c": 18.764217917731106,
+        "heat_index_c": 19.018206526479023,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "724070-93730",
+      "name": "Atlantic City International Airport",
+      "state": "NJ",
+      "country": "US",
+      "lat": 39.452,
+      "lon": -74.567,
+      "elevation_m": 17.8,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.02791586998087954,
+        "building_count_km2_1km": 15.597184423005743,
+        "building_count_km2_3km": 8.877309048014608,
+        "road_length_km_km2_1km": 8.147192609202195,
+        "green_fraction_1km": 0.6437221159974506,
+        "water_fraction_1km": 0.0034416826003824093,
+        "impervious_fraction_1km": 0.08494621824529491,
+        "green_count_km2_3km": 5.552739125650571,
+        "water_count_km2_3km": 0.4244131815783876
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": -0.5937937498092651,
+        "summer_night_p90_uhi_c": 0.8952556610107429,
+        "summer_night_mean_temp_c": 21.53441619873047,
+        "summer_night_hours": 154,
+        "annual_mean_uhi_c": -0.36911115050315857,
+        "annual_hours": 1349
+      },
+      "modelled": {
+        "uhi_c": -0.6483764686205145,
+        "temp_c": 18.76287459949472,
+        "heat_index_c": 19.016923823750453,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "726114-54771",
+      "name": "Morrisville-Stowe St Arpt",
+      "state": "VT",
+      "country": "US",
+      "lat": 44.533,
+      "lon": -72.615,
+      "elevation_m": 224.3,
+      "urban_class": "rural",
+      "morphology": {
+        "building_plan_fraction_1km": 0.003951561504142766,
+        "building_count_km2_1km": 10.185916357881302,
+        "building_count_km2_3km": 4.279499580915408,
+        "road_length_km_km2_1km": 2.3138967133619968,
+        "green_fraction_1km": 0.005863607393244105,
+        "water_fraction_1km": 0.0,
+        "impervious_fraction_1km": 0.020148838497676742,
+        "green_count_km2_3km": 0.35367765131532297,
+        "water_count_km2_3km": 0.954929658551372
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": -0.18906663358211517,
+        "summer_night_p90_uhi_c": 1.3173004150390621,
+        "summer_night_mean_temp_c": 16.423227310180664,
+        "summer_night_hours": 155,
+        "annual_mean_uhi_c": -0.0033880015835165977,
+        "annual_hours": 1398
+      },
+      "modelled": {
+        "uhi_c": -0.6565193107645225,
+        "temp_c": 18.75473175735071,
+        "heat_index_c": 19.00914881008602,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725065-94726",
+      "name": "New Bedford Rgnl Airport",
+      "state": "MA",
+      "country": "US",
+      "lat": 41.679,
+      "lon": -70.959,
+      "elevation_m": 22.5,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.01312938177182919,
+        "building_count_km2_1km": 77.66761222884493,
+        "building_count_km2_3km": 262.95933375294265,
+        "road_length_km_km2_1km": 4.695487857086066,
+        "green_fraction_1km": 0.23467176545570426,
+        "water_fraction_1km": 0.002804333970681963,
+        "impervious_fraction_1km": 0.04599779677143165,
+        "green_count_km2_3km": 14.00563499208679,
+        "water_count_km2_3km": 0.6012520072360491
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": -0.40557193756103516,
+        "summer_night_p90_uhi_c": 1.459717559814453,
+        "summer_night_mean_temp_c": 19.16853141784668,
+        "summer_night_hours": 143,
+        "annual_mean_uhi_c": 0.12748593091964722,
+        "annual_hours": 1389
+      },
+      "modelled": {
+        "uhi_c": -0.6588284949679251,
+        "temp_c": 18.75242257314731,
+        "heat_index_c": 19.00694405925163,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "722247-54785",
+      "name": "Somerset Airport",
+      "state": "NJ",
+      "country": "US",
+      "lat": 40.624,
+      "lon": -74.669,
+      "elevation_m": 30.1,
+      "urban_class": "rural",
+      "morphology": {
+        "building_plan_fraction_1km": 0.0035691523263224985,
+        "building_count_km2_1km": 3.183098861837907,
+        "building_count_km2_3km": 8.028482684857831,
+        "road_length_km_km2_1km": 2.347965853130587,
+        "green_fraction_1km": 0.46437221159974507,
+        "water_fraction_1km": 0.0057361376673040155,
+        "impervious_fraction_1km": 0.020004913298236608,
+        "green_count_km2_3km": 5.552739125650571,
+        "water_count_km2_3km": 0.7780908328937106
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": -0.7319962978363037,
+        "summer_night_p90_uhi_c": 0.7700658798217773,
+        "summer_night_mean_temp_c": 19.72027015686035,
+        "summer_night_hours": 148,
+        "annual_mean_uhi_c": -0.3128058612346649,
+        "annual_hours": 1334
+      },
+      "modelled": {
+        "uhi_c": -0.6601947336094681,
+        "temp_c": 18.751056334505765,
+        "heat_index_c": 19.005639634633173,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725064-54769",
+      "name": "Plymouth Municipal Airport",
+      "state": "MA",
+      "country": "US",
+      "lat": 41.909,
+      "lon": -70.728,
+      "elevation_m": 42.2,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.023326959847036328,
+        "building_count_km2_1km": 63.34366735057434,
+        "building_count_km2_3km": 149.95932415769695,
+        "road_length_km_km2_1km": 4.65881391810803,
+        "green_fraction_1km": 0.3182919056724028,
+        "water_fraction_1km": 0.005226258763543658,
+        "impervious_fraction_1km": 0.05593865727379253,
+        "green_count_km2_3km": 17.71925033089768,
+        "water_count_km2_3km": 2.6525823848649224
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": -0.10001982003450394,
+        "summer_night_p90_uhi_c": 1.4144351959228518,
+        "summer_night_mean_temp_c": 19.613605499267578,
+        "summer_night_hours": 147,
+        "annual_mean_uhi_c": 0.08588685840368271,
+        "annual_hours": 1348
+      },
+      "modelled": {
+        "uhi_c": -0.6788262725440779,
+        "temp_c": 18.732424795571156,
+        "heat_index_c": 18.98785295883751,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "720324-64753",
+      "name": "Quakertown Airport",
+      "state": "PA",
+      "country": "US",
+      "lat": 40.435,
+      "lon": -75.382,
+      "elevation_m": 160.3,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.043467176545570425,
+        "building_count_km2_1km": 82.76057040778558,
+        "building_count_km2_3km": 51.31862720585337,
+        "road_length_km_km2_1km": 7.487701352445258,
+        "green_fraction_1km": 0.19566602931803698,
+        "water_fraction_1km": 0.002804333970681963,
+        "impervious_fraction_1km": 0.09588108601268724,
+        "green_count_km2_3km": 2.970892271048713,
+        "water_count_km2_3km": 1.4500783703928242
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": -0.5467953681945801,
+        "summer_night_p90_uhi_c": 1.1056995391845703,
+        "summer_night_mean_temp_c": 20.134614944458008,
+        "summer_night_hours": 156,
+        "annual_mean_uhi_c": -0.56265789270401,
+        "annual_hours": 1397
+      },
+      "modelled": {
+        "uhi_c": -0.7446824400443909,
+        "temp_c": 18.666568628070845,
+        "heat_index_c": 18.925011515136006,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725058-94793",
+      "name": "Block Island State Airport",
+      "state": "RI",
+      "country": "US",
+      "lat": 41.168,
+      "lon": -71.578,
+      "elevation_m": 32.0,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.01172721478648821,
+        "building_count_km2_1km": 110.77184039195916,
+        "building_count_km2_3km": 82.97277699857477,
+        "road_length_km_km2_1km": 5.995545750571092,
+        "green_fraction_1km": 0.3219885277246654,
+        "water_fraction_1km": 0.0438495857233907,
+        "impervious_fraction_1km": 0.05369603504048585,
+        "green_count_km2_3km": 10.46885847893356,
+        "water_count_km2_3km": 6.436933253938879
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": -0.6471248269081116,
+        "summer_night_p90_uhi_c": 0.700999450683594,
+        "summer_night_mean_temp_c": 19.029464721679688,
+        "summer_night_hours": 112,
+        "annual_mean_uhi_c": -0.5041297674179077,
+        "annual_hours": 1155
+      },
+      "modelled": {
+        "uhi_c": -0.7464988088445504,
+        "temp_c": 18.664752259270685,
+        "heat_index_c": 18.923278924194264,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "745966-03726",
+      "name": "Cape May County Airport",
+      "state": "NJ",
+      "country": "US",
+      "lat": 39.008,
+      "lon": -74.908,
+      "elevation_m": 7.0,
+      "urban_class": "rural",
+      "morphology": {
+        "building_plan_fraction_1km": 0.008795411089866157,
+        "building_count_km2_1km": 3.819718634205488,
+        "building_count_km2_3km": 12.697027682220096,
+        "road_length_km_km2_1km": 3.2730674149202965,
+        "green_fraction_1km": 0.30630975143403444,
+        "water_fraction_1km": 0.0008922880815806246,
+        "impervious_fraction_1km": 0.03170688299430823,
+        "green_count_km2_3km": 6.189358898018152,
+        "water_count_km2_3km": 1.662284961182018
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": -1.1985766887664795,
+        "summer_night_p90_uhi_c": 0.43831634521484375,
+        "summer_night_mean_temp_c": 21.84000015258789,
+        "summer_night_hours": 135,
+        "annual_mean_uhi_c": -0.26780757308006287,
+        "annual_hours": 1320
+      },
+      "modelled": {
+        "uhi_c": -0.751811559795394,
+        "temp_c": 18.659439508319842,
+        "heat_index_c": 18.918211411836133,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725235-04720",
+      "name": "Chautauqua Co/Jamestown Ap",
+      "state": "NY",
+      "country": "US",
+      "lat": 42.15,
+      "lon": -79.25,
+      "elevation_m": 525.2,
+      "urban_class": "rural",
+      "morphology": {
+        "building_plan_fraction_1km": 0.009050350541746336,
+        "building_count_km2_1km": 17.82535362629228,
+        "building_count_km2_3km": 24.722067826941075,
+        "road_length_km_km2_1km": 2.06799587391504,
+        "green_fraction_1km": 0.0,
+        "water_fraction_1km": 0.0,
+        "impervious_fraction_1km": 0.023526321659151618,
+        "green_count_km2_3km": 0.7780908328937106,
+        "water_count_km2_3km": 0.0353677651315323
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": -0.5723149180412292,
+        "summer_night_p90_uhi_c": 1.1092496871948243,
+        "summer_night_mean_temp_c": 17.390844345092773,
+        "summer_night_hours": 142,
+        "annual_mean_uhi_c": -1.3446933031082153,
+        "annual_hours": 1348
+      },
+      "modelled": {
+        "uhi_c": -0.7573410412468927,
+        "temp_c": 18.653910026868342,
+        "heat_index_c": 18.91293748091546,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "726115-54740",
+      "name": "Hartness St (Spngfld) Arpt",
+      "state": "VT",
+      "country": "US",
+      "lat": 43.342,
+      "lon": -72.521,
+      "elevation_m": 173.2,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.011472275334608031,
+        "building_count_km2_1km": 49.33803235848755,
+        "building_count_km2_3km": 32.22003403482592,
+        "road_length_km_km2_1km": 6.208657901157431,
+        "green_fraction_1km": 0.034289356277884,
+        "water_fraction_1km": 0.0017845761631612492,
+        "impervious_fraction_1km": 0.054932880642710055,
+        "green_count_km2_3km": 3.1477310967063747,
+        "water_count_km2_3km": 1.0256651888144366
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": -0.10293242335319519,
+        "summer_night_p90_uhi_c": 1.2447681427001953,
+        "summer_night_mean_temp_c": 17.631505966186523,
+        "summer_night_hours": 146,
+        "annual_mean_uhi_c": -0.3677005171775818,
+        "annual_hours": 1409
+      },
+      "modelled": {
+        "uhi_c": -0.7577385177648499,
+        "temp_c": 18.653512550350385,
+        "heat_index_c": 18.912558386263203,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "726164-54728",
+      "name": "Mt Washington Rgnl Airport",
+      "state": "NH",
+      "country": "US",
+      "lat": 44.366,
+      "lon": -71.552,
+      "elevation_m": 319.3,
+      "urban_class": "rural",
+      "morphology": {
+        "building_plan_fraction_1km": 0.004079031230082855,
+        "building_count_km2_1km": 18.46197339865986,
+        "building_count_km2_3km": 9.478561055250657,
+        "road_length_km_km2_1km": 2.724430542404126,
+        "green_fraction_1km": 0.18011472275334608,
+        "water_fraction_1km": 0.028808158062460166,
+        "impervious_fraction_1km": 0.023150045026911734,
+        "green_count_km2_3km": 0.7073553026306459,
+        "water_count_km2_3km": 0.6719875374991137
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": -0.9275151491165161,
+        "summer_night_p90_uhi_c": 0.45579967498779356,
+        "summer_night_mean_temp_c": 14.24228286743164,
+        "summer_night_hours": 149,
+        "annual_mean_uhi_c": -0.42619380354881287,
+        "annual_hours": 1338
+      },
+      "modelled": {
+        "uhi_c": -0.827940838343711,
+        "temp_c": 18.583310229771524,
+        "heat_index_c": 18.845628156613195,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725220-14750",
+      "name": "Glens Falls/Floyd Bennett Memorial Airport",
+      "state": "NY",
+      "country": "US",
+      "lat": 43.338,
+      "lon": -73.61,
+      "elevation_m": 97.7,
+      "urban_class": "rural",
+      "morphology": {
+        "building_plan_fraction_1km": 0.006373486297004461,
+        "building_count_km2_1km": 8.594366926962348,
+        "building_count_km2_3km": 26.59655937891229,
+        "road_length_km_km2_1km": 1.4690372085806183,
+        "green_fraction_1km": 0.2947100063734863,
+        "water_fraction_1km": 0.0,
+        "impervious_fraction_1km": 0.01665674675706879,
+        "green_count_km2_3km": 2.7940534453910515,
+        "water_count_km2_3km": 0.7073553026306459
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": -0.7090238332748413,
+        "summer_night_p90_uhi_c": 0.8473506927490257,
+        "summer_night_mean_temp_c": 17.195833206176758,
+        "summer_night_hours": 144,
+        "annual_mean_uhi_c": -1.0311506986618042,
+        "annual_hours": 1386
+      },
+      "modelled": {
+        "uhi_c": -0.8611423028580292,
+        "temp_c": 18.550108765257207,
+        "heat_index_c": 18.813991894362026,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "722098-64761",
+      "name": "East Hampton Airport",
+      "state": "NY",
+      "country": "US",
+      "lat": 40.96,
+      "lon": -72.252,
+      "elevation_m": 17.1,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.0165710643722116,
+        "building_count_km2_1km": 37.5605665696873,
+        "building_count_km2_3km": 91.81471828145784,
+        "road_length_km_km2_1km": 3.4227577912650657,
+        "green_fraction_1km": 0.30822179732313576,
+        "water_fraction_1km": 0.00025493945188017844,
+        "impervious_fraction_1km": 0.04053036891106706,
+        "green_count_km2_3km": 6.719875374991137,
+        "water_count_km2_3km": 0.17683882565766149
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": -1.1016608476638794,
+        "summer_night_p90_uhi_c": 0.7591476440429688,
+        "summer_night_mean_temp_c": 18.395496368408203,
+        "summer_night_hours": 111,
+        "annual_mean_uhi_c": -0.5744940638542175,
+        "annual_hours": 1180
+      },
+      "modelled": {
+        "uhi_c": -0.8725384773940804,
+        "temp_c": 18.538712590721154,
+        "heat_index_c": 18.803135592901874,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725119-54792",
+      "name": "Clearfield-Lawrence Arpt",
+      "state": "PA",
+      "country": "US",
+      "lat": 41.046,
+      "lon": -78.411,
+      "elevation_m": 459.9,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.002804333970681963,
+        "building_count_km2_1km": 6.684507609859605,
+        "building_count_km2_3km": 40.10704565915763,
+        "road_length_km_km2_1km": 2.8901274816695053,
+        "green_fraction_1km": 0.6332695984703632,
+        "water_fraction_1km": 0.0006373486297004461,
+        "impervious_fraction_1km": 0.023035226342368504,
+        "green_count_km2_3km": 5.092958178940651,
+        "water_count_km2_3km": 0.3890454164468553
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": -0.5439934134483337,
+        "summer_night_p90_uhi_c": 0.818034172058106,
+        "summer_night_mean_temp_c": 17.849998474121094,
+        "summer_night_hours": 154,
+        "annual_mean_uhi_c": -0.46055740118026733,
+        "annual_hours": 1389
+      },
+      "modelled": {
+        "uhi_c": -0.8784063683687406,
+        "temp_c": 18.532844699746494,
+        "heat_index_c": 18.797546207138286,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "726160-94700",
+      "name": "Berlin Municipal Airport",
+      "state": "NH",
+      "country": "US",
+      "lat": 44.576,
+      "lon": -71.178,
+      "elevation_m": 342.3,
+      "urban_class": "rural",
+      "morphology": {
+        "building_plan_fraction_1km": 0.0047163798597833016,
+        "building_count_km2_1km": 15.278874536821952,
+        "building_count_km2_3km": 2.334272498681132,
+        "road_length_km_km2_1km": 2.8873610320605247,
+        "green_fraction_1km": 0.19439133205863607,
+        "water_fraction_1km": 0.0,
+        "impervious_fraction_1km": 0.024927907084206974,
+        "green_count_km2_3km": 1.662284961182018,
+        "water_count_km2_3km": 0.0707355302630646
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": -0.5134270191192627,
+        "summer_night_p90_uhi_c": 1.2342993736267096,
+        "summer_night_mean_temp_c": 14.433116912841797,
+        "summer_night_hours": 154,
+        "annual_mean_uhi_c": -0.06713790446519852,
+        "annual_hours": 1315
+      },
+      "modelled": {
+        "uhi_c": -0.8925708560273944,
+        "temp_c": 18.51868021208784,
+        "heat_index_c": 18.784055472914424,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "744865-14719",
+      "name": "Francis S Gabreski Ap",
+      "state": "NY",
+      "country": "US",
+      "lat": 40.851,
+      "lon": -72.619,
+      "elevation_m": 13.1,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.012619502868068833,
+        "building_count_km2_1km": 31.830988618379067,
+        "building_count_km2_3km": 69.1086130670141,
+        "road_length_km_km2_1km": 2.111162339586891,
+        "green_fraction_1km": 0.7787125557680051,
+        "water_fraction_1km": 0.00025493945188017844,
+        "impervious_fraction_1km": 0.027397639245177068,
+        "green_count_km2_3km": 14.182473817744452,
+        "water_count_km2_3km": 0.4244131815783876
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": -0.5210798382759094,
+        "summer_night_p90_uhi_c": 1.8228500366210938,
+        "summer_night_mean_temp_c": 19.393022537231445,
+        "summer_night_hours": 129,
+        "annual_mean_uhi_c": 0.06493964791297913,
+        "annual_hours": 1320
+      },
+      "modelled": {
+        "uhi_c": -0.9808323495495425,
+        "temp_c": 18.430418718565694,
+        "heat_index_c": 18.700039237432613,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "720378-00122",
+      "name": "New Castle Municipal Airport",
+      "state": "PA",
+      "country": "US",
+      "lat": 41.033,
+      "lon": -80.417,
+      "elevation_m": 327.1,
+      "urban_class": "rural",
+      "morphology": {
+        "building_plan_fraction_1km": 0.0007648183556405354,
+        "building_count_km2_1km": 3.819718634205488,
+        "building_count_km2_3km": 1.662284961182018,
+        "road_length_km_km2_1km": 3.8618962058786903,
+        "green_fraction_1km": 0.04053537284894838,
+        "water_fraction_1km": 0.0,
+        "impervious_fraction_1km": 0.027798091796791366,
+        "green_count_km2_3km": 1.2732395447351628,
+        "water_count_km2_3km": 0.7073553026306459
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": -0.6335257887840271,
+        "summer_night_p90_uhi_c": 0.8575660705566407,
+        "summer_night_mean_temp_c": 18.65755271911621,
+        "summer_night_hours": 139,
+        "annual_mean_uhi_c": -0.45127227902412415,
+        "annual_hours": 1389
+      },
+      "modelled": {
+        "uhi_c": -1.0172644803319113,
+        "temp_c": 18.393986587783324,
+        "heat_index_c": 18.665383134668506,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "999999-54797",
+      "name": "Kingston 1 W",
+      "state": "RI",
+      "country": "US",
+      "lat": 41.478,
+      "lon": -71.542,
+      "elevation_m": 32.3,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.018483110261312937,
+        "building_count_km2_1km": 69.07324530188258,
+        "building_count_km2_3km": 112.11581546695739,
+        "road_length_km_km2_1km": 5.521597361556739,
+        "green_fraction_1km": 0.3326959847036329,
+        "water_fraction_1km": 0.0016571064372211599,
+        "impervious_fraction_1km": 0.05713429179221011,
+        "green_count_km2_3km": 16.516746316425582,
+        "water_count_km2_3km": 1.2378717796036305
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": -1.5231503248214722,
+        "summer_night_p90_uhi_c": 0.4834167480468752,
+        "summer_night_mean_temp_c": 17.8209285736084,
+        "summer_night_hours": 129,
+        "annual_mean_uhi_c": -0.6586487293243408,
+        "annual_hours": 1232
+      },
+      "modelled": {
+        "uhi_c": -1.019354694512647,
+        "temp_c": 18.391896373602588,
+        "heat_index_c": 18.663395237535028,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "720304-64752",
+      "name": "Wings Field Airport",
+      "state": "PA",
+      "country": "US",
+      "lat": 40.1,
+      "lon": -75.267,
+      "elevation_m": 92.1,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.018483110261312937,
+        "building_count_km2_1km": 20.053522829578814,
+        "building_count_km2_3km": 35.721442782847625,
+        "road_length_km_km2_1km": 9.955175321172888,
+        "green_fraction_1km": 0.3003186743148502,
+        "water_fraction_1km": 0.017845761631612493,
+        "impervious_fraction_1km": 0.08816933750952315,
+        "green_count_km2_3km": 9.83223870656598,
+        "water_count_km2_3km": 1.9452270822342763
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": -0.9443990588188171,
+        "summer_night_p90_uhi_c": 0.9301666259765615,
+        "summer_night_mean_temp_c": 20.387096405029297,
+        "summer_night_hours": 155,
+        "annual_mean_uhi_c": -0.5848826766014099,
+        "annual_hours": 1416
+      },
+      "modelled": {
+        "uhi_c": -1.167454382523808,
+        "temp_c": 18.243796685591427,
+        "heat_index_c": 18.522662050991826,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "999999-54796",
+      "name": "Kingston 1 Nw",
+      "state": "RI",
+      "country": "US",
+      "lat": 41.491,
+      "lon": -71.541,
+      "elevation_m": 35.1,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.0295729764181007,
+        "building_count_km2_1km": 43.29014452099553,
+        "building_count_km2_3km": 97.7918705886868,
+        "road_length_km_km2_1km": 8.69938235304509,
+        "green_fraction_1km": 0.44805608667941366,
+        "water_fraction_1km": 0.08030592734225621,
+        "impervious_fraction_1km": 0.09046865288941633,
+        "green_count_km2_3km": 15.420345597348081,
+        "water_count_km2_3km": 1.0610329539459689
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": -0.9707290530204773,
+        "summer_night_p90_uhi_c": 0.6415252685546875,
+        "summer_night_mean_temp_c": 18.175397872924805,
+        "summer_night_hours": 126,
+        "annual_mean_uhi_c": -0.6106682419776917,
+        "annual_hours": 1315
+      },
+      "modelled": {
+        "uhi_c": -1.331297469425064,
+        "temp_c": 18.07995359869017,
+        "heat_index_c": 18.36723945617886,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725109-54782",
+      "name": "Pottstown Limerick Airport",
+      "state": "PA",
+      "country": "US",
+      "lat": 40.238,
+      "lon": -75.555,
+      "elevation_m": 88.7,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.013256851497769279,
+        "building_count_km2_1km": 9.549296585513721,
+        "building_count_km2_3km": 37.03005009271432,
+        "road_length_km_km2_1km": 9.77358386552858,
+        "green_fraction_1km": 0.0029318036966220523,
+        "water_fraction_1km": 0.0016571064372211599,
+        "impervious_fraction_1km": 0.08167193855646936,
+        "green_count_km2_3km": 4.668544997362264,
+        "water_count_km2_3km": 1.1317684842090336
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": -0.8582968711853027,
+        "summer_night_p90_uhi_c": 0.9414009094238309,
+        "summer_night_mean_temp_c": 20.420804977416992,
+        "summer_night_hours": 149,
+        "annual_mean_uhi_c": -1.0085091590881348,
+        "annual_hours": 1380
+      },
+      "modelled": {
+        "uhi_c": -1.4161060227467062,
+        "temp_c": 17.995145045368528,
+        "heat_index_c": 18.28690245426775,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "725066-94724",
+      "name": "Marthas Vineyard Airport",
+      "state": "MA",
+      "country": "US",
+      "lat": 41.393,
+      "lon": -70.616,
+      "elevation_m": 17.9,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.012492033142128744,
+        "building_count_km2_1km": 23.23662169141672,
+        "building_count_km2_3km": 34.09452558679713,
+        "road_length_km_km2_1km": 2.433599310338811,
+        "green_fraction_1km": 0.5221159974506054,
+        "water_fraction_1km": 0.0,
+        "impervious_fraction_1km": 0.02952722831450042,
+        "green_count_km2_3km": 1.8391237868396795,
+        "water_count_km2_3km": 0.17683882565766149
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": -1.0584232807159424,
+        "summer_night_p90_uhi_c": 1.069817924499512,
+        "summer_night_mean_temp_c": 18.195070266723633,
+        "summer_night_hours": 142,
+        "annual_mean_uhi_c": 0.041451483964920044,
+        "annual_hours": 1388
+      },
+      "modelled": {
+        "uhi_c": -1.5755232073135452,
+        "temp_c": 17.83572786080169,
+        "heat_index_c": 18.1361012979457,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "999999-03761",
+      "name": "Avondale 2 N",
+      "state": "PA",
+      "country": "US",
+      "lat": 39.859,
+      "lon": -75.786,
+      "elevation_m": 121.9,
+      "urban_class": "rural",
+      "morphology": {
+        "building_plan_fraction_1km": 0.0,
+        "building_count_km2_1km": 0.0,
+        "building_count_km2_3km": 9.37245775985606,
+        "road_length_km_km2_1km": 2.686650881332533,
+        "green_fraction_1km": 0.0008922880815806246,
+        "water_fraction_1km": 0.0034416826003824093,
+        "impervious_fraction_1km": 0.01880655616932773,
+        "green_count_km2_3km": 1.8037560217081472,
+        "water_count_km2_3km": 1.308607309866695
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": -2.1162352561950684,
+        "summer_night_p90_uhi_c": -0.3693489074707032,
+        "summer_night_mean_temp_c": 19.50139808654785,
+        "summer_night_hours": 143,
+        "annual_mean_uhi_c": -1.1096391677856445,
+        "annual_hours": 1335
+      },
+      "modelled": {
+        "uhi_c": -2.116580962660667,
+        "temp_c": 17.294670105454568,
+        "heat_index_c": 17.626379710900828,
+        "heat_risk": "none"
+      }
+    },
+    {
+      "station_id": "724075-13735",
+      "name": "Millville Municipal Arpt",
+      "state": "NJ",
+      "country": "US",
+      "lat": 39.366,
+      "lon": -75.078,
+      "elevation_m": 17.8,
+      "urban_class": "suburban",
+      "morphology": {
+        "building_plan_fraction_1km": 0.004333970681963034,
+        "building_count_km2_1km": 10.504226244065093,
+        "building_count_km2_3km": 27.23317915127987,
+        "road_length_km_km2_1km": 2.3785913615895242,
+        "green_fraction_1km": 0.6726577437858509,
+        "water_fraction_1km": 0.0030592734225621415,
+        "impervious_fraction_1km": 0.020984110213089702,
+        "green_count_km2_3km": 3.3599376874955684,
+        "water_count_km2_3km": 0.2122065907891938
+      },
+      "observed": {
+        "summer_night_mean_uhi_c": -1.536639928817749,
+        "summer_night_p90_uhi_c": 0.19811630249023438,
+        "summer_night_mean_temp_c": 20.585906982421875,
+        "summer_night_hours": 149,
+        "annual_mean_uhi_c": -0.7247576117515564,
+        "annual_hours": 1326
+      },
+      "modelled": {
+        "uhi_c": -3.075826295210867,
+        "temp_c": 16.335424772904368,
+        "heat_index_c": 16.63563391686147,
+        "heat_risk": "none"
+      }
+    }
+  ],
+  "summary": {
+    "n_sites": 150,
+    "modelled_uhi_range_c": [
+      -3.075826295210867,
+      3.298034092049967
+    ],
+    "observed_uhi_range_c": [
+      -2.1162352561950684,
+      3.565634250640869
+    ],
+    "by_class": {
+      "urban": {
+        "n": 25,
+        "mean_observed_uhi_c": 1.5060402803122996,
+        "mean_modelled_uhi_c": 1.5268188698417675
+      },
+      "suburban": {
+        "n": 88,
+        "mean_observed_uhi_c": 0.6168440769384191,
+        "mean_modelled_uhi_c": 0.45087346525189703
+      },
+      "rural": {
+        "n": 37,
+        "mean_observed_uhi_c": -0.11270390930459709,
+        "mean_modelled_uhi_c": -0.0660072595481057
+      }
+    }
+  },
+  "caveats": [
+    "Each point is a physical weather station, not a grid cell. The map shows measured and modelled values at those locations only.",
+    "Modelled values hold the atmosphere fixed across all sites; observed values are averages over real, varying weather."
+  ]
+}

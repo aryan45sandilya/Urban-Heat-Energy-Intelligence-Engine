@@ -1,0 +1,42 @@
+name: uhei
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: docker/backend.Dockerfile
+    image: uhei-api:latest
+    container_name: uhei-api
+    ports:
+      - "8000:8000"
+    environment:
+      UHEI_ENVIRONMENT: production
+      UHEI_LOG_LEVEL: INFO
+      UHEI_CORS_ORIGINS: "http://localhost:3000,http://127.0.0.1:3000"
+    volumes:
+      # Artifacts are mounted, never baked in: retraining does not rebuild the
+      # image, and an image can never carry a stale model.
+      - ./ml/models:/app/ml/models:ro
+      - ./ml/reports:/app/ml/reports:ro
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://127.0.0.1:8000/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 40s
+
+  web:
+    build:
+      context: .
+      dockerfile: docker/frontend.Dockerfile
+      args:
+        NEXT_PUBLIC_API_BASE_URL: ${NEXT_PUBLIC_API_BASE_URL:-http://localhost:8000}
+    image: uhei-web:latest
+    container_name: uhei-web
+    ports:
+      - "3000:3000"
+    depends_on:
+      api:
+        condition: service_healthy
+    restart: unless-stopped
