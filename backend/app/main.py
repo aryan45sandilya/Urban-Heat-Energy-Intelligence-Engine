@@ -1,6 +1,15 @@
 """FastAPI application entry point."""
 from __future__ import annotations
 
+import sys
+from pathlib import Path
+
+# Ensure ml/src is importable when deployed as a monorepo (Railway, Docker, etc.)
+# /app/backend/app/main.py → parents[2] = /app → /app/ml/src
+_ml_src = Path(__file__).resolve().parents[2] / "ml" / "src"
+if str(_ml_src) not in sys.path:
+    sys.path.insert(0, str(_ml_src))
+
 import logging
 import time
 import uuid
