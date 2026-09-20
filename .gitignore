@@ -22,13 +22,15 @@ next-env.d.ts
 .npm/
 
 # ── Data & artifacts ────────────────────────────────────────────────────────
-# Raw downloads and intermediate frames are reproducible from the pipeline and
-# far too large for version control. Reports are small and are kept, because the
-# product reads its charts and metrics from them.
+# Raw downloads and intermediate frames are reproducible from the pipeline.
+# Model artifacts are tracked via git-lfs (see .gitattributes).
 ml/data/raw/
 ml/data/interim/
 ml/data/processed/
-ml/models/*.joblib
+
+# ── Claude / local tooling ───────────────────────────────────────────────────
+.claude/
+INSIDE
 
 # ── OS / editor ─────────────────────────────────────────────────────────────
 .DS_Store
